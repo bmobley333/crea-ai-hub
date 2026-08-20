@@ -4,10 +4,21 @@ Download presentation slide decks, the printable 2-page executive summary playbo
 
 ---
 
+<div style="margin: 1.5rem 0; padding: 1.25rem; background: linear-gradient(135deg, rgba(2, 132, 199, 0.18), rgba(15, 23, 42, 0.95)); border: 1.5px solid #0284c7; border-radius: 12px; display: flex; justify-content: space-between; align-items: center; gap: 1rem; flex-wrap: wrap;">
+  <div>
+    <h3 style="margin: 0; color: #38bdf8; font-size: 1.15rem; font-weight: 800;">📂 Master Google Drive Resource Folder</h3>
+    <p style="margin: 0.25rem 0 0 0; color: #cbd5e1; font-size: 0.88rem;">Contains all official presentation slides, 2-page executive summary PDF, synthetic utility docs, and conference logistics.</p>
+  </div>
+  <a href="https://drive.google.com/drive/folders/1ltRx1n6Db9Vxi7rDJcUt1qsVtEuv3opB?usp=sharing" target="_blank" rel="noopener noreferrer" style="background: #0284c7; color: #ffffff; font-weight: 700; font-size: 0.88rem; padding: 0.55rem 1.1rem; border-radius: 8px; text-decoration: none; display: inline-flex; align-items: center; gap: 0.4rem;">
+    Open Google Drive Folder ↗
+  </a>
+</div>
+
 ## 📄 Keynote Presentation Assets
 
 | Asset | Format / Platform | Link | Description |
 | :--- | :--- | :--- | :--- |
+| **CREA Presentation Drive Folder** | Google Drive | **[📂 Open Master Drive Folder](https://drive.google.com/drive/folders/1ltRx1n6Db9Vxi7rDJcUt1qsVtEuv3opB?usp=sharing)** | Master cloud vault (`1ltRx1n6Db9Vxi7rDJcUt1qsVtEuv3opB`) containing all materials. |
 | **30-Day Co-op AI Playbook** | **Printable PDF (2-Page)** | **[📥 Download 30-Day Playbook PDF](/30_Day_Coop_AI_Playbook.pdf)** | Executive reference card: Air Gap, Maturity Ladder, Security Contract, and BoM. |
 | **Master Keynote Deck** | Google Slides | [Cutting Edge AI](https://docs.google.com/presentation/d/1BmBU_wbQ_YdHzZuPM2_lFvGxcCrKzYFl8jXgYZOk6rw/edit) | Full 17-slide dark slate keynote deck with embedded speaker notes. |
 | **Logistics & Summary Doc** | Google Docs | [CREA Summary](https://docs.google.com/document/d/1t6zUPxdKytOm_qHqQTTME-b_EuX2daHbpYEEuWEojQU/edit) | Dense executive cheat sheet and contact directory. |

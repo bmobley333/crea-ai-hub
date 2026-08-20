@@ -7,7 +7,10 @@ hero:
   tagline: "The Reference Architecture for Rural Electric Cooperative IT Leadership"
   actions:
     - theme: brand
-      text: 🪜 Explore Maturity Ladder
+      text: 📂 Google Drive Resource Vault
+      link: https://drive.google.com/drive/folders/1ltRx1n6Db9Vxi7rDJcUt1qsVtEuv3opB?usp=sharing
+    - theme: alt
+      text: 🪜 Maturity Ladder
       link: /ladder
     - theme: alt
       text: 🛡️ Security & Architecture
@@ -16,7 +19,7 @@ hero:
       text: 💻 Hardware BoM
       link: /hardware
     - theme: alt
-      text: 📥 Downloads & Demos
+      text: 📥 Playbook PDF & Demos
       link: /resources
 
 features:
@@ -34,7 +37,17 @@ features:
     link: /hardware
 ---
 
-<div style="margin-top: 3rem; padding: 2rem; background: #1e293b; border: 1px solid #334155; border-radius: 12px;">
+<div style="margin-top: 2rem; padding: 1.5rem; background: linear-gradient(135deg, rgba(2, 132, 199, 0.15), rgba(15, 23, 42, 0.9)); border: 1.5px solid #0284c7; border-radius: 12px; display: flex; justify-content: space-between; align-items: center; gap: 1rem; flex-wrap: wrap;">
+  <div>
+    <h3 style="margin: 0; color: #38bdf8; font-size: 1.2rem; font-weight: 800;">📂 Public Google Drive Resource Folder</h3>
+    <p style="margin: 0.25rem 0 0 0; color: #cbd5e1; font-size: 0.9rem;">Access the master presentation slide deck, printable 2-page PDF playbook, and synthetic SOPs directly in Google Drive.</p>
+  </div>
+  <a href="https://drive.google.com/drive/folders/1ltRx1n6Db9Vxi7rDJcUt1qsVtEuv3opB?usp=sharing" target="_blank" rel="noopener noreferrer" style="background: #0284c7; color: #ffffff; font-weight: 700; font-size: 0.9rem; padding: 0.6rem 1.2rem; border-radius: 8px; text-decoration: none; display: inline-flex; align-items: center; gap: 0.5rem;">
+    Open Google Drive ↗
+  </a>
+</div>
+
+<div style="margin-top: 2rem; padding: 2rem; background: #1e293b; border: 1px solid #334155; border-radius: 12px;">
 
 ## 🏛️ Executive Summary & Master Thesis
 

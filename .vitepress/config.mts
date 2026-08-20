@@ -18,7 +18,11 @@ export default defineConfig({
       { text: '🛡️ Architecture & Security', link: '/architecture' },
       { text: '💻 Hardware BoM', link: '/hardware' },
       { text: '📖 Glossary', link: '/glossary' },
-      { text: '📥 Resources & Demos', link: '/resources' }
+      { text: '📥 Resources & Demos', link: '/resources' },
+      { text: '📂 Google Drive Vault', link: 'https://drive.google.com/drive/folders/1ltRx1n6Db9Vxi7rDJcUt1qsVtEuv3opB?usp=sharing' }
+    ],
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/bmobley333/crea-ai-hub' }
     ],
     sidebar: [
       {
