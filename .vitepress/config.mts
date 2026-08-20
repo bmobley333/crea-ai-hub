@@ -7,13 +7,14 @@ export default defineConfig({
   cleanUrls: true,
   appearance: 'dark',
   head: [
-    ['link', { rel: 'icon', href: '/favicon.ico' }],
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
+    ['link', { rel: 'alternate icon', href: '/favicon.ico' }],
     ['meta', { name: 'theme-color', content: '#0f172a' }]
   ],
   themeConfig: {
     siteTitle: "⚡ Taking AI to the Next Level",
     nav: [
-      { text: 'Overview', link: '/' },
+      { text: '🏠 Home', link: '/' },
       { text: '🪜 Maturity Ladder', link: '/ladder' },
       { text: '🛡️ Architecture & Security', link: '/architecture' },
       { text: '💻 Hardware BoM', link: '/hardware' },
@@ -33,6 +34,13 @@ export default defineConfig({
           { text: 'The 4-Level Maturity Ladder', link: '/ladder' },
           { text: 'Security & Bounded Loop', link: '/architecture' },
           { text: 'On-Premises Hardware BoM', link: '/hardware' }
+        ]
+      },
+      {
+        text: 'Keynote Demos',
+        items: [
+          { text: 'Documentation Engine (Demo 1)', link: '/demos/documentation-engine' },
+          { text: 'IT Ticket Triage (Demo 2)', link: '/demos/ticket-triage' }
         ]
       },
       {
