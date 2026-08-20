@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Use Case 2: IT Ticket Triage & Change Drafting Visual Card</title>
+<style>
+  body {
+    background-color: #0f172a;
+    color: #f8fafc;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  .card-container {
+    background: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 16px;
+    width: 960px;
+    padding: 32px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #334155;
+    padding-bottom: 16px;
+    margin-bottom: 24px;
+  }
+  .title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #38bdf8;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .badge {
+    background: #f59e0b;
+    color: #0f172a;
+    font-size: 11px;
+    font-weight: 800;
+    padding: 4px 10px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+  .step-box {
+    background: #0f172a;
+    border: 1px solid #334155;
+    border-radius: 12px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .step-box.highlight {
+    border-color: #f59e0b;
+    background: rgba(245, 158, 11, 0.05);
+  }
+  .step-num {
+    font-size: 12px;
+    font-weight: 800;
+    color: #38bdf8;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+  .step-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 12px;
+  }
+  .step-desc {
+    font-size: 13px;
+    color: #94a3b8;
+    line-height: 1.5;
+    flex-grow: 1;
+  }
+  .code-pill {
+    background: #1e293b;
+    border: 1px solid #475569;
+    border-radius: 6px;
+    padding: 8px 10px;
+    font-family: "Consolas", monospace;
+    font-size: 10.5px;
+    color: #38bdf8;
+    margin-top: 14px;
+    line-height: 1.4;
+  }
+  .approval-bar {
+    margin-top: 24px;
+    background: #78350f;
+    border: 1px solid #f59e0b;
+    border-radius: 10px;
+    padding: 14px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .approval-info {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 13.5px;
+    font-weight: bold;
+    color: #fef3c7;
+  }
+  .approval-btn {
+    background: #f59e0b;
+    color: #0f172a;
+    font-weight: 800;
+    font-size: 12px;
+    padding: 8px 16px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+</style>
+</head>
+<body>
+
+<div class="card-container">
+  <div class="header">
+    <div class="title">
+      <span>🎫 Use Case 2: IT Ticket Triage & Change Drafting</span>
+    </div>
+    <div class="badge">Human-in-the-Loop Gateway</div>
+  </div>
+
+  <div class="grid">
+    <!-- Step 1 -->
+    <div class="step-box">
+      <div class="step-num">Step 01</div>
+      <div class="step-title">Ingest Messy Ticket</div>
+      <div class="step-desc">
+        Field tech email: <i>"VPN dropping every 20 min from substation office on 10.140.12.1..."</i>
+      </div>
+      <div class="code-pill">Ticket #IT-8842: Ingested & Parsed</div>
+    </div>
+
+    <!-- Step 2 -->
+    <div class="step-box">
+      <div class="step-num">Step 02</div>
+      <div class="step-title">Cross-Reference SOP</div>
+      <div class="step-desc">
+        Agent isolates Subnet, checks SOP-7042 runbook, lints PowerShell remediation in sandbox.
+      </div>
+      <div class="code-pill">Set-NetIPInterface -NlMtuBytes 1420</div>
+    </div>
+
+    <!-- Step 3 -->
+    <div class="step-box highlight">
+      <div class="step-num">Step 03</div>
+      <div class="step-title">Stage Change Package</div>
+      <div class="step-desc">
+        Prepares verified remediation package with audit log + rollback script. Holds for sign-off.
+      </div>
+      <div class="code-pill">⚡ Status: Sandbox Passed (0 Errors)</div>
+    </div>
+  </div>
+
+  <!-- Mandatory Human Approval Gate -->
+  <div class="approval-bar">
+    <div class="approval-info">
+      <span>🛑 [AWAITING ADMIN APPROVAL]</span>
+      <span style="font-weight: normal; font-size: 12.5px;">Ready to apply MTU clamp & tunnel keepalive reset to gateway <code>10.140.12.1</code></span>
+    </div>
+    <button class="approval-btn">✓ Approve & Execute</button>
+  </div>
+</div>
+
+</body>
+</html>

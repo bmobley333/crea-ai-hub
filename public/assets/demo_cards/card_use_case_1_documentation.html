@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Use Case 1: Documentation Engine Visual Card</title>
+<style>
+  body {
+    background-color: #0f172a;
+    color: #f8fafc;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  .card-container {
+    background: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 16px;
+    width: 960px;
+    padding: 32px;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #334155;
+    padding-bottom: 16px;
+    margin-bottom: 24px;
+  }
+  .title {
+    font-size: 20px;
+    font-weight: 700;
+    color: #38bdf8;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .badge {
+    background: #0284c7;
+    color: white;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 4px 10px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+  .step-box {
+    background: #0f172a;
+    border: 1px solid #334155;
+    border-radius: 12px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .step-box.highlight {
+    border-color: #06b6d4;
+    background: rgba(6, 182, 212, 0.05);
+  }
+  .step-num {
+    font-size: 12px;
+    font-weight: 800;
+    color: #38bdf8;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
+  .step-title {
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 12px;
+  }
+  .step-desc {
+    font-size: 13px;
+    color: #94a3b8;
+    line-height: 1.5;
+    flex-grow: 1;
+  }
+  .code-pill {
+    background: #1e293b;
+    border: 1px solid #475569;
+    border-radius: 6px;
+    padding: 8px 12px;
+    font-family: "Consolas", monospace;
+    font-size: 11px;
+    color: #38bdf8;
+    margin-top: 14px;
+  }
+  .audio-bar {
+    margin-top: 24px;
+    background: #0f172a;
+    border: 1px solid #10b981;
+    border-radius: 10px;
+    padding: 14px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .audio-info {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 13px;
+    color: #e2e8f0;
+  }
+  .audio-badge {
+    background: #10b981;
+    color: #0f172a;
+    font-weight: 800;
+    font-size: 10px;
+    padding: 3px 8px;
+    border-radius: 4px;
+  }
+</style>
+</head>
+<body>
+
+<div class="card-container">
+  <div class="header">
+    <div class="title">
+      <span>📚 Use Case 1: The Documentation Engine</span>
+    </div>
+    <div class="badge">Gemini Notebook / Ollama RAG</div>
+  </div>
+
+  <div class="grid">
+    <!-- Step 1 -->
+    <div class="step-box">
+      <div class="step-num">Step 01</div>
+      <div class="step-title">Ingest Scanned Binders</div>
+      <div class="step-desc">
+        20 years of legacy utility documentation, substation wiring schematics, and vendor PDF specifications.
+      </div>
+      <div class="code-pill">📂 Ingest: SOP-7042 + SEL-751.pdf</div>
+    </div>
+
+    <!-- Step 2 -->
+    <div class="step-box">
+      <div class="step-num">Step 02</div>
+      <div class="step-title">OCR & Semantic Indexing</div>
+      <div class="step-desc">
+        Automated text extraction, chunking, and YAML frontmatter indexing in private Second Brain vault.
+      </div>
+      <div class="code-pill">⚙️ Local OCR: Ollama / Second Brain</div>
+    </div>
+
+    <!-- Step 3 -->
+    <div class="step-box highlight">
+      <div class="step-num">Step 03</div>
+      <div class="step-title">Grounded Retrieval & Audio</div>
+      <div class="step-desc">
+        Semantic query returns exact page citations + instant synthesized spoken runbook briefing.
+      </div>
+      <div class="code-pill">🎯 Citation: SOP-7042 Sec 3.2 (P.4)</div>
+    </div>
+  </div>
+
+  <!-- Audio Player Pill -->
+  <div class="audio-bar">
+    <div class="audio-info">
+      <span class="audio-badge">15-SEC AUDIO RUNBOOK</span>
+      <span>🎙️ <i>"Summary: Substation IPSec tunnel drops are resolved by clamping MTU to 1420 on gateway 10.140.12.1..."</i></span>
+    </div>
+    <span style="color: #10b981; font-weight: bold; font-size: 12px;">0:15 / 0:15 🔊</span>
+  </div>
+</div>
+
+</body>
+</html>
