@@ -8,6 +8,7 @@ Download presentation slide decks, the printable 2-page executive summary playbo
 
 | Asset | Format / Platform | Link | Description |
 | :--- | :--- | :--- | :--- |
+| **30-Day Co-op AI Playbook** | **Printable PDF (2-Page)** | **[📥 Download 30-Day Playbook PDF](/30_Day_Coop_AI_Playbook.pdf)** | Executive reference card: Air Gap, Maturity Ladder, Security Contract, and BoM. |
 | **Master Keynote Deck** | Google Slides | [Cutting Edge AI](https://docs.google.com/presentation/d/1BmBU_wbQ_YdHzZuPM2_lFvGxcCrKzYFl8jXgYZOk6rw/edit) | Full 17-slide dark slate keynote deck with embedded speaker notes. |
 | **Logistics & Summary Doc** | Google Docs | [CREA Summary](https://docs.google.com/document/d/1t6zUPxdKytOm_qHqQTTME-b_EuX2daHbpYEEuWEojQU/edit) | Dense executive cheat sheet and contact directory. |
 | **Conference Schedule** | Google Docs | [Schedule SoT](https://docs.google.com/document/d/1vSnyyGy8MdyU0e_TQhPNYYd6-KhRO8zm/edit) | Full 2-day conference agenda and session timelines. |
