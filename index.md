@@ -37,20 +37,7 @@ features:
     link: /hardware
 ---
 
-<div style="margin-top: 1.5rem; padding: 1.15rem 1.35rem; background: linear-gradient(135deg, rgba(120, 53, 15, 0.25), rgba(15, 23, 42, 0.95)); border: 1.5px solid #f59e0b; border-radius: 12px; display: flex; justify-content: space-between; align-items: center; gap: 1.25rem; flex-wrap: wrap; box-shadow: 0 4px 16px rgba(245, 158, 11, 0.12);">
-  <div style="display: flex; align-items: center; gap: 1rem; flex: 1;">
-    <span style="font-size: 1.6rem; flex-shrink: 0;">⚠️</span>
-    <div>
-      <h3 style="margin: 0; color: #fbbf24; font-size: 1.05rem; font-weight: 800;">CONCEPTUAL & AI-ASSISTED FOOD FOR THOUGHT ONLY</h3>
-      <p style="margin: 0.25rem 0 0 0; color: #fef3c7; font-size: 0.85rem; line-height: 1.4;">The author holds no operational REA utility authority. Strictly prohibited from execution on OT/SCADA/EMS networks. Provided AS IS without warranty under Colorado law.</p>
-    </div>
-  </div>
-  <a href="/disclaimer" style="background: #f59e0b; color: #0f172a; font-weight: 800; font-size: 0.82rem; padding: 0.5rem 1rem; border-radius: 8px; text-decoration: none; text-transform: uppercase; white-space: nowrap; flex-shrink: 0; box-shadow: 0 2px 8px rgba(0,0,0,0.25);">
-    Read Legal Notice →
-  </a>
-</div>
-
-<div style="margin-top: 1.25rem; padding: 1.5rem; background: linear-gradient(135deg, rgba(2, 132, 199, 0.15), rgba(15, 23, 42, 0.9)); border: 1.5px solid #0284c7; border-radius: 12px; display: flex; justify-content: space-between; align-items: center; gap: 1rem; flex-wrap: wrap;">
+<div style="margin-top: 1.5rem; padding: 1.5rem; background: linear-gradient(135deg, rgba(2, 132, 199, 0.15), rgba(15, 23, 42, 0.9)); border: 1.5px solid #0284c7; border-radius: 12px; display: flex; justify-content: space-between; align-items: center; gap: 1rem; flex-wrap: wrap;">
   <div>
     <h3 style="margin: 0; color: #38bdf8; font-size: 1.2rem; font-weight: 800;">📂 Public Google Drive Resource Folder</h3>
     <p style="margin: 0.25rem 0 0 0; color: #cbd5e1; font-size: 0.9rem;">Access the master presentation slide deck, printable 2-page PDF playbook, and synthetic SOPs directly in Google Drive.</p>
