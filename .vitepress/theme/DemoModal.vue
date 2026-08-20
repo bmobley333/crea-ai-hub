@@ -392,7 +392,7 @@
       aria-modal="true"
       aria-label="Full-screen screenshot viewer"
     >
-      <div class="lightbox-modal-container" :class="{ 'zoomed-natural': !isZoomFit }">
+      <div class="lightbox-modal-container">
         <!-- Lightbox Header -->
         <div class="lightbox-header">
           <!-- Left: Title & Badge -->
@@ -425,17 +425,38 @@
             </button>
           </div>
 
-          <!-- Right: Controls -->
+          <!-- Right: Controls & Zoom Tools -->
           <div class="lightbox-actions">
-            <button 
-              type="button" 
-              class="lightbox-tool-btn" 
-              @click="toggleZoom"
-              :title="isZoomFit ? 'Zoom to 100% natural resolution' : 'Fit to screen viewport'"
-            >
-              <span v-if="isZoomFit">🔍 Fit View</span>
-              <span v-else>🔍 100% Actual</span>
-            </button>
+            <!-- Zoom Controls Group -->
+            <div class="lightbox-zoom-group">
+              <button 
+                type="button" 
+                class="lightbox-zoom-btn" 
+                @click="zoomOut"
+                :disabled="zoomLevel <= 1.0"
+                title="Zoom Out (Mouse Wheel Down)"
+              >
+                ➖
+              </button>
+              <button 
+                type="button" 
+                class="lightbox-zoom-btn reset-btn" 
+                @click="resetZoom"
+                :title="zoomLevel === 1.0 ? 'Fit to Screen (Double Click Image to Zoom)' : 'Reset to 100% Fit'"
+              >
+                🔍 {{ Math.round(zoomLevel * 100) }}%
+              </button>
+              <button 
+                type="button" 
+                class="lightbox-zoom-btn" 
+                @click="zoomIn"
+                :disabled="zoomLevel >= 4.5"
+                title="Zoom In (Mouse Wheel Up)"
+              >
+                ➕
+              </button>
+            </div>
+
             <a 
               :href="lightboxData.src" 
               target="_blank" 
@@ -456,26 +477,42 @@
           </div>
         </div>
 
-        <!-- Lightbox Image Viewport with Floating Nav Arrows -->
-        <div class="lightbox-viewport" :class="{ 'scrollable': !isZoomFit }">
+        <!-- Lightbox Image Viewport with Mouse Wheel Zoom & Drag-Pan -->
+        <div 
+          class="lightbox-viewport"
+          @wheel.prevent="handleWheel"
+          @mousedown="handleMouseDown"
+          @mousemove="handleMouseMove"
+          @mouseup="handleMouseUp"
+          @mouseleave="handleMouseUp"
+          @dblclick="handleDoubleClick"
+        >
           <!-- Left Nav Arrow (to Stage 1) -->
           <button 
             v-if="lightboxStage === 'stage2'" 
             type="button" 
             class="lightbox-nav-arrow left" 
-            @click="setLightboxStage('stage1')"
+            @click.stop="setLightboxStage('stage1')"
             title="Previous: Stage 1 (Left Arrow)"
           >
             ‹
           </button>
 
-          <!-- The Image Display -->
-          <div class="lightbox-img-wrapper" :class="{ 'fit-view': isZoomFit, 'natural-view': !isZoomFit }">
+          <!-- The Image Display with Zoom & Pan -->
+          <div 
+            class="lightbox-img-wrapper" 
+            :class="{ 'is-dragging': isDragging, 'is-zoomed': zoomLevel > 1.0 }"
+            :style="{
+              transform: `translate3d(${panX}px, ${panY}px, 0px) scale(${zoomLevel})`,
+              cursor: zoomLevel > 1.0 ? (isDragging ? 'grabbing' : 'grab') : 'zoom-in'
+            }"
+          >
             <img 
               :src="lightboxData.src" 
               :alt="lightboxData.alt" 
               class="lightbox-img" 
               :class="lightboxData.badgeColor === 'cyan' ? 'border-cyan' : 'border-gold'"
+              draggable="false"
             />
           </div>
 
@@ -484,7 +521,7 @@
             v-if="lightboxStage === 'stage1'" 
             type="button" 
             class="lightbox-nav-arrow right" 
-            @click="setLightboxStage('stage2')"
+            @click.stop="setLightboxStage('stage2')"
             title="Next: Stage 2 (Right Arrow)"
           >
             ›
@@ -498,8 +535,10 @@
             <span class="caption-text">{{ lightboxData.subtitle }}</span>
           </div>
           <div class="lightbox-hints">
+            <span class="hint-tag">🖱️ <strong>Wheel</strong> Zoom</span>
+            <span class="hint-tag">🖱️ <strong>Drag</strong> Pan</span>
             <span class="hint-tag">⌨️ <strong>Esc</strong> Close</span>
-            <span class="hint-tag">⌨️ <strong>← / →</strong> Switch Stage</span>
+            <span class="hint-tag">⌨️ <strong>← / →</strong> Switch</span>
             <button type="button" class="lightbox-done-btn" @click="closeLightbox">
               ✕ Back to Case Study
             </button>
@@ -516,26 +555,93 @@ import { isModalOpen, activeDemo, closeDemo } from './demoState'
 
 const isLightboxOpen = ref(false)
 const lightboxStage = ref<'stage1' | 'stage2'>('stage1')
-const isZoomFit = ref(true)
+const zoomLevel = ref(1.0)
+const panX = ref(0)
+const panY = ref(0)
+const isDragging = ref(false)
+
+let startMouseX = 0
+let startMouseY = 0
+let startPanX = 0
+let startPanY = 0
+
+function resetZoom() {
+  zoomLevel.value = 1.0
+  panX.value = 0
+  panY.value = 0
+  isDragging.value = false
+}
 
 function openLightbox(stage: 'stage1' | 'stage2') {
   lightboxStage.value = stage
-  isZoomFit.value = true
+  resetZoom()
   isLightboxOpen.value = true
 }
 
 function closeLightbox() {
   isLightboxOpen.value = false
-  isZoomFit.value = true
+  resetZoom()
 }
 
 function setLightboxStage(stage: 'stage1' | 'stage2') {
   lightboxStage.value = stage
-  isZoomFit.value = true
+  resetZoom()
 }
 
-function toggleZoom() {
-  isZoomFit.value = !isZoomFit.value
+function zoomIn() {
+  zoomLevel.value = Math.min(4.5, +(zoomLevel.value + 0.25).toFixed(2))
+}
+
+function zoomOut() {
+  const newZoom = Math.max(1.0, +(zoomLevel.value - 0.25).toFixed(2))
+  zoomLevel.value = newZoom
+  if (newZoom === 1.0) {
+    panX.value = 0
+    panY.value = 0
+  }
+}
+
+function handleWheel(e: WheelEvent) {
+  e.preventDefault()
+  const zoomFactor = e.deltaY < 0 ? 0.15 : -0.15
+  const targetZoom = +(zoomLevel.value + zoomFactor).toFixed(2)
+  const clampedZoom = Math.min(Math.max(1.0, targetZoom), 4.5)
+
+  if (clampedZoom === 1.0) {
+    panX.value = 0
+    panY.value = 0
+  }
+  zoomLevel.value = clampedZoom
+}
+
+function handleMouseDown(e: MouseEvent) {
+  if (zoomLevel.value <= 1.0) return
+  isDragging.value = true
+  startMouseX = e.clientX
+  startMouseY = e.clientY
+  startPanX = panX.value
+  startPanY = panY.value
+}
+
+function handleMouseMove(e: MouseEvent) {
+  if (!isDragging.value || zoomLevel.value <= 1.0) return
+  e.preventDefault()
+  const dx = e.clientX - startMouseX
+  const dy = e.clientY - startMouseY
+  panX.value = startPanX + dx
+  panY.value = startPanY + dy
+}
+
+function handleMouseUp() {
+  isDragging.value = false
+}
+
+function handleDoubleClick() {
+  if (zoomLevel.value > 1.0) {
+    resetZoom()
+  } else {
+    zoomLevel.value = 2.0
+  }
 }
 
 const lightboxData = computed(() => {
@@ -1341,7 +1447,55 @@ onUnmounted(() => {
   flex-shrink: 0;
 }
 
-.lightbox-tool-btn,
+/* Lightbox Zoom Controls Group */
+.lightbox-zoom-group {
+  display: flex;
+  align-items: center;
+  background: rgba(2, 6, 23, 0.85);
+  border: 1px solid #475569;
+  border-radius: 8px;
+  padding: 2px;
+  gap: 2px;
+}
+
+.lightbox-zoom-btn {
+  background: transparent;
+  border: none;
+  color: #e2e8f0;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 4px 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lightbox-zoom-btn:hover:not(:disabled) {
+  background: #334155;
+  color: #ffffff;
+}
+
+.lightbox-zoom-btn:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
+.lightbox-zoom-btn.reset-btn {
+  font-size: 11.5px;
+  font-weight: 800;
+  padding: 4px 10px;
+  color: #38bdf8;
+  border-left: 1px solid #334155;
+  border-right: 1px solid #334155;
+}
+.lightbox-zoom-btn.reset-btn:hover {
+  background: #0284c7;
+  color: #ffffff;
+}
+
 .lightbox-popout-btn {
   background: #1e293b;
   color: #e2e8f0 !important;
@@ -1357,7 +1511,6 @@ onUnmounted(() => {
   align-items: center;
 }
 
-.lightbox-tool-btn:hover,
 .lightbox-popout-btn:hover {
   background: #334155;
   color: #ffffff !important;
@@ -1396,44 +1549,31 @@ onUnmounted(() => {
   padding: 16px;
   background: radial-gradient(circle at center, #111827 0%, #030712 100%);
   user-select: none;
-}
-
-.lightbox-viewport.scrollable {
-  overflow: auto;
+  touch-action: none;
 }
 
 .lightbox-img-wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: transform 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  transition: transform 0.08s cubic-bezier(0.16, 1, 0.3, 1);
+  transform-origin: center center;
+  user-select: none;
 }
 
-.lightbox-img-wrapper.fit-view {
-  width: 100%;
-  height: 100%;
-}
-
-.lightbox-img-wrapper.fit-view .lightbox-img {
-  max-width: 100%;
-  max-height: calc(94vh - 130px);
-  object-fit: contain;
-}
-
-.lightbox-img-wrapper.natural-view {
-  min-width: 100%;
-  min-height: 100%;
-}
-
-.lightbox-img-wrapper.natural-view .lightbox-img {
-  max-width: none;
-  width: 100%;
-  cursor: grab;
+.lightbox-img-wrapper.is-dragging {
+  transition: none !important;
 }
 
 .lightbox-img {
+  max-width: 90vw;
+  max-height: calc(94vh - 140px);
+  object-fit: contain;
   display: block;
   border-radius: 8px;
+  pointer-events: auto;
+  user-select: none;
+  -webkit-user-drag: none;
   transition: all 0.2s ease;
 }
 
