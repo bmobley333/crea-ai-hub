@@ -37,7 +37,20 @@ features:
     link: /hardware
 ---
 
-<div style="margin-top: 2rem; padding: 1.5rem; background: linear-gradient(135deg, rgba(2, 132, 199, 0.15), rgba(15, 23, 42, 0.9)); border: 1.5px solid #0284c7; border-radius: 12px; display: flex; justify-content: space-between; align-items: center; gap: 1rem; flex-wrap: wrap;">
+<div style="margin-top: 1.5rem; padding: 1rem 1.25rem; background: rgba(245, 158, 11, 0.12); border: 1.5px solid #f59e0b; border-radius: 10px; display: flex; justify-content: space-between; align-items: center; gap: 1rem; flex-wrap: wrap;">
+  <div style="display: flex; align-items: center; gap: 0.75rem;">
+    <span style="font-size: 1.4rem;">⚠️</span>
+    <div>
+      <b style="color: #fbbf24; font-size: 0.95rem;">CONCEPTUAL & AI-ASSISTED FOOD FOR THOUGHT ONLY</b>
+      <p style="margin: 0.15rem 0 0 0; color: #fef3c7; font-size: 0.82rem;">The author holds no operational REA utility authority. Strictly prohibited from execution on OT/SCADA networks. Provided AS IS without warranty.</p>
+    </div>
+  </div>
+  <a href="/disclaimer" style="background: #f59e0b; color: #0f172a; font-weight: 800; font-size: 0.8rem; padding: 0.4rem 0.8rem; border-radius: 6px; text-decoration: none; text-transform: uppercase;">
+    Read Legal Notice →
+  </a>
+</div>
+
+<div style="margin-top: 1.5rem; padding: 1.5rem; background: linear-gradient(135deg, rgba(2, 132, 199, 0.15), rgba(15, 23, 42, 0.9)); border: 1.5px solid #0284c7; border-radius: 12px; display: flex; justify-content: space-between; align-items: center; gap: 1rem; flex-wrap: wrap;">
   <div>
     <h3 style="margin: 0; color: #38bdf8; font-size: 1.2rem; font-weight: 800;">📂 Public Google Drive Resource Folder</h3>
     <p style="margin: 0.25rem 0 0 0; color: #cbd5e1; font-size: 0.9rem;">Access the master presentation slide deck, printable 2-page PDF playbook, and synthetic SOPs directly in Google Drive.</p>

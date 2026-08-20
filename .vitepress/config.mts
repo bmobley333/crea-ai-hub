@@ -19,6 +19,7 @@ export default defineConfig({
       { text: '💻 Hardware BoM', link: '/hardware' },
       { text: '📖 Glossary', link: '/glossary' },
       { text: '📥 Resources & Demos', link: '/resources' },
+      { text: '⚖️ Legal Disclaimer', link: '/disclaimer' },
       { text: '📂 Google Drive Vault', link: 'https://drive.google.com/drive/folders/1ltRx1n6Db9Vxi7rDJcUt1qsVtEuv3opB?usp=sharing' }
     ],
     socialLinks: [
@@ -38,7 +39,8 @@ export default defineConfig({
         text: 'Reference & Toolkits',
         items: [
           { text: 'Utility IT & AI Glossary', link: '/glossary' },
-          { text: 'Resources & Downloads', link: '/resources' }
+          { text: 'Resources & Downloads', link: '/resources' },
+          { text: '⚖️ Legal Risk & Disclaimer', link: '/disclaimer' }
         ]
       }
     ],
