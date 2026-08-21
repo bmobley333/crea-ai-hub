@@ -6,6 +6,7 @@ import DemoButton from './DemoButton.vue'
 import FireworksModal from './FireworksModal.vue'
 import FireworksButton from './FireworksButton.vue'
 import OAuthFeedbackModal from './OAuthFeedbackModal.vue'
+import { initFeedbackState } from './feedbackState'
 import './style.css'
 
 export default {
@@ -22,5 +23,9 @@ export default {
     app.component('FireworksButton', FireworksButton)
     app.component('FireworksModal', FireworksModal)
     app.component('OAuthFeedbackModal', OAuthFeedbackModal)
+
+    if (typeof window !== 'undefined') {
+      initFeedbackState()
+    }
   }
 }

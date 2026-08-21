@@ -1,5 +1,6 @@
 ﻿import { ref, computed } from 'vue'
 import { supabase } from './supabaseClient'
+import { openDemo } from './demoState'
 import type { User } from '@supabase/supabase-js'
 
 export interface FeedbackItem {
@@ -69,6 +70,24 @@ export async function initFeedbackState() {
   if (hasInitialized) return
   hasInitialized = true
 
+  // Check if user is returning from a Google OAuth redirect
+  const isAuthCallback = 
+    sessionStorage.getItem('crea_auto_open_feedback_modal') === 'true' ||
+    window.location.search.includes('auth_callback=1') ||
+    window.location.hash.includes('access_token=') ||
+    window.location.search.includes('code=')
+
+  if (isAuthCallback) {
+    sessionStorage.removeItem('crea_auto_open_feedback_modal')
+    openDemo('oauth-db-demo')
+    
+    // Clean URL query parameters smoothly without reloading
+    if (window.history && window.history.replaceState) {
+      const cleanUrl = window.location.pathname
+      window.history.replaceState({}, document.title, cleanUrl)
+    }
+  }
+
   // Get current session
   try {
     isAuthLoading.value = true
@@ -77,6 +96,9 @@ export async function initFeedbackState() {
 
     if (currentUser.value) {
       syncInputsFromExisting()
+      if (isAuthCallback) {
+        openDemo('oauth-db-demo')
+      }
     }
   } catch (err) {
     console.error('Error fetching initial auth session:', err)
@@ -85,9 +107,14 @@ export async function initFeedbackState() {
   }
 
   // Auth listener
-  supabase.auth.onAuthStateChange((_event, session) => {
+  supabase.auth.onAuthStateChange((event, session) => {
     currentUser.value = session?.user || null
     syncInputsFromExisting()
+
+    if (event === 'SIGNED_IN' && sessionStorage.getItem('crea_auto_open_feedback_modal') === 'true') {
+      sessionStorage.removeItem('crea_auto_open_feedback_modal')
+      openDemo('oauth-db-demo')
+    }
   })
 
   // Fetch initial feedback
@@ -160,14 +187,16 @@ export async function loginWithGoogle() {
   if (typeof window === 'undefined') return
   try {
     statusMessage.value = null
+    sessionStorage.setItem('crea_auto_open_feedback_modal', 'true')
     const { error } = await supabase.auth.signInWithOAuth({
       provider: 'google',
       options: {
-        redirectTo: window.location.origin + '/resources'
+        redirectTo: window.location.origin + '/resources?auth_callback=1'
       }
     })
     if (error) throw error
   } catch (err: any) {
+    sessionStorage.removeItem('crea_auto_open_feedback_modal')
     console.error('Google login error:', err)
     statusMessage.value = { text: err.message || 'Failed to login with Google', type: 'error' }
   }
