@@ -132,7 +132,7 @@ Open Google Slides ↗
 
 ---
 
-## 🎯 Presentation
+## 🎯 The Journey
 
 <div style="margin-top: 1rem; display: flex; flex-direction: column; gap: 1.5rem;">
 
