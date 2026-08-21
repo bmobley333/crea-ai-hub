@@ -218,11 +218,11 @@
             </div>
 
             <div class="fullstack-intro-box">
-              <h3>⚡ The 7-Layer Architectural Stack of the CREA Web App</h3>
-              <p>This entire application—from TypeScript logic, Vue 3 components, and 2D canvas physics to Web Audio synthesizers, VitePress builds, and Vercel edge CI/CD—was created through <strong>100% Agentic Vibe Coding</strong>. The human architect specified intent in natural language; Jodar planned, coded, tested, and deployed the complete stack.</p>
+              <h3>⚡ The 8-Layer Architectural Stack of the CREA Web App</h3>
+              <p>This entire application—from TypeScript logic, Vue 3 components, and 2D canvas physics to Web Audio synthesizers, Google OAuth 2.0, real-time Supabase PostgreSQL database persistence, VitePress builds, and Vercel edge CI/CD—was created through <strong>100% Agentic Vibe Coding</strong>. The human architect specified intent in natural language; Jodar planned, coded, tested, and deployed the complete stack.</p>
             </div>
 
-            <!-- 7 Structured Layer Cards -->
+            <!-- 8 Structured Layer Cards -->
             <div class="layers-container">
               <!-- Layer 1 -->
               <div class="layer-item">
@@ -307,10 +307,23 @@
                 <div class="layer-number">07</div>
                 <div class="layer-body">
                   <div class="layer-badge-row">
+                    <span class="layer-tag cyan">AUTH & REAL-TIME DATABASE</span>
+                    <span class="layer-tech">Google OAuth 2.0 • Supabase PostgreSQL • Row Level Security (RLS) • WebSockets</span>
+                  </div>
+                  <h4>Layer 7: Auth Gateway & Real-Time Cloud Database</h4>
+                  <p>Enterprise-grade Google OAuth 2.0 authentication with automated session recovery and callback intercept. Grounded in a cloud PostgreSQL database on Supabase with strict Row Level Security (RLS) policies (public read, authenticated insert, and owner-only update/delete) and live WebSocket Realtime subscriptions for instantaneous zero-latency client synchronization.</p>
+                </div>
+              </div>
+
+              <!-- Layer 8 -->
+              <div class="layer-item">
+                <div class="layer-number">08</div>
+                <div class="layer-body">
+                  <div class="layer-badge-row">
                     <span class="layer-tag emerald">SOURCE OF TRUTH</span>
                     <span class="layer-tech">SoT_CREA_2026.md • Google Slides (19 Slides) • NotebookLM Workspace</span>
                   </div>
-                  <h4>Layer 7: Source of Truth (SoT) & Synchronized Ecosystem</h4>
+                  <h4>Layer 8: Source of Truth (SoT) & Synchronized Ecosystem</h4>
                   <p>Unified documentation contracts (<code>SoT_CREA_2026.md</code>, <code>Manifest.md</code>); 19-slide master keynote deck with character-exact UTF-16 links; 2-page executive playbook PDF; and Google NotebookLM grounded synthetic workspace.</p>
                 </div>
               </div>
@@ -343,6 +356,11 @@
                       <td><strong>Fireworks Simulation (Demo 3)</strong></td>
                       <td>2–3 Days (Physics + Audio + Vue)</td>
                       <td><strong>59 Seconds Total</strong> (10s Plan + 49s Deploy)</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Google OAuth & Live DB Setup</strong></td>
+                      <td>2–4 Days (OAuth console, token handling, REST endpoints, DB schema, RLS)</td>
+                      <td><strong>3–4 Minutes</strong> (Agentic client integration, reactive auth lifecycle, RLS policies, live WebSocket sync)</td>
                     </tr>
                     <tr>
                       <td><strong>Production Build Time</strong></td>

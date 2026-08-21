@@ -51,11 +51,11 @@ Download presentation slide decks, the printable 2-page executive summary playbo
       <span style="color: #475569;">•</span>
       <span style="color: #fbbf24;">100% Vibe Coded (0 Manual LOC)</span>
       <span style="color: #475569;">•</span>
-      <span style="color: #34d399;">7 Architectural Layers</span>
+      <span style="color: #34d399;">8 Architectural Layers</span>
     </div>
-    <h3 style="margin: 0 0 0.4rem 0; color: #f8fafc; font-size: 1.2rem; font-weight: 800;">The 7-Layer Full-Stack Autobiography</h3>
+    <h3 style="margin: 0 0 0.4rem 0; color: #f8fafc; font-size: 1.2rem; font-weight: 800;">The 8-Layer Full-Stack Autobiography</h3>
     <p style="margin: 0; color: #cbd5e1; font-size: 0.9rem; line-height: 1.5;">
-      Explore the complete technical anatomy of this Web App & Keynote ecosystem—from Jodar's cognitive prompt contracts and Antigravity 2.0 developer harness to Vue 3, HTML5 Canvas 2D physics, Web Audio synthesis, and Vercel edge CI/CD.
+      Explore the complete technical anatomy of this Web App & Keynote ecosystem—from Jodar's cognitive prompt contracts and Antigravity 2.0 developer harness to Vue 3, HTML5 Canvas 2D physics, Web Audio synthesis, Google OAuth 2.0, Supabase PostgreSQL, and Vercel edge CI/CD.
     </p>
   </div>
   <div style="flex-shrink: 0;">
