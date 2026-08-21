@@ -20,10 +20,41 @@ Download presentation slide decks, the printable 2-page executive summary playbo
 | :--- | :--- | :--- | :--- |
 | **CREA Keynote AI Companion Notebook** | Google NotebookLM | **[🧠 Open Keynote Companion Notebook](https://notebook.google.com/notebook/8670f8c2-5863-4f91-ba9b-6f201a744f44)** | Master AI assistant ingesting the entire live web app & 19-slide presentation deck. |
 | **CREA Presentation Drive Folder** | Google Drive | **[📂 Open Master Drive Folder](https://drive.google.com/drive/folders/1ltRx1n6Db9Vxi7rDJcUt1qsVtEuv3opB?usp=sharing)** | Master cloud vault (`1ltRx1n6Db9Vxi7rDJcUt1qsVtEuv3opB`) containing all materials. |
+| **Keeping Up with AI (Matt Wolfe)** | YouTube Channel | **[📺 @mreflow on YouTube](https://www.youtube.com/@mreflow)** | Weekly Friday video breakdown filtering high-signal AI news, tools, and frontier updates. |
 | **30-Day Co-op AI Playbook** | **Printable PDF (2-Page)** | **[📥 Download 30-Day Playbook PDF](/30_Day_Coop_AI_Playbook.pdf)** | Executive reference card: Air Gap, Maturity Ladder, Security Contract, and BoM. |
 | **Master Keynote Deck** | Google Slides | [Cutting Edge AI](https://docs.google.com/presentation/d/1BmBU_wbQ_YdHzZuPM2_lFvGxcCrKzYFl8jXgYZOk6rw/edit) | Full 19-slide dark slate keynote deck with embedded speaker notes. |
 | **Logistics & Summary Doc** | Google Docs | [CREA Summary](https://docs.google.com/document/d/1t6zUPxdKytOm_qHqQTTME-b_EuX2daHbpYEEuWEojQU/edit) | Dense executive cheat sheet and contact directory. |
 | **Conference Schedule** | Google Docs | [Schedule SoT](https://docs.google.com/document/d/1vSnyyGy8MdyU0e_TQhPNYYd6-KhRO8zm/edit) | Full 2-day conference agenda and session timelines. |
+
+---
+
+## 📺 Keeping Up with AI {#keeping-up-with-ai}
+
+<div style="margin: 1.5rem 0; padding: 1.5rem; background: linear-gradient(135deg, rgba(244, 63, 94, 0.12), rgba(15, 23, 42, 0.95)); border: 1.5px solid rgba(244, 63, 94, 0.4); border-radius: 14px; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4), 0 0 25px rgba(244, 63, 94, 0.1); display: flex; justify-content: space-between; align-items: center; gap: 1.5rem; flex-wrap: wrap;">
+  <div style="flex: 1 1 500px;">
+    <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 0.45rem; font-size: 0.76rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em; cursor: default; user-select: none;">
+      <span style="color: #f43f5e; display: inline-flex; align-items: center; gap: 4px;">📺 Weekly Intelligence</span>
+      <span style="color: #475569;">•</span>
+      <span style="color: #fbbf24;">YouTube Channel</span>
+      <span style="color: #475569;">•</span>
+      <span style="color: #38bdf8;">Every Friday</span>
+    </div>
+    <h3 style="margin: 0 0 0.4rem 0; color: #f8fafc; font-size: 1.25rem; font-weight: 800;">
+      How to Keep Up in the Rapidly Changing World of AI
+    </h3>
+    <p style="margin: 0 0 0.75rem 0; color: #e2e8f0; font-size: 0.95rem; font-weight: 600; line-height: 1.5;">
+      Matt Wolfe releases a new comprehensive YouTube breakdown on this topic every Friday.
+    </p>
+    <p style="margin: 0; color: #94a3b8; font-size: 0.88rem; line-height: 1.5;">
+      Curated by AI educator and FutureTools founder <strong>Matt Wolfe (<a href="https://www.youtube.com/@mreflow" target="_blank" rel="noopener noreferrer" style="color: #f43f5e; text-decoration: underline;">@mreflow</a>)</strong>, this weekly video series filters through the noise to deliver concise, high-signal recaps of frontier model breakthroughs, open-weight tools, coding assistants, practical workflows, and emerging industry shifts.
+    </p>
+  </div>
+  <div style="flex-shrink: 0;">
+    <a href="https://www.youtube.com/@mreflow" target="_blank" rel="noopener noreferrer" style="background: linear-gradient(135deg, #e11d48, #f43f5e); color: #ffffff; font-weight: 800; font-size: 0.9rem; padding: 0.7rem 1.35rem; border-radius: 10px; text-decoration: none; display: inline-flex; align-items: center; gap: 0.5rem; box-shadow: 0 4px 15px rgba(244, 63, 94, 0.35); border: 1px solid rgba(255, 255, 255, 0.2);">
+      📺 Visit Matt Wolfe YouTube Channel ↗
+    </a>
+  </div>
+</div>
 
 ---
 

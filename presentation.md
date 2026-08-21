@@ -301,6 +301,8 @@ Invite attendees to bookmark the hub and inspect the 19-slide appendix, 30-day p
 <a href="/30_Day_Coop_AI_Playbook.pdf" target="_blank" rel="noopener noreferrer" style="color: #f43f5e; font-size: 0.85rem; font-weight: 700; text-decoration: underline;">📥 Download 30-Day Playbook PDF ↗</a>
 <span style="color: #475569;">•</span>
 <a href="https://docs.google.com/presentation/d/1BmBU_wbQ_YdHzZuPM2_lFvGxcCrKzYFl8jXgYZOk6rw/edit" target="_blank" rel="noopener noreferrer" style="color: #f43f5e; font-size: 0.85rem; font-weight: 700; text-decoration: underline;">📊 19-Slide Google Slides Deck ↗</a>
+<span style="color: #475569;">•</span>
+<a href="/resources#keeping-up-with-ai" target="_blank" rel="noopener noreferrer" style="color: #38bdf8; font-size: 0.85rem; font-weight: 700; text-decoration: underline;">📺 Keeping Up with AI (Matt Wolfe) ↗</a>
 </div>
 </div>
 
