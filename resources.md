@@ -37,11 +37,12 @@ Download presentation slide decks, the printable 2-page executive summary playbo
 
 ---
 
-## ⚡ Graphics, OAuth, and Data Base Examples
+## ⚡ Graphics, Embedded AI, OAuth & Database Examples
 
 | Demonstration Tool | Platform | Link | Description |
 | :--- | :--- | :--- | :--- |
 | **Celebration & Visual FX (Demo 3)** | Canvas FX & Case Study | <FireworksButton label="Launch Fireworks" /> <DemoButton type="fireworks-case-study" label="⚡ Built in 49s" /> | 2D particle physics fireworks & spatial audio — designed, coded, and deployed in 49s. |
+| **Embedded Web AI Architecture** | Cloud API vs On-Prem | <DemoButton type="ai-web-embedding" label="🧠 Embedding AI in Web Apps" accent="amber" /> | Architectural blueprint and difficulty comparison: Frontier Cloud APIs vs On-Premises Open-Weight models (Llama 70B / Mac / DGX). |
 | **Google OAuth & Live Feedback DB** | Google OAuth + Supabase DB | <DemoButton type="oauth-db-demo" label="🔐 Live Feedback DB" /> | Real-time PostgreSQL database persistence with Google OAuth 2.0 authentication, 1–5 star rating engine, and public peer review cards. |
 
 <div style="margin: 1.75rem 0; padding: 1.5rem; background: linear-gradient(135deg, rgba(2, 132, 199, 0.22), rgba(15, 23, 42, 0.95)); border: 1.5px solid #0284c7; border-radius: 14px; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4), 0 0 25px rgba(2, 132, 199, 0.15); display: flex; justify-content: space-between; align-items: center; gap: 1.5rem; flex-wrap: wrap;">

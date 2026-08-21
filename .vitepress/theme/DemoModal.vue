@@ -1,7 +1,7 @@
 <template>
   <Teleport to="body">
     <div v-if="isModalOpen" class="demo-modal-overlay" @click.self="handleClose">
-      <div class="demo-modal-container" :class="{ 'case-study-wide': activeDemo === 'fireworks-case-study' || activeDemo === 'full-stack-architecture' }" role="dialog" aria-modal="true">
+      <div class="demo-modal-container" :class="{ 'case-study-wide': activeDemo === 'fireworks-case-study' || activeDemo === 'full-stack-architecture' || activeDemo === 'ai-web-embedding' }" role="dialog" aria-modal="true">
         <!-- Header -->
         <div class="demo-modal-header">
           <div class="demo-modal-title-box">
@@ -387,6 +387,146 @@
               💡 <strong>Keynote Takeaway:</strong> Every line of TypeScript, Vue 3, HTML5 Canvas physics, Web Audio synthesizer, and CSS styling in this application was generated, tested, and deployed autonomously by Jodar. That is the raw power and complexity modern AI harnesses deliver to a single systems architect.
             </div>
           </div>
+
+          <!-- 7. Embedded Web AI Architecture (Cloud API vs On-Prem) -->
+          <div v-if="activeDemo === 'ai-web-embedding'" class="ai-embedding-content">
+            <!-- Hero Metric Ribbon -->
+            <div class="metric-ribbon">
+              <div class="metric-pill gold">
+                <span class="metric-label">🛠️ AI HARNESS IMPACT</span>
+                <span class="metric-val">Antigravity 2.0 (Fast & Zero Boilerplate)</span>
+              </div>
+              <div class="metric-pill cyan">
+                <span class="metric-label">🌐 OPTION A: CLOUD FRONTIER</span>
+                <span class="metric-val">🟢 EASY (1–2 Hours)</span>
+              </div>
+              <div class="metric-pill emerald">
+                <span class="metric-label">🔒 OPTION B: ON-PREM OPEN-WEIGHT</span>
+                <span class="metric-val">🟡 MEDIUM (1–2 Days)</span>
+              </div>
+            </div>
+
+            <div class="fullstack-intro-box">
+              <h3>🧠 Embedding AI Copilots & Workflows into Web Applications</h3>
+              <p>With modern agentic AI developer harnesses like <strong>Google Antigravity 2.0</strong>, integrating intelligent AI features into web apps (like <code>crea-ai-hub</code> on Vercel) is straightforward. Below are the two standard architectural paths for electric co-ops—from instant cloud frontier APIs to 100% sovereign on-premises open-weight deployments.</p>
+            </div>
+
+            <!-- Two Side-by-Side Architectural Option Cards -->
+            <div class="ai-options-grid">
+              <!-- Option A Card -->
+              <div class="ai-option-card cloud-card">
+                <div class="ai-card-header">
+                  <div class="ai-badge-row">
+                    <span class="layer-tag cyan">OPTION A: CLOUD FRONTIER API</span>
+                    <span class="difficulty-pill easy">🟢 EASY • 1–2 Hours</span>
+                  </div>
+                  <h4>Cloud Frontier Model via API Route</h4>
+                  <p class="ai-model-examples">Gemini 3.7 / 3.1 Pro • Claude 3.7 Sonnet • OpenAI GPT-4o</p>
+                </div>
+                <div class="ai-card-body">
+                  <div class="ai-arch-flow">
+                    <span class="flow-step">Vue 3 Web UI</span>
+                    <span class="flow-arrow">➔</span>
+                    <span class="flow-step">Vercel Edge API Route</span>
+                    <span class="flow-arrow">➔</span>
+                    <span class="flow-step">Frontier Model API (SSE Stream)</span>
+                  </div>
+                  <div class="ai-practicality-section">
+                    <h5>⚙️ Practicality & Implementation:</h5>
+                    <ul class="ai-checklist">
+                      <li><strong>Architecture:</strong> A serverless edge function holds the encrypted API key in environment variables, sanitizes user input, attaches system prompts, and streams markdown tokens back to the web browser via Server-Sent Events (SSE).</li>
+                      <li><strong>Implementation Effort:</strong> <strong>1 to 2 hours</strong> using modern AI SDKs (<code>@google/genai</code>, <code>ai</code> by Vercel, or standard REST fetch).</li>
+                      <li><strong>Hardware Required:</strong> <strong>$0 on-premises hardware</strong> (runs completely serverless on cloud edge).</li>
+                      <li><strong>Sovereignty & Security:</strong> Requires active Internet egress. Ideal for public member portals, public outage FAQs, and standard IT helpdesk assistants where data is non-classified.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Option B Card -->
+              <div class="ai-option-card onprem-card">
+                <div class="ai-card-header">
+                  <div class="ai-badge-row">
+                    <span class="layer-tag emerald">OPTION B: ON-PREMISES OPEN-WEIGHT</span>
+                    <span class="difficulty-pill medium">🟡 MEDIUM • 1–2 Days</span>
+                  </div>
+                  <h4>Local / Sovereign Model on LAN Hardware</h4>
+                  <p class="ai-model-examples">Llama 3.3 70B • Qwen 2.5 72B • DeepSeek-R1 70B (via Ollama / vLLM)</p>
+                </div>
+                <div class="ai-card-body">
+                  <div class="ai-arch-flow">
+                    <span class="flow-step">Local Web UI</span>
+                    <span class="flow-arrow">➔</span>
+                    <span class="flow-step">Internal LAN Gateway (NGINX)</span>
+                    <span class="flow-arrow">➔</span>
+                    <span class="flow-step">Mac Studio / DGX (Ollama/vLLM)</span>
+                  </div>
+                  <div class="ai-practicality-section">
+                    <h5>⚙️ Practicality & Implementation:</h5>
+                    <ul class="ai-checklist">
+                      <li><strong>Architecture:</strong> An open-weight model runs on dedicated local hardware (e.g. Apple Silicon Mac Studio M2/M3 Ultra with 128GB unified memory or NVIDIA RTX 4090 / DGX Spark workstation) using Ollama or vLLM with OpenAI-compatible REST endpoints.</li>
+                      <li><strong>Implementation Effort:</strong> <strong>1 to 2 days</strong> (setting up local runner, LAN firewall rules, TLS reverse proxy, and health checks).</li>
+                      <li><strong>Hardware Required:</strong> <strong>$3,500 – $7,000 CAPEX</strong> for local workstation with 64GB–128GB high-bandwidth VRAM/memory.</li>
+                      <li><strong>Sovereignty & Security:</strong> <strong>100% Air-Gapped & Sovereign</strong>. Zero telemetry, zero cloud data leakage, zero monthly API bills. Mandatory for substation schematics, SCADA relay configs, and employee PII.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Decision Matrix Table -->
+            <div class="benchmark-section">
+              <h4>📊 Electric Co-op Decision Matrix</h4>
+              <div class="table-scroll-wrapper">
+                <table class="benchmark-table">
+                  <thead>
+                    <tr>
+                      <th>Factor</th>
+                      <th>Option A: Cloud Frontier API</th>
+                      <th>Option B: On-Prem Open-Weight (Llama 70B)</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><strong>Implementation Difficulty</strong></td>
+                      <td><span class="difficulty-pill easy">🟢 EASY (1–2 Hours)</span></td>
+                      <td><span class="difficulty-pill medium">🟡 MEDIUM (1–2 Days)</span></td>
+                    </tr>
+                    <tr>
+                      <td><strong>Upfront Hardware CAPEX</strong></td>
+                      <td><strong>$0</strong> (Serverless Edge)</td>
+                      <td><strong>$3,500 – $7,000</strong> (Mac Studio / DGX)</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Ongoing Operating Cost</strong></td>
+                      <td>Pay-per-token API usage ($0.05 – $2.00 / 1M tokens)</td>
+                      <td><strong>$0 per token</strong> (Electricity only ~150W)</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Air-Gap & SCADA Compliance</strong></td>
+                      <td>❌ Not Air-Gapped (Internet Required)</td>
+                      <td><strong>✅ 100% Air-Gapped & Sovereign</strong></td>
+                    </tr>
+                    <tr>
+                      <td><strong>Reasoning Power & Capabilities</strong></td>
+                      <td>S-Tier Frontier (Gemini 3.7 / Claude 3.7 Pro)</td>
+                      <td>High-Tier Enterprise (Llama 3.3 70B / Qwen 72B)</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Ideal Co-op Use Case</strong></td>
+                      <td>Public customer web app, Outage FAQs, Member chatbots</td>
+                      <td>Substation logs, SCADA triage, Internal Co-op HR & Ops</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <!-- Keynote Takeaway -->
+            <div class="case-study-takeaway">
+              💡 <strong>Keynote Takeaway:</strong> Whether your co-op chooses the zero-friction speed of Cloud Frontier APIs or the uncompromising data privacy of On-Prem Open-Weight Llama 70B models, a modern AI harness like Antigravity 2.0 makes connecting the model to your web interface virtually effortless.
+            </div>
+          </div>
         </div>
 
         <!-- Footer -->
@@ -688,6 +828,7 @@ const lightboxData = computed(() => {
 
 const badgeText = computed(() => {
   if (activeDemo.value === 'full-stack-architecture') return 'META-DEMONSTRATION • FULL-STACK AUTOBIOGRAPHY'
+  if (activeDemo.value === 'ai-web-embedding') return 'ARCHITECTURAL BLUEPRINT • WEB AI INTEGRATION'
   if (activeDemo.value === 'fireworks-case-study') return 'LIVE KEYNOTE CASE STUDY • VIBE CODING PROOF'
   if (activeDemo.value?.includes('doc')) return 'DEMO 1 • DOCUMENTATION ENGINE'
   if (activeDemo.value?.includes('triage')) return 'DEMO 2 • IT TICKET TRIAGE'
@@ -697,7 +838,9 @@ const badgeText = computed(() => {
 const titleText = computed(() => {
   switch (activeDemo.value) {
     case 'full-stack-architecture':
-      return 'The 7-Layer Full-Stack Autobiography of the CREA Web App & Ecosystem'
+      return 'The 8-Layer Full-Stack Autobiography of the CREA Web App & Ecosystem'
+    case 'ai-web-embedding':
+      return 'Embedding AI into Modern Web Applications (Cloud API vs On-Premises Open-Weight)'
     case 'fireworks-case-study':
       return 'From Natural Language Prompt to Live Production in 49 Seconds'
     case 'doc-card':
@@ -725,6 +868,7 @@ const popoutUrl = computed(() => {
       return '/demos/ticket-triage'
     case 'fireworks-case-study':
     case 'full-stack-architecture':
+    case 'ai-web-embedding':
       return '/resources'
     default:
       return null
@@ -1707,8 +1851,146 @@ onUnmounted(() => {
   color: #ffffff;
 }
 
+/* AI Embedding Content & Comparison Cards */
+.ai-embedding-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.ai-options-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.25rem;
+}
+
+.ai-option-card {
+  background: rgba(15, 23, 42, 0.75);
+  border-radius: 12px;
+  border: 1.5px solid #334155;
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  transition: all 0.2s ease;
+}
+
+.ai-option-card.cloud-card {
+  border-color: rgba(56, 189, 248, 0.4);
+}
+
+.ai-option-card.cloud-card:hover {
+  border-color: #38bdf8;
+  box-shadow: 0 8px 24px rgba(56, 189, 248, 0.15);
+}
+
+.ai-option-card.onprem-card {
+  border-color: rgba(52, 211, 153, 0.4);
+}
+
+.ai-option-card.onprem-card:hover {
+  border-color: #34d399;
+  box-shadow: 0 8px 24px rgba(52, 211, 153, 0.15);
+}
+
+.ai-card-header h4 {
+  margin: 0.4rem 0 0.2rem 0;
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: #f8fafc;
+}
+
+.ai-model-examples {
+  margin: 0;
+  font-size: 0.8rem;
+  color: #94a3b8;
+  font-family: monospace;
+}
+
+.ai-badge-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.difficulty-pill {
+  font-size: 0.72rem;
+  font-weight: 800;
+  padding: 2px 8px;
+  border-radius: 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.difficulty-pill.easy {
+  background: rgba(16, 185, 129, 0.15);
+  color: #34d399;
+  border: 1px solid rgba(16, 185, 129, 0.4);
+}
+
+.difficulty-pill.medium {
+  background: rgba(245, 158, 11, 0.15);
+  color: #fbbf24;
+  border: 1px solid rgba(245, 158, 11, 0.4);
+}
+
+.ai-arch-flow {
+  background: #090d16;
+  border: 1px dashed #334155;
+  border-radius: 8px;
+  padding: 0.6rem 0.8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  flex-wrap: wrap;
+  font-size: 0.78rem;
+  margin-bottom: 0.8rem;
+}
+
+.flow-step {
+  background: #1e293b;
+  color: #e2e8f0;
+  padding: 3px 7px;
+  border-radius: 5px;
+  font-weight: 700;
+  font-family: monospace;
+}
+
+.flow-arrow {
+  color: #38bdf8;
+  font-weight: 900;
+}
+
+.ai-practicality-section h5 {
+  margin: 0 0 0.4rem 0;
+  font-size: 0.85rem;
+  font-weight: 800;
+  color: #cbd5e1;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.ai-checklist {
+  margin: 0;
+  padding-left: 1.1rem;
+  font-size: 0.85rem;
+  line-height: 1.5;
+  color: #cbd5e1;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.ai-checklist li strong {
+  color: #f8fafc;
+}
+
 @media (max-width: 900px) {
-  .case-study-grid {
+  .case-study-grid,
+  .ai-options-grid {
     grid-template-columns: 1fr;
   }
   .layer-item {
