@@ -200,7 +200,7 @@ Demonstrate live capabilities built into this site right now: Google OAuth 2.0 a
 <div style="display: flex; gap: 0.6rem; align-items: center; flex-wrap: wrap;">
 <a href="/resources#⚡-graphics-embedded-ai-oauth-database-examples" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.35rem 0.8rem; border-radius: 8px; font-size: 0.84rem; font-weight: 800; text-decoration: none; background: linear-gradient(135deg, rgba(245, 158, 11, 0.22), rgba(244, 63, 94, 0.22)); border: 1.5px solid rgba(251, 191, 36, 0.6); color: #fef08a; box-shadow: 0 2px 10px rgba(245, 158, 11, 0.2);">🎆 Launch Fireworks ↗</a>
 <OAuthFeedbackModal />
-<a href="/resources#the-8-layer-full-stack-autobiography" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 0.35rem; padding: 0.35rem 0.8rem; border-radius: 8px; font-size: 0.84rem; font-weight: 800; text-decoration: none; background: linear-gradient(135deg, rgba(2, 132, 199, 0.2), rgba(245, 158, 11, 0.2)); border: 1.5px solid rgba(56, 189, 248, 0.6); color: #38bdf8; box-shadow: 0 2px 10px rgba(2, 132, 199, 0.2);">⚡ Full-Stack Blueprint ↗</a>
+<a href="/resources?modal=full-stack-architecture" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 0.35rem; padding: 0.35rem 0.8rem; border-radius: 8px; font-size: 0.84rem; font-weight: 800; text-decoration: none; background: linear-gradient(135deg, rgba(2, 132, 199, 0.2), rgba(245, 158, 11, 0.2)); border: 1.5px solid rgba(56, 189, 248, 0.6); color: #38bdf8; box-shadow: 0 2px 10px rgba(2, 132, 199, 0.2);">⚡ Full-Stack Blueprint ↗</a>
 </div>
 </div>
 

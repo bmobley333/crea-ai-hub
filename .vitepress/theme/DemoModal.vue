@@ -1106,15 +1106,56 @@ function handleKeydown(e: KeyboardEvent) {
   }
 }
 
+function checkUrlForModal() {
+  if (typeof window === 'undefined') return
+  try {
+    const params = new URLSearchParams(window.location.search)
+    const modalParam = params.get('modal') || params.get('demo')
+    if (modalParam) {
+      const validTypes: DemoType[] = [
+        'full-stack-architecture',
+        'fireworks-case-study',
+        'ai-web-embedding',
+        'local-db-sqlite',
+        'doc-card',
+        'doc-walkthrough',
+        'triage-card',
+        'triage-walkthrough'
+      ]
+      if (validTypes.includes(modalParam as DemoType)) {
+        setTimeout(() => {
+          openDemo(modalParam as DemoType)
+        }, 80)
+        return
+      }
+    }
+    const hash = window.location.hash
+    if (hash === '#full-stack-architecture' || hash === '#blueprint') {
+      setTimeout(() => openDemo('full-stack-architecture'), 80)
+    } else if (hash === '#fireworks-case-study') {
+      setTimeout(() => openDemo('fireworks-case-study'), 80)
+    } else if (hash === '#ai-web-embedding') {
+      setTimeout(() => openDemo('ai-web-embedding'), 80)
+    } else if (hash === '#local-db-sqlite') {
+      setTimeout(() => openDemo('local-db-sqlite'), 80)
+    }
+  } catch {
+    // Ignore URL parsing errors
+  }
+}
+
 onMounted(() => {
   if (typeof window !== 'undefined') {
     window.addEventListener('keydown', handleKeydown)
+    window.addEventListener('popstate', checkUrlForModal)
+    checkUrlForModal()
   }
 })
 
 onUnmounted(() => {
   if (typeof window !== 'undefined') {
     window.removeEventListener('keydown', handleKeydown)
+    window.removeEventListener('popstate', checkUrlForModal)
   }
 })
 </script>
