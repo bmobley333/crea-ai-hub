@@ -158,12 +158,11 @@ Drop the core metric: <strong>6 total hours</strong> (2 hours architecture & pla
 <p style="margin: 0 0 0.6rem 0; color: #f8fafc; font-size: 1.05rem; font-weight: 700;">
 <em>"The sacred boundary is non-negotiable: zero cloud leakage for member PII, and zero write access to the OT control loop."</em>
 </p>
-<p style="margin: 0 0 0.5rem 0; color: #cbd5e1; font-size: 0.9rem; line-height: 1.5;">
+<p style="margin: 0 0 0.75rem 0; color: #cbd5e1; font-size: 0.9rem; line-height: 1.5;">
 Establish the baseline governance rules before showing tool leverage: physical air-gaps between SCADA and Enterprise IT, hardware-enforced data diodes, on-premise open-weight models for sensitive member/payroll data, and NERC CIP Electronic Security Perimeter (ESP) compliance.
 </p>
-<div style="margin-top: 0.5rem; display: flex; gap: 0.5rem; flex-wrap: wrap;">
-<a href="/architecture" target="_blank" rel="noopener noreferrer" style="color: #f59e0b; font-size: 0.85rem; font-weight: 700; text-decoration: underline;">🛡️ Sovereign OT/IT Architecture & Security Contract ↗</a>
-<span style="color: #475569;">•</span>
+<div style="display: flex; gap: 0.6rem; align-items: center; flex-wrap: wrap;">
+<a href="/resources?modal=full-stack-architecture" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 0.35rem; padding: 0.35rem 0.8rem; border-radius: 8px; font-size: 0.84rem; font-weight: 800; text-decoration: none; background: linear-gradient(135deg, rgba(2, 132, 199, 0.2), rgba(245, 158, 11, 0.2)); border: 1.5px solid rgba(56, 189, 248, 0.6); color: #38bdf8; box-shadow: 0 2px 10px rgba(2, 132, 199, 0.2);">⚡ Full-Stack Blueprint ↗</a>
 <a href="https://docs.google.com/presentation/d/1BmBU_wbQ_YdHzZuPM2_lFvGxcCrKzYFl8jXgYZOk6rw/edit#slide=id.s02_ot_it_boundary" target="_blank" rel="noopener noreferrer" style="color: #f59e0b; font-size: 0.85rem; font-weight: 700; text-decoration: underline;">📊 Slide 3: The OT vs. IT Boundary ↗</a>
 <span style="color: #475569;">•</span>
 <a href="https://docs.google.com/presentation/d/1BmBU_wbQ_YdHzZuPM2_lFvGxcCrKzYFl8jXgYZOk6rw/edit#slide=id.s04_bounded_loop" target="_blank" rel="noopener noreferrer" style="color: #f59e0b; font-size: 0.85rem; font-weight: 700; text-decoration: underline;">📊 Slide 5: The Bounded Operating Loop ↗</a>
@@ -191,27 +190,10 @@ Show how human intent maps to sandboxed plan approval, automated syntax validati
 </div>
 </div>
 
-<!-- Step 4: Artifact 1 - Gemini Notebook -->
-<div style="background: #0f172a; border-left: 4px solid #34d399; padding: 1.25rem; border-radius: 0 10px 10px 0; border-top: 1px solid #1e293b; border-right: 1px solid #1e293b; border-bottom: 1px solid #1e293b;">
-<div style="display: flex; align-items: center; gap: 8px; margin-bottom: 0.35rem;">
-<span style="color: #34d399; font-weight: 800; font-size: 0.85rem; text-transform: uppercase;">4. Artifact 1: Gemini Notebook (RAG & Knowledge Base)</span>
-</div>
-<p style="margin: 0 0 0.6rem 0; color: #f8fafc; font-size: 1.05rem; font-weight: 700;">
-<em>"Instant enterprise RAG over legacy manuals without spinning up a single vector database."</em>
-</p>
-<p style="margin: 0 0 0.5rem 0; color: #cbd5e1; font-size: 0.9rem; line-height: 1.5;">
-Click Card 2 to open the <a href="https://notebook.google.com/notebook/49bfc1b6-eefc-4efe-a6d2-e67dff3d8c05" target="_blank" rel="noopener noreferrer" style="color: #34d399; font-weight: 700;">CREA Demo Workspace ↗</a>.
-Execute a live query against synthetic co-op documentation (e.g. SEL-751 feeder relay protection or storm outage recovery runbooks) to prove 100% grounded citations.
-</p>
-<div style="margin-top: 0.5rem; display: flex; gap: 0.5rem; flex-wrap: wrap;">
-<a href="https://drive.google.com/drive/folders/1YkPhFz-ydfPEj3GL9awLQa-uz55Z7Fm3" target="_blank" rel="noopener noreferrer" style="color: #34d399; font-size: 0.85rem; font-weight: 700; text-decoration: underline;">📂 View Synthetic Source SOPs in Drive ↗</a>
-</div>
-</div>
-
-<!-- Step 5: Artifact 2 - Full-Stack App -->
+<!-- Step 4: Artifact 1 - Full-Stack App -->
 <div style="background: #0f172a; border-left: 4px solid #38bdf8; padding: 1.25rem; border-radius: 0 10px 10px 0; border-top: 1px solid #1e293b; border-right: 1px solid #1e293b; border-bottom: 1px solid #1e293b;">
 <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 0.35rem;">
-<span style="color: #38bdf8; font-weight: 800; font-size: 0.85rem; text-transform: uppercase;">5. Artifact 2: Full-Stack Web App (Vercel + Supabase + OAuth)</span>
+<span style="color: #38bdf8; font-weight: 800; font-size: 0.85rem; text-transform: uppercase;">4. Artifact 1: Full-Stack Web App (Vercel + Supabase + OAuth)</span>
 </div>
 <p style="margin: 0 0 0.6rem 0; color: #f8fafc; font-size: 1.05rem; font-weight: 700;">
 <em>"Normally, how long does setting up auth, schema, and responsive UI take your teams?"</em>
@@ -221,14 +203,35 @@ Demonstrate live capabilities built into this site right now: Google OAuth 2.0 a
 </p>
 <div style="display: flex; gap: 0.6rem; align-items: center; flex-wrap: wrap;">
 <OAuthFeedbackModal />
-<a href="/resources?modal=full-stack-architecture" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 0.35rem; padding: 0.35rem 0.8rem; border-radius: 8px; font-size: 0.84rem; font-weight: 800; text-decoration: none; background: linear-gradient(135deg, rgba(2, 132, 199, 0.2), rgba(245, 158, 11, 0.2)); border: 1.5px solid rgba(56, 189, 248, 0.6); color: #38bdf8; box-shadow: 0 2px 10px rgba(2, 132, 199, 0.2);">⚡ Full-Stack Blueprint ↗</a>
 </div>
 </div>
 
-<!-- Step 6: Artifact 3 - The Prompting & Debugging Loop -->
+<!-- Step 5: Open-Weight vs. Frontier Models vs. Hybrid -->
+<div style="background: #0f172a; border-left: 4px solid #34d399; padding: 1.25rem; border-radius: 0 10px 10px 0; border-top: 1px solid #1e293b; border-right: 1px solid #1e293b; border-bottom: 1px solid #1e293b;">
+<div style="display: flex; align-items: center; gap: 8px; margin-bottom: 0.35rem;">
+<span style="color: #34d399; font-weight: 800; font-size: 0.85rem; text-transform: uppercase;">5. Open Weight vs. Frontier Models vs. Hybrid</span>
+</div>
+<p style="margin: 0 0 0.6rem 0; color: #f8fafc; font-size: 1.05rem; font-weight: 700;">
+<em>"Right engine for the right data: Frontier cloud for massive context & architecture, local open-weight for sovereign privacy, and hybrid for the optimal utility balance."</em>
+</p>
+<p style="margin: 0 0 0.5rem 0; color: #cbd5e1; font-size: 0.9rem; line-height: 1.5;">
+Guide utility leadership through the 3 deployment tiers: Frontier Cloud APIs (Gemini 2M context / Claude Code), On-Premises Open-Weight (Llama 3.3 70B, Qwen 2.5, DeepSeek on $3.5k–$7k local nodes), and Hybrid Orchestration.
+</p>
+<div style="margin-top: 0.5rem; display: flex; gap: 0.5rem; flex-wrap: wrap;">
+<a href="/glossary#frontier-matrix" target="_blank" rel="noopener noreferrer" style="color: #34d399; font-size: 0.85rem; font-weight: 700; text-decoration: underline;">🏛️ Frontier AI & Open-Weight Matrix ↗</a>
+<span style="color: #475569;">•</span>
+<a href="https://docs.google.com/presentation/d/1BmBU_wbQ_YdHzZuPM2_lFvGxcCrKzYFl8jXgYZOk6rw/edit#slide=id.s09_cloud_local_hybrid" target="_blank" rel="noopener noreferrer" style="color: #34d399; font-size: 0.85rem; font-weight: 700; text-decoration: underline;">📊 Slide 10: Cloud vs. Local vs. Hybrid ↗</a>
+<span style="color: #475569;">•</span>
+<a href="https://notebook.google.com/notebook/49bfc1b6-eefc-4efe-a6d2-e67dff3d8c05" target="_blank" rel="noopener noreferrer" style="color: #34d399; font-size: 0.85rem; font-weight: 700; text-decoration: underline;">🧠 Gemini Demo Notebook ↗</a>
+<span style="color: #475569;">•</span>
+<a href="/hardware" target="_blank" rel="noopener noreferrer" style="color: #34d399; font-size: 0.85rem; font-weight: 700; text-decoration: underline;">💻 Hardware BoM ↗</a>
+</div>
+</div>
+
+<!-- Step 6: Artifact 2 - The Prompting & Debugging Loop -->
 <div style="background: #0f172a; border-left: 4px solid #fbbf24; padding: 1.25rem; border-radius: 0 10px 10px 0; border-top: 1px solid #1e293b; border-right: 1px solid #1e293b; border-bottom: 1px solid #1e293b;">
 <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 0.35rem;">
-<span style="color: #fbbf24; font-weight: 800; font-size: 0.85rem; text-transform: uppercase;">6. Artifact 3: The Prompting & Debugging Loop (Forensics)</span>
+<span style="color: #fbbf24; font-weight: 800; font-size: 0.85rem; text-transform: uppercase;">6. Artifact 2: The Prompting & Debugging Loop (Forensics)</span>
 </div>
 <p style="margin: 0 0 0.6rem 0; color: #f8fafc; font-size: 1.05rem; font-weight: 700;">
 <em>"Human Intent → AI Output → Human Debug → Correction → Validation."</em>
