@@ -145,7 +145,7 @@ Open Google Slides ↗
 <em>"Let me show you what happens when one IT professional uses modern AI as an engineering partner."</em>
 </p>
 <p style="margin: 0 0 0.5rem 0; color: #cbd5e1; font-size: 0.9rem; line-height: 1.5;">
-Open directly on this live Web App (<a href="/presentation" target="_blank" rel="noopener noreferrer" style="color: #38bdf8; font-weight: 700;">Presentation Hub ↗</a>).
+Open directly on this live Web App.
 Drop the core metric: <strong>6 total hours</strong> (2 hours architecture & planning, 4 hours execution) to build a production full-stack system with auth, database, canvas graphics, and zero manual boilerplate lines.
 </p>
 </div>
@@ -198,9 +198,9 @@ Execute a live query against synthetic co-op documentation (e.g. SEL-751 feeder 
 Demonstrate live capabilities built into this site right now: Google OAuth 2.0 authentication, PostgreSQL real-time persistence, and HTML5 Canvas physics.
 </p>
 <div style="display: flex; gap: 0.6rem; align-items: center; flex-wrap: wrap;">
-<FireworksButton label="Launch Fireworks" />
+<a href="/resources#⚡-graphics-embedded-ai-oauth-database-examples" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.35rem 0.8rem; border-radius: 8px; font-size: 0.84rem; font-weight: 800; text-decoration: none; background: linear-gradient(135deg, rgba(245, 158, 11, 0.22), rgba(244, 63, 94, 0.22)); border: 1.5px solid rgba(251, 191, 36, 0.6); color: #fef08a; box-shadow: 0 2px 10px rgba(245, 158, 11, 0.2);">🎆 Launch Fireworks ↗</a>
 <OAuthFeedbackModal />
-<DemoButton type="full-stack-architecture" label="⚡ Full-Stack Blueprint" />
+<a href="/resources#the-8-layer-full-stack-autobiography" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 0.35rem; padding: 0.35rem 0.8rem; border-radius: 8px; font-size: 0.84rem; font-weight: 800; text-decoration: none; background: linear-gradient(135deg, rgba(2, 132, 199, 0.2), rgba(245, 158, 11, 0.2)); border: 1.5px solid rgba(56, 189, 248, 0.6); color: #38bdf8; box-shadow: 0 2px 10px rgba(2, 132, 199, 0.2);">⚡ Full-Stack Blueprint ↗</a>
 </div>
 </div>
 
@@ -222,10 +222,10 @@ Walk the exact 4-step engineering loop using raw artifact records:
 <strong>The Prompt & Plan:</strong> Click <a href="https://drive.google.com/file/d/1_jWc0p6nbnuz6w16NEz8sVSn_7GXXvVt/view?usp=drive_link" target="_blank" rel="noopener noreferrer" style="color: #38bdf8; font-weight: 700; text-decoration: underline;">Fireworks Prompt and Plan.png ↗</a> to reveal the architectural prompt contract.
 </li>
 <li>
-<strong>The Audience Check:</strong> Ask the room: <em>"What do you think it generated on the first try?"</em>
+<strong>The AI Generation:</strong> Click <a href="https://drive.google.com/file/d/10Kfuy1__TU0wmoHXzYrx5wZ2967PfE--/view?usp=drive_link" target="_blank" rel="noopener noreferrer" style="color: #fbbf24; font-weight: 700; text-decoration: underline;">Fireworks Walkthrough in 49 seconds.png ↗</a> to show the AI code plan and execution speed.
 </li>
 <li>
-<strong>The AI Generation:</strong> Click <a href="https://drive.google.com/file/d/10Kfuy1__TU0wmoHXzYrx5wZ2967PfE--/view?usp=drive_link" target="_blank" rel="noopener noreferrer" style="color: #fbbf24; font-weight: 700; text-decoration: underline;">Fireworks Walkthrough in 49 seconds.png ↗</a> to show the AI code plan and execution speed.
+<strong>The Audience Check:</strong> Ask the room: <em>"What do you think it generated on the first try?"</em>
 </li>
 <li>
 <strong>The Live Production Reality:</strong> Click <a href="/resources#⚡-graphics-embedded-ai-oauth-database-examples" target="_blank" rel="noopener noreferrer" style="color: #34d399; font-weight: 700; text-decoration: underline;">Live Graphics, Embedded AI & Database Examples ↗</a> to trigger the actual running canvas physics and database persistence in a new tab.
@@ -252,6 +252,8 @@ Frame practical high-ROI use cases for electric cooperative IT: internal policy 
 <a href="/demos/documentation-engine" target="_blank" rel="noopener noreferrer" style="color: #c084fc; font-size: 0.85rem; font-weight: 700; text-decoration: underline;">📖 Documentation Engine Demo ↗</a>
 <span style="color: #475569;">•</span>
 <a href="/demos/ticket-triage" target="_blank" rel="noopener noreferrer" style="color: #c084fc; font-size: 0.85rem; font-weight: 700; text-decoration: underline;">🎫 IT Ticket Triage Demo ↗</a>
+<span style="color: #475569;">•</span>
+<a href="/resources#💡-high-impact-next-level-ai-projects" target="_blank" rel="noopener noreferrer" style="color: #fbbf24; font-size: 0.85rem; font-weight: 700; text-decoration: underline;">💡 High-Impact AI Projects Catalog ↗</a>
 </div>
 </div>
 
@@ -264,7 +266,7 @@ Frame practical high-ROI use cases for electric cooperative IT: internal policy 
 <em>"Which piece of this architecture do you want me to break open and inspect?"</em>
 </p>
 <p style="margin: 0 0 0.5rem 0; color: #cbd5e1; font-size: 0.9rem; line-height: 1.5;">
-Keep the master link on screen: <a href="https://crea-ai-hub.vercel.app" target="_blank" rel="noopener noreferrer" style="color: #38bdf8; font-weight: 700; text-decoration: underline;">crea-ai-hub.vercel.app ↗</a>. Invite attendees to bookmark the hub and inspect the 19-slide appendix, 30-day playbook, or live codebase.
+Invite attendees to bookmark the hub and inspect the 19-slide appendix, 30-day playbook, or live codebase.
 </p>
 <div style="margin-top: 0.5rem; display: flex; gap: 0.5rem; flex-wrap: wrap;">
 <a href="/30_Day_Coop_AI_Playbook.pdf" target="_blank" rel="noopener noreferrer" style="color: #f43f5e; font-size: 0.85rem; font-weight: 700; text-decoration: underline;">📥 Download 30-Day Playbook PDF ↗</a>
