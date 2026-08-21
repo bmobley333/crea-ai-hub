@@ -244,10 +244,27 @@ Walk the exact 4-step engineering loop using raw artifact records:
 </div>
 </div>
 
-<!-- Step 6: REA Practical Applications -->
+<!-- Step 6: Google Notebook / RAG (Retrieval-Augmented Generation) -->
+<div style="background: #0f172a; border-left: 4px solid #10b981; padding: 1.25rem; border-radius: 0 10px 10px 0; border-top: 1px solid #1e293b; border-right: 1px solid #1e293b; border-bottom: 1px solid #1e293b;">
+<div style="display: flex; align-items: center; gap: 8px; margin-bottom: 0.35rem;">
+<span style="color: #10b981; font-weight: 800; font-size: 0.85rem; text-transform: uppercase;">6. Google Notebook / RAG (Retrieval-Augmented Generation)</span>
+</div>
+<p style="margin: 0 0 0.6rem 0; color: #f8fafc; font-size: 1.05rem; font-weight: 700;">
+<em>"Zero hallucinations, instant document citations, and spoken audio overviews—grounding AI in your co-op's true source of truth."</em>
+</p>
+<p style="margin: 0 0 0.75rem 0; color: #cbd5e1; font-size: 0.9rem; line-height: 1.5;">
+Demonstrate Level 2 Grounded RAG live using Google NotebookLM. Ingest unstructured utility SOPs, equipment specifications, and the entire conference deck to enable instant interactive Q&A with exact source page citations—plus automated 2-minute spoken audio briefings for field crews in transit.
+</p>
+<div style="display: flex; gap: 0.6rem; align-items: center; flex-wrap: wrap; margin-top: 0.5rem;">
+<a href="https://notebook.google.com/notebook/49bfc1b6-eefc-4efe-a6d2-e67dff3d8c05" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 0.35rem; padding: 0.35rem 0.8rem; border-radius: 8px; font-size: 0.84rem; font-weight: 800; text-decoration: none; background: linear-gradient(135deg, rgba(16, 185, 129, 0.2), rgba(6, 182, 212, 0.2)); border: 1.5px solid rgba(52, 211, 153, 0.6); color: #34d399; box-shadow: 0 2px 10px rgba(16, 185, 129, 0.2);">🧪 Synthetic SOPs Notebook ↗</a>
+<a href="https://notebook.google.com/notebook/8670f8c2-5863-4f91-ba9b-6f201a744f44" target="_blank" rel="noopener noreferrer" style="color: #34d399; font-size: 0.85rem; font-weight: 700; text-decoration: underline;">🧠 Keynote Companion Notebook ↗</a>
+</div>
+</div>
+
+<!-- Step 7: REA Practical Applications -->
 <div style="background: #0f172a; border-left: 4px solid #c084fc; padding: 1.25rem; border-radius: 0 10px 10px 0; border-top: 1px solid #1e293b; border-right: 1px solid #1e293b; border-bottom: 1px solid #1e293b;">
 <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 0.35rem;">
-<span style="color: #c084fc; font-weight: 800; font-size: 0.85rem; text-transform: uppercase;">6. REA Practical Applications</span>
+<span style="color: #c084fc; font-weight: 800; font-size: 0.85rem; text-transform: uppercase;">7. REA Practical Applications</span>
 </div>
 <p style="margin: 0 0 0.6rem 0; color: #f8fafc; font-size: 1.05rem; font-weight: 700;">
 <em>"The bottleneck is no longer coding speed; it’s our ability to clearly define the problem."</em>
@@ -264,10 +281,10 @@ Frame practical high-ROI use cases for electric cooperative IT: internal policy 
 </div>
 </div>
 
-<!-- Step 7: The Takeaway & Q&A -->
+<!-- Step 8: The Takeaway & Q&A -->
 <div style="background: #0f172a; border-left: 4px solid #f43f5e; padding: 1.25rem; border-radius: 0 10px 10px 0; border-top: 1px solid #1e293b; border-right: 1px solid #1e293b; border-bottom: 1px solid #1e293b;">
 <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 0.35rem;">
-<span style="color: #f43f5e; font-weight: 800; font-size: 0.85rem; text-transform: uppercase;">7. The Takeaway & Interactive Q&A</span>
+<span style="color: #f43f5e; font-weight: 800; font-size: 0.85rem; text-transform: uppercase;">8. The Takeaway & Interactive Q&A</span>
 </div>
 <p style="margin: 0 0 0.6rem 0; color: #f8fafc; font-size: 1.05rem; font-weight: 700;">
 <em>"Which piece of this architecture do you want me to break open and inspect?"</em>
