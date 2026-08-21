@@ -198,7 +198,6 @@ Execute a live query against synthetic co-op documentation (e.g. SEL-751 feeder 
 Demonstrate live capabilities built into this site right now: Google OAuth 2.0 authentication, PostgreSQL real-time persistence, and HTML5 Canvas physics.
 </p>
 <div style="display: flex; gap: 0.6rem; align-items: center; flex-wrap: wrap;">
-<a href="/resources#⚡-graphics-embedded-ai-oauth-database-examples" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.35rem 0.8rem; border-radius: 8px; font-size: 0.84rem; font-weight: 800; text-decoration: none; background: linear-gradient(135deg, rgba(245, 158, 11, 0.22), rgba(244, 63, 94, 0.22)); border: 1.5px solid rgba(251, 191, 36, 0.6); color: #fef08a; box-shadow: 0 2px 10px rgba(245, 158, 11, 0.2);">🎆 Launch Fireworks ↗</a>
 <OAuthFeedbackModal />
 <a href="/resources?modal=full-stack-architecture" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 0.35rem; padding: 0.35rem 0.8rem; border-radius: 8px; font-size: 0.84rem; font-weight: 800; text-decoration: none; background: linear-gradient(135deg, rgba(2, 132, 199, 0.2), rgba(245, 158, 11, 0.2)); border: 1.5px solid rgba(56, 189, 248, 0.6); color: #38bdf8; box-shadow: 0 2px 10px rgba(2, 132, 199, 0.2);">⚡ Full-Stack Blueprint ↗</a>
 </div>
@@ -232,7 +231,8 @@ Walk the exact 4-step engineering loop using raw artifact records:
 </li>
 </ol>
 </div>
-<div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+<div style="display: flex; gap: 0.6rem; align-items: center; flex-wrap: wrap;">
+<a href="/resources#⚡-graphics-embedded-ai-oauth-database-examples" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.35rem 0.8rem; border-radius: 8px; font-size: 0.84rem; font-weight: 800; text-decoration: none; background: linear-gradient(135deg, rgba(245, 158, 11, 0.22), rgba(244, 63, 94, 0.22)); border: 1.5px solid rgba(251, 191, 36, 0.6); color: #fef08a; box-shadow: 0 2px 10px rgba(245, 158, 11, 0.2);">🎆 Launch Fireworks ↗</a>
 <a href="https://docs.google.com/document/d/1FleHQ5fE764-_TXq9NENNjM2lKMrzBDPlqqEn1bJIUw/edit?usp=drivesdk" target="_blank" rel="noopener noreferrer" style="color: #fbbf24; font-size: 0.85rem; font-weight: 700; text-decoration: underline;">📄 View Raw Prompt & Response Doc in Drive ↗</a>
 </div>
 </div>
