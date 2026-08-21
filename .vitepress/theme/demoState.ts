@@ -1,6 +1,6 @@
 import { ref } from 'vue'
 
-export type DemoType = 'doc-walkthrough' | 'doc-card' | 'triage-walkthrough' | 'triage-card' | 'fireworks-case-study' | 'full-stack-architecture' | null
+export type DemoType = 'doc-walkthrough' | 'doc-card' | 'triage-walkthrough' | 'triage-card' | 'fireworks-case-study' | 'full-stack-architecture' | 'oauth-db-demo' | null
 
 export const activeDemo = ref<DemoType>(null)
 export const isModalOpen = ref<boolean>(false)

@@ -34,7 +34,15 @@ Download presentation slide decks, the printable 2-page executive summary playbo
 | **Synthetic Sources Folder** | Google Drive | [Synthetic Notebook Sources](https://drive.google.com/drive/folders/1YkPhFz-ydfPEj3GL9awLQa-uz55Z7Fm3) | 4 synthetic (test data) utility SOPs, SEL relay specs, and storm runbooks. |
 | **Documentation Engine (Use Case 1)** | Modal Demos | <DemoButton type="doc-walkthrough" label="📖 Walkthrough" /> <DemoButton type="doc-card" label="🖼️ Visual Card ↗" /> | 3-step triage for legacy binder recovery with OCR & audio overview. |
 | **IT Ticket Triage (Use Case 2)** | Modal Demos | <DemoButton type="triage-walkthrough" label="📖 Walkthrough" /> <DemoButton type="triage-card" label="🖼️ Visual Card ↗" /> | Ticket parsing card with the mandatory **`[AWAITING APPROVAL]`** gate. |
+
+---
+
+## ⚡ Graphics, OAuth, and Data Base Examples
+
+| Demonstration Tool | Platform | Link | Description |
+| :--- | :--- | :--- | :--- |
 | **Celebration & Visual FX (Demo 3)** | Canvas FX & Case Study | <FireworksButton label="Launch Fireworks" /> <DemoButton type="fireworks-case-study" label="⚡ Built in 49s" /> | 2D particle physics fireworks & spatial audio — designed, coded, and deployed in 49s. |
+| **Google OAuth & Live Feedback DB** | Google OAuth + Supabase DB | <DemoButton type="oauth-db-demo" label="🔐 Live Feedback DB" /> | Real-time PostgreSQL database persistence with Google OAuth 2.0 authentication, 1–5 star rating engine, and public peer review cards. |
 
 <div style="margin: 1.75rem 0; padding: 1.5rem; background: linear-gradient(135deg, rgba(2, 132, 199, 0.22), rgba(15, 23, 42, 0.95)); border: 1.5px solid #0284c7; border-radius: 14px; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4), 0 0 25px rgba(2, 132, 199, 0.15); display: flex; justify-content: space-between; align-items: center; gap: 1.5rem; flex-wrap: wrap;">
   <div style="flex: 1 1 500px;">

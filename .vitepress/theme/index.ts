@@ -5,6 +5,7 @@ import DemoModal from './DemoModal.vue'
 import DemoButton from './DemoButton.vue'
 import FireworksModal from './FireworksModal.vue'
 import FireworksButton from './FireworksButton.vue'
+import OAuthFeedbackModal from './OAuthFeedbackModal.vue'
 import './style.css'
 
 export default {
@@ -12,7 +13,7 @@ export default {
   Layout() {
     return h(DefaultTheme.Layout, null, {
       'layout-top': () => h(Banner),
-      'layout-bottom': () => [h(DemoModal), h(FireworksModal)]
+      'layout-bottom': () => [h(DemoModal), h(FireworksModal), h(OAuthFeedbackModal)]
     })
   },
   enhanceApp({ app }) {
@@ -20,5 +21,6 @@ export default {
     app.component('DemoModal', DemoModal)
     app.component('FireworksButton', FireworksButton)
     app.component('FireworksModal', FireworksModal)
+    app.component('OAuthFeedbackModal', OAuthFeedbackModal)
   }
 }
