@@ -388,31 +388,35 @@
             </div>
           </div>
 
-          <!-- 7. Embedded Web AI Architecture (Cloud API vs On-Prem) -->
+          <!-- 7. Embedded Web AI Architecture (Cloud API vs On-Prem IT vs On-Prem Air-Gapped OT) -->
           <div v-if="activeDemo === 'ai-web-embedding'" class="ai-embedding-content">
             <!-- Hero Metric Ribbon -->
             <div class="metric-ribbon">
               <div class="metric-pill gold">
                 <span class="metric-label">🛠️ AI HARNESS IMPACT</span>
-                <span class="metric-val">Antigravity 2.0 (Fast & Zero Boilerplate)</span>
+                <span class="metric-val">Antigravity 2.0 (Zero Boilerplate)</span>
               </div>
               <div class="metric-pill cyan">
                 <span class="metric-label">🌐 OPTION A: CLOUD FRONTIER</span>
                 <span class="metric-val">🟢 EASY (1–2 Hours)</span>
               </div>
-              <div class="metric-pill emerald">
-                <span class="metric-label">🔒 OPTION B: ON-PREM OPEN-WEIGHT</span>
+              <div class="metric-pill gold">
+                <span class="metric-label">🏢 OPTION B: ON-PREM PUBLIC (IT)</span>
                 <span class="metric-val">🟡 MEDIUM (1–2 Days)</span>
+              </div>
+              <div class="metric-pill emerald">
+                <span class="metric-label">🛡️ OPTION C: AIR-GAPPED (IT/OT)</span>
+                <span class="metric-val">🟡 MED-HARD (2–3 Days)</span>
               </div>
             </div>
 
             <div class="fullstack-intro-box">
-              <h3>🧠 Embedding AI Copilots & Workflows into Web Applications</h3>
-              <p>With modern agentic AI developer harnesses like <strong>Google Antigravity 2.0</strong>, integrating intelligent AI features into web apps (like <code>crea-ai-hub</code> on Vercel) is straightforward. Below are the two standard architectural paths for electric co-ops—from instant cloud frontier APIs to 100% sovereign on-premises open-weight deployments.</p>
+              <h3>🧠 Embedding AI Copilots & Workflows into Modern Web Applications</h3>
+              <p>With modern agentic AI developer harnesses like <strong>Google Antigravity 2.0</strong>, integrating intelligent AI features into web applications (like <code>crea-ai-hub</code> on Vercel) is fast and straightforward. Below are the three core deployment options for electric co-ops—ranging from zero-CAPEX cloud frontier APIs to sovereign, air-gapped on-premises architectures with strict IT/OT network isolation.</p>
             </div>
 
-            <!-- Two Side-by-Side Architectural Option Cards -->
-            <div class="ai-options-grid">
+            <!-- Three Architectural Option Cards -->
+            <div class="ai-options-grid three-col">
               <!-- Option A Card -->
               <div class="ai-option-card cloud-card">
                 <div class="ai-card-header">
@@ -425,49 +429,82 @@
                 </div>
                 <div class="ai-card-body">
                   <div class="ai-arch-flow">
-                    <span class="flow-step">Vue 3 Web UI</span>
+                    <span class="flow-step">Vue 3 UI</span>
                     <span class="flow-arrow">➔</span>
                     <span class="flow-step">Vercel Edge API Route</span>
                     <span class="flow-arrow">➔</span>
-                    <span class="flow-step">Frontier Model API (SSE Stream)</span>
+                    <span class="flow-step">Cloud Frontier API (SSE Stream)</span>
                   </div>
                   <div class="ai-practicality-section">
                     <h5>⚙️ Practicality & Implementation:</h5>
                     <ul class="ai-checklist">
-                      <li><strong>Architecture:</strong> A serverless edge function holds the encrypted API key in environment variables, sanitizes user input, attaches system prompts, and streams markdown tokens back to the web browser via Server-Sent Events (SSE).</li>
-                      <li><strong>Implementation Effort:</strong> <strong>1 to 2 hours</strong> using modern AI SDKs (<code>@google/genai</code>, <code>ai</code> by Vercel, or standard REST fetch).</li>
-                      <li><strong>Hardware Required:</strong> <strong>$0 on-premises hardware</strong> (runs completely serverless on cloud edge).</li>
-                      <li><strong>Sovereignty & Security:</strong> Requires active Internet egress. Ideal for public member portals, public outage FAQs, and standard IT helpdesk assistants where data is non-classified.</li>
+                      <li><strong>Architecture:</strong> Serverless edge function proxies prompts with encrypted API keys, streaming markdown tokens back to the client via Server-Sent Events (SSE).</li>
+                      <li><strong>Implementation:</strong> <strong>1 to 2 hours</strong> using standard AI SDKs (<code>@google/genai</code>, <code>ai</code> by Vercel).</li>
+                      <li><strong>Hardware CAPEX:</strong> <strong>$0</strong> on-premises hardware.</li>
+                      <li><strong>Network Zone:</strong> Public Internet / Cloud Edge.</li>
+                      <li><strong>Best For:</strong> Public customer web portals, outage FAQ assistants, public rate tariffs, non-sensitive helpdesk triage.</li>
                     </ul>
                   </div>
                 </div>
               </div>
 
               <!-- Option B Card -->
-              <div class="ai-option-card onprem-card">
+              <div class="ai-option-card onprem-it-card">
                 <div class="ai-card-header">
                   <div class="ai-badge-row">
-                    <span class="layer-tag emerald">OPTION B: ON-PREMISES OPEN-WEIGHT</span>
+                    <span class="layer-tag gold">OPTION B: ON-PREM PUBLIC (IT)</span>
                     <span class="difficulty-pill medium">🟡 MEDIUM • 1–2 Days</span>
                   </div>
-                  <h4>Local / Sovereign Model on LAN Hardware</h4>
-                  <p class="ai-model-examples">Llama 3.3 70B • Qwen 2.5 72B • DeepSeek-R1 70B (via Ollama / vLLM)</p>
+                  <h4>Local Model with Public IT Ingress</h4>
+                  <p class="ai-model-examples">Llama 3.3 70B • Qwen 2.5 72B (via Ollama / vLLM on IT DMZ)</p>
                 </div>
                 <div class="ai-card-body">
                   <div class="ai-arch-flow">
-                    <span class="flow-step">Local Web UI</span>
+                    <span class="flow-step">Public Web App</span>
                     <span class="flow-arrow">➔</span>
-                    <span class="flow-step">Internal LAN Gateway (NGINX)</span>
+                    <span class="flow-step">Cloudflare Tunnel / NGINX DMZ</span>
                     <span class="flow-arrow">➔</span>
-                    <span class="flow-step">Mac Studio / DGX (Ollama/vLLM)</span>
+                    <span class="flow-step">Co-op IT Server (Mac/DGX)</span>
                   </div>
                   <div class="ai-practicality-section">
                     <h5>⚙️ Practicality & Implementation:</h5>
                     <ul class="ai-checklist">
-                      <li><strong>Architecture:</strong> An open-weight model runs on dedicated local hardware (e.g. Apple Silicon Mac Studio M2/M3 Ultra with 128GB unified memory or NVIDIA RTX 4090 / DGX Spark workstation) using Ollama or vLLM with OpenAI-compatible REST endpoints.</li>
-                      <li><strong>Implementation Effort:</strong> <strong>1 to 2 days</strong> (setting up local runner, LAN firewall rules, TLS reverse proxy, and health checks).</li>
-                      <li><strong>Hardware Required:</strong> <strong>$3,500 – $7,000 CAPEX</strong> for local workstation with 64GB–128GB high-bandwidth VRAM/memory.</li>
-                      <li><strong>Sovereignty & Security:</strong> <strong>100% Air-Gapped & Sovereign</strong>. Zero telemetry, zero cloud data leakage, zero monthly API bills. Mandatory for substation schematics, SCADA relay configs, and employee PII.</li>
+                      <li><strong>Architecture:</strong> Open-weight model hosted on co-op enterprise IT hardware, securely exposed to public web requests via an authenticated reverse proxy / DMZ tunnel.</li>
+                      <li><strong>Implementation:</strong> <strong>1 to 2 days</strong> (setting up local runner, public ingress TLS tunnel, and rate-limiting).</li>
+                      <li><strong>Hardware CAPEX:</strong> <strong>$3,500 – $7,000</strong> (Mac Studio 128GB or RTX workstation).</li>
+                      <li><strong>Network Zone:</strong> <strong>IT Enterprise Network Only (Strictly Air-Gapped from OT)</strong>.</li>
+                      <li><strong>Best For:</strong> High-volume public member tools where the co-op wants $0 token fees and zero vendor data retention.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Option C Card -->
+              <div class="ai-option-card onprem-ot-card">
+                <div class="ai-card-header">
+                  <div class="ai-badge-row">
+                    <span class="layer-tag emerald">OPTION C: AIR-GAPPED (IT OR OT)</span>
+                    <span class="difficulty-pill hard">🟡 MED-HARD • 2–3 Days</span>
+                  </div>
+                  <h4>100% Sovereign Internal Air-Gapped AI</h4>
+                  <p class="ai-model-examples">Llama 3.3 70B • DeepSeek-R1 70B (Isolated Physical Node)</p>
+                </div>
+                <div class="ai-card-body">
+                  <div class="ai-arch-flow">
+                    <span class="flow-step">Internal LAN UI</span>
+                    <span class="flow-arrow">➔</span>
+                    <span class="flow-step">Air-Gapped Private LAN</span>
+                    <span class="flow-arrow">➔</span>
+                    <span class="flow-step">Dedicated Physical Node</span>
+                  </div>
+                  <div class="ai-practicality-section">
+                    <h5>⚙️ Practicality & Implementation:</h5>
+                    <ul class="ai-checklist">
+                      <li><strong>Architecture:</strong> 100% offline model runner communicating strictly over private internal LAN with zero external internet access.</li>
+                      <li><strong>Strict Air-Gap Law:</strong> <strong>1 Hardware Node Per Network</strong>. Because OT and IT are strictly air-gapped, a single server <em>cannot</em> serve both. To run AI on both IT and OT, the co-op deploys <strong>two separate physical workstations</strong>.</li>
+                      <li><strong>Hardware CAPEX:</strong> <strong>$3,500 – $7,000 per isolated network node</strong>.</li>
+                      <li><strong>Network Zone:</strong> <strong>Air-Gapped OT Grid SCADA OR Private Internal IT</strong>.</li>
+                      <li><strong>Best For:</strong> Substation SEL relay settings, transformer schematics, SCADA fault triage, executive board minutes, HR records.</li>
                     </ul>
                   </div>
                 </div>
@@ -476,46 +513,59 @@
 
             <!-- Decision Matrix Table -->
             <div class="benchmark-section">
-              <h4>📊 Electric Co-op Decision Matrix</h4>
+              <h4>📊 Electric Co-op 3-Way Architectural Decision Matrix</h4>
               <div class="table-scroll-wrapper">
                 <table class="benchmark-table">
                   <thead>
                     <tr>
-                      <th>Factor</th>
+                      <th>Architectural Factor</th>
                       <th>Option A: Cloud Frontier API</th>
-                      <th>Option B: On-Prem Open-Weight (Llama 70B)</th>
+                      <th>Option B: On-Prem Public (IT Network)</th>
+                      <th>Option C: On-Prem Air-Gapped (IT or OT)</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
+                      <td><strong>Network Placement & Scope</strong></td>
+                      <td>Cloud Edge (Vercel / Public)</td>
+                      <td>Co-op IT Enterprise LAN (Public Ingress)</td>
+                      <td><strong>Isolated Private LAN (Air-Gapped OT or Internal IT)</strong></td>
+                    </tr>
+                    <tr>
                       <td><strong>Implementation Difficulty</strong></td>
                       <td><span class="difficulty-pill easy">🟢 EASY (1–2 Hours)</span></td>
                       <td><span class="difficulty-pill medium">🟡 MEDIUM (1–2 Days)</span></td>
+                      <td><span class="difficulty-pill hard">🟡 MED-HARD (2–3 Days per Node)</span></td>
                     </tr>
                     <tr>
                       <td><strong>Upfront Hardware CAPEX</strong></td>
                       <td><strong>$0</strong> (Serverless Edge)</td>
-                      <td><strong>$3,500 – $7,000</strong> (Mac Studio / DGX)</td>
+                      <td><strong>$3,500 – $7,000</strong> (Single IT Workstation)</td>
+                      <td><strong>$3,500 – $7,000 per isolated physical node</strong></td>
                     </tr>
                     <tr>
-                      <td><strong>Ongoing Operating Cost</strong></td>
-                      <td>Pay-per-token API usage ($0.05 – $2.00 / 1M tokens)</td>
-                      <td><strong>$0 per token</strong> (Electricity only ~150W)</td>
+                      <td><strong>Ongoing Token API Cost</strong></td>
+                      <td>Pay-per-token ($0.05 – $2.00 / 1M tokens)</td>
+                      <td><strong>$0 per token</strong> (Hardware electricity only)</td>
+                      <td><strong>$0 per token</strong> (100% offline electricity only)</td>
                     </tr>
                     <tr>
                       <td><strong>Air-Gap & SCADA Compliance</strong></td>
-                      <td>❌ Not Air-Gapped (Internet Required)</td>
-                      <td><strong>✅ 100% Air-Gapped & Sovereign</strong></td>
+                      <td>❌ No (Requires Internet Egress)</td>
+                      <td>❌ No (IT Enterprise Only — NOT on OT)</td>
+                      <td><strong>✅ 100% Air-Gapped & Sovereign (NERC-CIP Friendly)</strong></td>
                     </tr>
                     <tr>
-                      <td><strong>Reasoning Power & Capabilities</strong></td>
-                      <td>S-Tier Frontier (Gemini 3.7 / Claude 3.7 Pro)</td>
-                      <td>High-Tier Enterprise (Llama 3.3 70B / Qwen 72B)</td>
+                      <td><strong>IT / OT Boundary Policy</strong></td>
+                      <td>Cloud only; no OT data allowed</td>
+                      <td>IT Enterprise only; strictly separated from OT grid</td>
+                      <td><strong>Strict Dual-Hardware Mandate:</strong> Separate physical boxes for IT & OT</td>
                     </tr>
                     <tr>
                       <td><strong>Ideal Co-op Use Case</strong></td>
-                      <td>Public customer web app, Outage FAQs, Member chatbots</td>
-                      <td>Substation logs, SCADA triage, Internal Co-op HR & Ops</td>
+                      <td>Public customer web apps, Outage FAQs, Member chatbots</td>
+                      <td>Public member portal with zero cloud token subscription cost</td>
+                      <td>Substation SEL logs, SCADA triage, Internal Board & HR docs</td>
                     </tr>
                   </tbody>
                 </table>
@@ -524,7 +574,7 @@
 
             <!-- Keynote Takeaway -->
             <div class="case-study-takeaway">
-              💡 <strong>Keynote Takeaway:</strong> Whether your co-op chooses the zero-friction speed of Cloud Frontier APIs or the uncompromising data privacy of On-Prem Open-Weight Llama 70B models, a modern AI harness like Antigravity 2.0 makes connecting the model to your web interface virtually effortless.
+              💡 <strong>Keynote Takeaway:</strong> Modern AI harnesses like Antigravity 2.0 make embedding AI into web interfaces trivial regardless of backend. For public co-op tools, Cloud APIs or IT On-Prem DMZs offer instant agility. For sensitive grid operations, deploying dedicated, physical air-gapped nodes ensures 100% sovereignty without ever bridging IT and OT networks.
             </div>
           </div>
         </div>
@@ -1864,6 +1914,10 @@ onUnmounted(() => {
   gap: 1.25rem;
 }
 
+.ai-options-grid.three-col {
+  grid-template-columns: repeat(3, 1fr);
+}
+
 .ai-option-card {
   background: rgba(15, 23, 42, 0.75);
   border-radius: 12px;
@@ -1884,11 +1938,20 @@ onUnmounted(() => {
   box-shadow: 0 8px 24px rgba(56, 189, 248, 0.15);
 }
 
-.ai-option-card.onprem-card {
+.ai-option-card.onprem-it-card {
+  border-color: rgba(245, 158, 11, 0.4);
+}
+
+.ai-option-card.onprem-it-card:hover {
+  border-color: #fbbf24;
+  box-shadow: 0 8px 24px rgba(245, 158, 11, 0.15);
+}
+
+.ai-option-card.onprem-ot-card {
   border-color: rgba(52, 211, 153, 0.4);
 }
 
-.ai-option-card.onprem-card:hover {
+.ai-option-card.onprem-ot-card:hover {
   border-color: #34d399;
   box-shadow: 0 8px 24px rgba(52, 211, 153, 0.15);
 }
@@ -1934,6 +1997,12 @@ onUnmounted(() => {
   background: rgba(245, 158, 11, 0.15);
   color: #fbbf24;
   border: 1px solid rgba(245, 158, 11, 0.4);
+}
+
+.difficulty-pill.hard {
+  background: rgba(245, 158, 11, 0.2);
+  color: #fde047;
+  border: 1px solid rgba(245, 158, 11, 0.55);
 }
 
 .ai-arch-flow {
@@ -1986,6 +2055,12 @@ onUnmounted(() => {
 
 .ai-checklist li strong {
   color: #f8fafc;
+}
+
+@media (max-width: 1080px) {
+  .ai-options-grid.three-col {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 900px) {
