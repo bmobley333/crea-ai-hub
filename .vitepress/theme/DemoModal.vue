@@ -1,7 +1,7 @@
 <template>
   <Teleport to="body">
     <div v-if="isModalOpen" class="demo-modal-overlay" @click.self="handleClose">
-      <div class="demo-modal-container" :class="{ 'case-study-wide': activeDemo === 'fireworks-case-study' || activeDemo === 'full-stack-architecture' || activeDemo === 'ai-web-embedding' }" role="dialog" aria-modal="true">
+      <div class="demo-modal-container" :class="{ 'case-study-wide': activeDemo === 'fireworks-case-study' || activeDemo === 'full-stack-architecture' || activeDemo === 'ai-web-embedding' || activeDemo === 'local-db-sqlite' }" role="dialog" aria-modal="true">
         <!-- Header -->
         <div class="demo-modal-header">
           <div class="demo-modal-title-box">
@@ -577,6 +577,155 @@
               💡 <strong>Keynote Takeaway:</strong> Modern AI harnesses like Antigravity 2.0 make embedding AI into web interfaces trivial regardless of backend. For public co-op tools, Cloud APIs or IT On-Prem DMZs offer instant agility. For sensitive grid operations, deploying dedicated, physical air-gapped nodes ensures 100% sovereignty without ever bridging IT and OT networks.
             </div>
           </div>
+
+          <!-- 8. Autonomous Local SQLite & Zero-Manual-CRUD Architecture -->
+          <div v-if="activeDemo === 'local-db-sqlite'" class="local-db-content">
+            <!-- Hero Metric Ribbon -->
+            <div class="metric-ribbon">
+              <div class="metric-pill emerald">
+                <span class="metric-label">💾 STORAGE ENGINE</span>
+                <span class="metric-val">SQLite (Self-Contained Single-File DB)</span>
+              </div>
+              <div class="metric-pill gold">
+                <span class="metric-label">⚡ HUMAN SQL WRITTEN</span>
+                <span class="metric-val">0 Lines (100% Agentic Vibe CRUD)</span>
+              </div>
+              <div class="metric-pill cyan">
+                <span class="metric-label">🔒 AIR-GAP COMPLIANCE</span>
+                <span class="metric-val">100% Sovereign (Zero Cloud Egress)</span>
+              </div>
+              <div class="metric-pill purple">
+                <span class="metric-label">🚀 READ LATENCY</span>
+                <span class="metric-val">Microseconds (In-Process / NVMe)</span>
+              </div>
+            </div>
+
+            <div class="fullstack-intro-box">
+              <h3>💾 Local-First Persistence: The Power of Autonomous SQLite with Zero Manual CRUD</h3>
+              <p>While cloud databases like Supabase PostgreSQL power multi-user authenticated web apps, <strong>Local Embedded Databases (such as SQLite)</strong> offer rural electric co-ops an ultra-lightweight, zero-latency, and 100% air-gapped data architecture. In modern agentic vibe coding with <strong>Jodar + Antigravity 2.0</strong>, the human architect <strong>never writes SQL schemas, never executes migrations, and never manually CRUDs the database</strong>—the AI agent autonomously provisions, indexes, queries, updates, and prunes records behind the scenes based on plain English intent.</p>
+            </div>
+
+            <!-- Two Practical Co-op Architecture Cards -->
+            <div class="ai-options-grid">
+              <!-- Card 1: Air-Gapped OT & Grid Operations -->
+              <div class="ai-option-card onprem-ot-card">
+                <div class="ai-card-header">
+                  <div class="ai-badge-row">
+                    <span class="layer-tag emerald">AIR-GAPPED OT USE CASE</span>
+                    <span class="difficulty-pill easy">🟢 ZERO-EFFORT VIBE CODED</span>
+                  </div>
+                  <h4>Sovereign Substation & Field Grid Operations</h4>
+                  <p class="ai-model-examples">Self-Contained .db File • 100% Offline Lineman Rugged Laptops • SCADA Logs</p>
+                </div>
+                <div class="ai-card-body">
+                  <div class="ai-arch-flow">
+                    <span class="flow-step">Local Web/Desktop App</span>
+                    <span class="flow-arrow">➔</span>
+                    <span class="flow-step">In-Process SQLite Driver</span>
+                    <span class="flow-arrow">➔</span>
+                    <span class="flow-step">Local .db File (NVMe / USB)</span>
+                  </div>
+                  <div class="ai-practicality-section">
+                    <h5>⚙️ Co-op Advantages & Zero-CRUD Vibe Reality:</h5>
+                    <ul class="ai-checklist">
+                      <li><strong>Zero Manual DBA Overhead:</strong> Jodar autonomously creates relational tables, foreign key cascades, and B-Tree indexes from natural language prompts.</li>
+                      <li><strong>100% Air-Gapped & Resilient:</strong> Zero network connection required. Entire databases can be versioned, copied, or backed up by simply duplicating a single file (<code>substation_assets.db</code>).</li>
+                      <li><strong>Zero Monthly Cloud Bills:</strong> $0 per-query or storage SaaS subscription fees.</li>
+                      <li><strong>Ideal Applications:</strong> Substation breaker trip histories, transformer oil test logs, SEL relay setting archives, storm damage work orders on offline lineman tablets.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Card 2: Public Edge Caches & Fast Local Apps -->
+              <div class="ai-option-card cloud-card">
+                <div class="ai-card-header">
+                  <div class="ai-badge-row">
+                    <span class="layer-tag cyan">PUBLIC & EDGE WORKFLOWS</span>
+                    <span class="difficulty-pill easy">🟢 INSTANT READ SPEED</span>
+                  </div>
+                  <h4>High-Speed Embedded Query Caches & Edge Apps</h4>
+                  <p class="ai-model-examples">In-Memory / Read-Only Pre-Indexed Catalogs • Full-Text Search (FTS5)</p>
+                </div>
+                <div class="ai-card-body">
+                  <div class="ai-arch-flow">
+                    <span class="flow-step">Edge Worker / Web App</span>
+                    <span class="flow-arrow">➔</span>
+                    <span class="flow-step">WASM / Embedded SQLite</span>
+                    <span class="flow-arrow">➔</span>
+                    <span class="flow-step">Microsecond Query Execution</span>
+                  </div>
+                  <div class="ai-practicality-section">
+                    <h5>⚙️ Co-op Advantages & Zero-CRUD Vibe Reality:</h5>
+                    <ul class="ai-checklist">
+                      <li><strong>Sub-Millisecond Retrieval:</strong> Queries execute in-process with zero network socket hop latency.</li>
+                      <li><strong>FTS5 Full-Text Search:</strong> Instant semantic-like full-text keyword indexing across thousands of PDF runbooks, policy manuals, and legacy IT documents.</li>
+                      <li><strong>Versatile Public/Private Deployment:</strong> Can serve as a public pre-computed read database bundled directly into web artifacts or private internal apps.</li>
+                      <li><strong>Ideal Applications:</strong> Co-op tariff rate calculators, member policy search engines, internal IT runbook lookup, desktop utility tools.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Comparison Table: Local SQLite vs Cloud PostgreSQL (Supabase) -->
+            <div class="benchmark-section">
+              <h4>📊 Database Paradigm Comparison: Local SQLite vs Cloud PostgreSQL (Supabase)</h4>
+              <div class="table-scroll-wrapper">
+                <table class="benchmark-table">
+                  <thead>
+                    <tr>
+                      <th>Database Factor</th>
+                      <th>Local Embedded SQLite (Zero-CRUD)</th>
+                      <th>Cloud PostgreSQL (Supabase)</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><strong>Primary Philosophy</strong></td>
+                      <td><strong>Local-First & Embedded</strong> (Single file on local disk)</td>
+                      <td><strong>Cloud Distributed & Multi-Tenant</strong> (Remote serverless)</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Human CRUD Effort (Vibe Coded)</strong></td>
+                      <td><strong>0 Lines</strong> (Jodar autonomously creates & manages all SQL)</td>
+                      <td><strong>0 Lines</strong> (Jodar handles SQL migrations & RLS policies)</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Air-Gap & SCADA Readiness</strong></td>
+                      <td><strong>✅ 100% Air-Gapped Native</strong> (No internet or network required)</td>
+                      <td>❌ Requires active Internet connection & egress</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Query & Read Latency</strong></td>
+                      <td><strong>Microseconds</strong> (In-process memory / local NVMe read)</td>
+                      <td><strong>20–100ms</strong> (Network round-trip across public internet)</td>
+                    </tr>
+                    <tr>
+                      <td><strong>User Authentication & OAuth</strong></td>
+                      <td>Local OS permissions or application-level tokens</td>
+                      <td><strong>Native Google OAuth 2.0</strong>, Magic Links & RLS rows</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Concurrent Real-Time Sync</strong></td>
+                      <td>Local single-writer; multiple parallel readers</td>
+                      <td><strong>Live WebSocket broadcasting</strong> to thousands of clients</td>
+                    </tr>
+                    <tr>
+                      <td><strong>Ideal Co-op Deployment</strong></td>
+                      <td>Substation OT, rugged field tablets, internal IT tools, air-gapped vaults</td>
+                      <td>Public member portals, live feedback databases, multi-device sync</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <!-- Keynote Takeaway -->
+            <div class="case-study-takeaway">
+              💡 <strong>Keynote Takeaway:</strong> Modern AI harnesses eliminate the complexity of database administration entirely. Whether you need a public real-time cloud database with Google OAuth (Supabase) or a 100% air-gapped, zero-cost local database for substation operations (SQLite), the AI agent provisions schemas, writes queries, and manages data with zero manual lines of SQL.
+            </div>
+          </div>
         </div>
 
         <!-- Footer -->
@@ -879,6 +1028,7 @@ const lightboxData = computed(() => {
 const badgeText = computed(() => {
   if (activeDemo.value === 'full-stack-architecture') return 'META-DEMONSTRATION • FULL-STACK AUTOBIOGRAPHY'
   if (activeDemo.value === 'ai-web-embedding') return 'ARCHITECTURAL BLUEPRINT • WEB AI INTEGRATION'
+  if (activeDemo.value === 'local-db-sqlite') return 'ARCHITECTURAL BLUEPRINT • LOCAL-FIRST DATABASE ENGINE'
   if (activeDemo.value === 'fireworks-case-study') return 'LIVE KEYNOTE CASE STUDY • VIBE CODING PROOF'
   if (activeDemo.value?.includes('doc')) return 'DEMO 1 • DOCUMENTATION ENGINE'
   if (activeDemo.value?.includes('triage')) return 'DEMO 2 • IT TICKET TRIAGE'
@@ -891,6 +1041,8 @@ const titleText = computed(() => {
       return 'The 8-Layer Full-Stack Autobiography of the CREA Web App & Ecosystem'
     case 'ai-web-embedding':
       return 'Embedding AI into Modern Web Applications (Cloud API vs On-Premises Open-Weight)'
+    case 'local-db-sqlite':
+      return 'Autonomous Local Databases (SQLite) & Zero-Manual-CRUD Architecture'
     case 'fireworks-case-study':
       return 'From Natural Language Prompt to Live Production in 49 Seconds'
     case 'doc-card':
@@ -919,6 +1071,7 @@ const popoutUrl = computed(() => {
     case 'fireworks-case-study':
     case 'full-stack-architecture':
     case 'ai-web-embedding':
+    case 'local-db-sqlite':
       return '/resources'
     default:
       return null
@@ -1901,8 +2054,9 @@ onUnmounted(() => {
   color: #ffffff;
 }
 
-/* AI Embedding Content & Comparison Cards */
-.ai-embedding-content {
+/* AI Embedding & Local DB Content & Comparison Cards */
+.ai-embedding-content,
+.local-db-content {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
