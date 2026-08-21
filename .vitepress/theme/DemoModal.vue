@@ -166,7 +166,7 @@
                 <div class="stage-header">
                   <span class="stage-badge gold-badge">STAGE 2 • 49-SECOND CODE & DEPLOY</span>
                   <h4>1-Click Approval ➔ Live Production on Vercel</h4>
-                  <p>Upon human approval, Jodar authored 613 lines of code (Canvas particle loop, stereo Web Audio engine, Vue modal), passed VitePress build, verified parity, and pushed to production.</p>
+                  <p>Upon human approval, <a href="/glossary#vibe-coding" target="_blank" class="jodar-tag-link" title="Jodar (Blake Mobley's Cognitive AI Agent) • View Encyclopedia Entry">Jodar</a> authored 613 lines of code (Canvas particle loop, stereo Web Audio engine, Vue modal), passed VitePress build, verified parity, and pushed to production.</p>
                 </div>
                 <div 
                   class="screenshot-frame interactive stage2" 
@@ -201,7 +201,7 @@
             <div class="metric-ribbon">
               <div class="metric-pill cyan">
                 <span class="metric-label">🧠 COGNITIVE AGENT</span>
-                <span class="metric-val">Jodar Shanask</span>
+                <span class="metric-val"><a href="/glossary#vibe-coding" target="_blank" class="jodar-tag-link" title="Jodar (Blake Mobley's Cognitive AI Agent) • View Encyclopedia Entry">Jodar Shanask</a></span>
               </div>
               <div class="metric-pill gold">
                 <span class="metric-label">🛠️ DEVELOPER HARNESS</span>
@@ -219,7 +219,7 @@
 
             <div class="fullstack-intro-box">
               <h3>⚡ The 8-Layer Architectural Stack of the CREA Web App</h3>
-              <p>This entire application—from TypeScript logic, Vue 3 components, and 2D canvas physics to Web Audio synthesizers, Google OAuth 2.0, real-time Supabase PostgreSQL database persistence, VitePress builds, and Vercel edge CI/CD—was created through <strong>100% Agentic Vibe Coding</strong>. The human architect specified intent in natural language; Jodar planned, coded, tested, and deployed the complete stack.</p>
+              <p>This entire application—from TypeScript logic, Vue 3 components, and 2D canvas physics to Web Audio synthesizers, Google OAuth 2.0, real-time Supabase PostgreSQL database persistence, VitePress builds, and Vercel edge CI/CD—was created through <strong>100% Agentic Vibe Coding</strong>. The human architect specified intent in natural language; <a href="/glossary#vibe-coding" target="_blank" class="jodar-tag-link" title="Jodar (Blake Mobley's Cognitive AI Agent) • View Encyclopedia Entry">Jodar</a> planned, coded, tested, and deployed the complete stack.</p>
             </div>
 
             <!-- 8 Structured Layer Cards -->
@@ -338,7 +338,7 @@
                     <tr>
                       <th>Engineering Metric</th>
                       <th>Traditional Software Engineering</th>
-                      <th>Agentic Vibe Coding (Jodar + Antigravity 2.0)</th>
+                      <th>Agentic Vibe Coding (<a href="/glossary#vibe-coding" target="_blank" class="jodar-tag-link" title="Jodar (Blake Mobley's Cognitive AI Agent) • View Encyclopedia Entry">Jodar</a> + Antigravity 2.0)</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -384,7 +384,7 @@
 
             <!-- Keynote Takeaway -->
             <div class="case-study-takeaway">
-              💡 <strong>Keynote Takeaway:</strong> Every line of TypeScript, Vue 3, HTML5 Canvas physics, Web Audio synthesizer, and CSS styling in this application was generated, tested, and deployed autonomously by Jodar. That is the raw power and complexity modern AI harnesses deliver to a single systems architect.
+              💡 <strong>Keynote Takeaway:</strong> Every line of TypeScript, Vue 3, HTML5 Canvas physics, Web Audio synthesizer, and CSS styling in this application was generated, tested, and deployed autonomously by <a href="/glossary#vibe-coding" target="_blank" class="jodar-tag-link" title="Jodar (Blake Mobley's Cognitive AI Agent) • View Encyclopedia Entry">Jodar</a>. That is the raw power and complexity modern AI harnesses deliver to a single systems architect.
             </div>
           </div>
 
@@ -602,7 +602,7 @@
 
             <div class="fullstack-intro-box">
               <h3>💾 Local-First Persistence: The Power of Autonomous SQLite with Zero Manual CRUD</h3>
-              <p>While cloud databases like Supabase PostgreSQL power multi-user authenticated web apps, <strong>Local Embedded Databases (such as SQLite)</strong> offer rural electric co-ops an ultra-lightweight, zero-latency, and 100% air-gapped data architecture. In modern agentic vibe coding with <strong>Jodar + Antigravity 2.0</strong>, the human architect <strong>never writes SQL schemas, never executes migrations, and never manually CRUDs the database</strong>—the AI agent autonomously provisions, indexes, queries, updates, and prunes records behind the scenes based on plain English intent.</p>
+              <p>While cloud databases like Supabase PostgreSQL power multi-user authenticated web apps, <strong>Local Embedded Databases (such as SQLite)</strong> offer rural electric co-ops an ultra-lightweight, zero-latency, and 100% air-gapped data architecture. In modern agentic vibe coding with <strong><a href="/glossary#vibe-coding" target="_blank" class="jodar-tag-link" title="Jodar (Blake Mobley's Cognitive AI Agent) • View Encyclopedia Entry">Jodar</a> + Antigravity 2.0</strong>, the human architect <strong>never writes SQL schemas, never executes migrations, and never manually CRUDs the database</strong>—the AI agent autonomously provisions, indexes, queries, updates, and prunes records behind the scenes based on plain English intent.</p>
             </div>
 
             <!-- Two Practical Co-op Architecture Cards -->
@@ -628,7 +628,7 @@
                   <div class="ai-practicality-section">
                     <h5>⚙️ Co-op Advantages & Zero-CRUD Vibe Reality:</h5>
                     <ul class="ai-checklist">
-                      <li><strong>Zero Manual DBA Overhead:</strong> Jodar autonomously creates relational tables, foreign key cascades, and B-Tree indexes from natural language prompts.</li>
+                      <li><strong>Zero Manual DBA Overhead:</strong> <a href="/glossary#vibe-coding" target="_blank" class="jodar-tag-link" title="Jodar (Blake Mobley's Cognitive AI Agent) • View Encyclopedia Entry">Jodar</a> autonomously creates relational tables, foreign key cascades, and B-Tree indexes from natural language prompts.</li>
                       <li><strong>100% Air-Gapped & Resilient:</strong> Zero network connection required. Entire databases can be versioned, copied, or backed up by simply duplicating a single file (<code>substation_assets.db</code>).</li>
                       <li><strong>Zero Monthly Cloud Bills:</strong> $0 per-query or storage SaaS subscription fees.</li>
                       <li><strong>Ideal Applications:</strong> Substation breaker trip histories, transformer oil test logs, SEL relay setting archives, storm damage work orders on offline lineman tablets.</li>
@@ -688,8 +688,8 @@
                     </tr>
                     <tr>
                       <td><strong>Human CRUD Effort (Vibe Coded)</strong></td>
-                      <td><strong>0 Lines</strong> (Jodar autonomously creates & manages all SQL)</td>
-                      <td><strong>0 Lines</strong> (Jodar handles SQL migrations & RLS policies)</td>
+                      <td><strong>0 Lines</strong> (<a href="/glossary#vibe-coding" target="_blank" class="jodar-tag-link" title="Jodar (Blake Mobley's Cognitive AI Agent) • View Encyclopedia Entry">Jodar</a> autonomously creates & manages all SQL)</td>
+                      <td><strong>0 Lines</strong> (<a href="/glossary#vibe-coding" target="_blank" class="jodar-tag-link" title="Jodar (Blake Mobley's Cognitive AI Agent) • View Encyclopedia Entry">Jodar</a> handles SQL migrations & RLS policies)</td>
                     </tr>
                     <tr>
                       <td><strong>Air-Gap & SCADA Readiness</strong></td>
@@ -2052,6 +2052,22 @@ onUnmounted(() => {
 .lightbox-done-btn:hover {
   background: #475569;
   color: #ffffff;
+}
+
+/* Jodar Interactive Glossary Link Styling */
+.jodar-tag-link {
+  color: #38bdf8;
+  font-weight: 700;
+  text-decoration: underline dotted #0284c7;
+  text-underline-offset: 3px;
+  transition: all 0.15s ease;
+  display: inline;
+}
+
+.jodar-tag-link:hover {
+  color: #fbbf24;
+  text-decoration-color: #fbbf24;
+  text-shadow: 0 0 8px rgba(251, 191, 36, 0.4);
 }
 
 /* AI Embedding & Local DB Content & Comparison Cards */

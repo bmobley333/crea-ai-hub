@@ -100,8 +100,28 @@ A computer hardware architecture (most notably Apple Silicon M-Series) where the
 ### Vibe Coding
 An emerging software development paradigm where a human systems architect works entirely in natural language—writing high-level requirements, design rules, constraints, and Source of Truth specifications—**without ever writing, reading, or manually inspecting the underlying lines of code**. The AI agent acts as the full-stack engineering team: authoring hundreds of thousands of lines of code, running builds, debugging runtime errors, linting syntax, and delivering finished applications.
 
-### High-Trust / High-Velocity Bounded Automation (The Jodar Model)
-A real-world case study in extreme sysadmin leverage **(NOT recommended for ANY business)**, demonstrated by Blake Mobley's custom agent **Jodar** operating within Google Antigravity 2.0:
+### Vanilla Antigravity 2.0 vs. The Jodar Model: Architectural Comparison
+
+To understand how high-trust agentic systems work in practice, it is important to distinguish between **Google Antigravity 2.0** (the out-of-the-box developer harness) and **The Jodar Model** (a specialized cognitive architecture designed for extreme sysadmin leverage).
+
+#### 1. Common Architectural Foundation (What Both Share)
+* **The Agentic Developer Harness:** Both rely on Google's Antigravity 2.0 developer IDE equipped with native terminal execution (PowerShell/Bash), atomic file system read/write tools, Model Context Protocol (MCP) integrations, subagent orchestration, and frontier LLM reasoning context windows.
+* **Tool-Driven Execution:** Both execute real development tasks (editing files, running build scripts, executing unit tests) rather than just chatting about code in a passive window.
+
+#### 2. Side-by-Side Comparison Matrix (The Architectural Diffs)
+
+| Architectural Dimension | Vanilla Antigravity 2.0 (Out-of-the-Box) | The Jodar Model (High-Trust Cognitive Architecture) |
+| :--- | :--- | :--- |
+| **Cognitive Identity & Persona** | Ephemeral, stateless assistant prompt; resets between sessions. | **Persistent Persona & Behavioral Contract:** Grounded in version-controlled Markdown contracts (`soul.md`, `user.md`, `rules.md`). |
+| **Human Vibe-Coding Scope** | Interactive single-task assistant; developer reviews and approves diffs manually. | **400,000+ Production LOC Managed:** Blake inspects **0 lines of raw code manually** (100% natural language intent). |
+| **Multi-Repo Continuous Memory** | Thread-bound conversation history; no persistent cross-project recall. | **Cognitive Memory (`memory.md`):** Multi-year chronological milestone tracking, private vault indices, and cross-repo context. |
+| **Secondary Code Critic Audits** | Standard compiler/linter errors; human must verify architectural integrity. | **Autonomous Local LLM Critic (`local_critic.py`):** Local Qwen 14B via Ollama audits code diffs against strict rules before finalization. |
+| **Documentation & SoT Parity** | Documentation is maintained manually by the developer. | **Automated Parity Enforcement (`validate_sot_parity.py`):** Strict 100% synchronization between code changes and architecture manifests. |
+| **Downstream Pipeline Execution** | User manually builds, tests, commits, and deploys. | **Autonomous CI/CD & Mirroring:** Automatically compiles VitePress, verifies SSG builds, pushes to GitHub, triggers Vercel Edge deployments, and updates NotebookLM mirrors. |
+| **Operational Governance Fit** | Recommended for standard multi-developer teams and enterprise IT. | **Extreme Sysadmin Leverage (Case Study Only):** High velocity for solo architects; requires bounded gates for enterprise co-ops. |
+
+### High-Trust / High-Velocity Bounded Automation (Case Study Key Takeaways)
+A real-world case study in extreme sysadmin leverage **(NOT recommended for ANY business without strict guardrails)**, demonstrated by Blake Mobley's custom agent **Jodar** operating within Google Antigravity 2.0:
 * **The 400,000 LOC Reality:** Blake maintains nearly 400,000 lines of complex full-stack code across multiple repositories while inspecting **0 lines of raw code manually**.
 * **Autonomous Operating Scope:** Jodar is granted full approval to CRUD local file systems, manage database schemas and migrations in PostgreSQL/Supabase/SQLite, craft and execute terminal and PowerShell scripts, interface with Google Cloud services (Drive, Mail, Calendar, Contacts), and manage Git branch lifecycles with automated commits and pushes to GitHub.
 * **The Risk vs. Velocity Trade-Off:** While granting an agent full terminal and file CRUD permissions carries high inherent operational risk, it unlocks **10x–20x engineering velocity**.
