@@ -40,14 +40,26 @@ features:
     link: /hardware
 ---
 
-<div style="margin-top: 1.5rem; padding: 1.5rem; background: linear-gradient(135deg, rgba(2, 132, 199, 0.15), rgba(15, 23, 42, 0.9)); border: 1.5px solid #0284c7; border-radius: 12px; display: flex; justify-content: space-between; align-items: center; gap: 1rem; flex-wrap: wrap;">
-  <div>
-    <h3 style="margin: 0; color: #38bdf8; font-size: 1.2rem; font-weight: 800;">📂 Public Google Drive Resource Folder</h3>
-    <p style="margin: 0.25rem 0 0 0; color: #cbd5e1; font-size: 0.9rem;">Access the master presentation slide deck, printable 2-page PDF playbook, and synthetic SOPs directly in Google Drive.</p>
+<div style="margin-top: 1.5rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1rem;">
+  <div style="padding: 1.25rem; background: linear-gradient(135deg, rgba(16, 185, 129, 0.18), rgba(15, 23, 42, 0.95)); border: 1.5px solid #10b981; border-radius: 12px; display: flex; justify-content: space-between; align-items: center; gap: 1rem; flex-wrap: wrap;">
+    <div>
+      <h3 style="margin: 0; color: #34d399; font-size: 1.15rem; font-weight: 800;">🧠 Keynote Companion AI Notebook</h3>
+      <p style="margin: 0.25rem 0 0 0; color: #cbd5e1; font-size: 0.88rem;">Interactive Google NotebookLM assistant grounded in the entire web app and 19-slide keynote deck.</p>
+    </div>
+    <a href="https://notebook.google.com/notebook/8670f8c2-5863-4f91-ba9b-6f201a744f44" target="_blank" rel="noopener noreferrer" style="background: #10b981; color: #ffffff; font-weight: 700; font-size: 0.88rem; padding: 0.55rem 1.1rem; border-radius: 8px; text-decoration: none; display: inline-flex; align-items: center; gap: 0.4rem;">
+      Open Companion Notebook ↗
+    </a>
   </div>
-  <a href="https://drive.google.com/drive/folders/1ltRx1n6Db9Vxi7rDJcUt1qsVtEuv3opB?usp=sharing" target="_blank" rel="noopener noreferrer" style="background: #0284c7; color: #ffffff; font-weight: 700; font-size: 0.9rem; padding: 0.6rem 1.2rem; border-radius: 8px; text-decoration: none; display: inline-flex; align-items: center; gap: 0.5rem;">
-    Open Google Drive ↗
-  </a>
+
+  <div style="padding: 1.25rem; background: linear-gradient(135deg, rgba(2, 132, 199, 0.18), rgba(15, 23, 42, 0.95)); border: 1.5px solid #0284c7; border-radius: 12px; display: flex; justify-content: space-between; align-items: center; gap: 1rem; flex-wrap: wrap;">
+    <div>
+      <h3 style="margin: 0; color: #38bdf8; font-size: 1.15rem; font-weight: 800;">📂 Public Google Drive Resource Vault</h3>
+      <p style="margin: 0.25rem 0 0 0; color: #cbd5e1; font-size: 0.88rem;">Access the master 19-slide presentation deck, printable 2-page PDF playbook, and synthetic SOPs.</p>
+    </div>
+    <a href="https://drive.google.com/drive/folders/1ltRx1n6Db9Vxi7rDJcUt1qsVtEuv3opB?usp=sharing" target="_blank" rel="noopener noreferrer" style="background: #0284c7; color: #ffffff; font-weight: 700; font-size: 0.88rem; padding: 0.55rem 1.1rem; border-radius: 8px; text-decoration: none; display: inline-flex; align-items: center; gap: 0.4rem;">
+      Open Google Drive ↗
+    </a>
+  </div>
 </div>
 
 <div style="margin-top: 2rem; padding: 2rem; background: #1e293b; border: 1px solid #334155; border-radius: 12px;">

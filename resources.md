@@ -18,6 +18,7 @@ Download presentation slide decks, the printable 2-page executive summary playbo
 
 | Asset | Format / Platform | Link | Description |
 | :--- | :--- | :--- | :--- |
+| **CREA Keynote AI Companion Notebook** | Google NotebookLM | **[🧠 Open Keynote Companion Notebook](https://notebook.google.com/notebook/8670f8c2-5863-4f91-ba9b-6f201a744f44)** | Master AI assistant ingesting the entire live web app & 19-slide presentation deck. |
 | **CREA Presentation Drive Folder** | Google Drive | **[📂 Open Master Drive Folder](https://drive.google.com/drive/folders/1ltRx1n6Db9Vxi7rDJcUt1qsVtEuv3opB?usp=sharing)** | Master cloud vault (`1ltRx1n6Db9Vxi7rDJcUt1qsVtEuv3opB`) containing all materials. |
 | **30-Day Co-op AI Playbook** | **Printable PDF (2-Page)** | **[📥 Download 30-Day Playbook PDF](/30_Day_Coop_AI_Playbook.pdf)** | Executive reference card: Air Gap, Maturity Ladder, Security Contract, and BoM. |
 | **Master Keynote Deck** | Google Slides | [Cutting Edge AI](https://docs.google.com/presentation/d/1BmBU_wbQ_YdHzZuPM2_lFvGxcCrKzYFl8jXgYZOk6rw/edit) | Full 19-slide dark slate keynote deck with embedded speaker notes. |
@@ -30,7 +31,7 @@ Download presentation slide decks, the printable 2-page executive summary playbo
 
 | Demonstration Tool | Platform | Link | Description |
 | :--- | :--- | :--- | :--- |
-| **Gemini Demo Notebook** | Google Notebook | [CREA Demo Workspace](https://notebook.google.com/notebook/49bfc1b6-eefc-4efe-a6d2-e67dff3d8c05) | Source-grounded Q&A and 15-second audio runbook briefing engine. |
+| **Synthetic Utility SOPs Demo Notebook** | Google NotebookLM | [🧪 CREA Synthetic Demo Workspace](https://notebook.google.com/notebook/49bfc1b6-eefc-4efe-a6d2-e67dff3d8c05) | Source-grounded Q&A and 15-second audio runbook briefing engine over test utility SOPs. |
 | **Synthetic Sources Folder** | Google Drive | [Synthetic Notebook Sources](https://drive.google.com/drive/folders/1YkPhFz-ydfPEj3GL9awLQa-uz55Z7Fm3) | 4 synthetic (test data) utility SOPs, SEL relay specs, and storm runbooks. |
 | **Documentation Engine (Use Case 1)** | Modal Demos | <DemoButton type="doc-walkthrough" label="📖 Walkthrough" /> <DemoButton type="doc-card" label="🖼️ Visual Card ↗" /> | 3-step triage for legacy binder recovery with OCR & audio overview. |
 | **IT Ticket Triage (Use Case 2)** | Modal Demos | <DemoButton type="triage-walkthrough" label="📖 Walkthrough" /> <DemoButton type="triage-card" label="🖼️ Visual Card ↗" /> | Ticket parsing card with the mandatory **`[AWAITING APPROVAL]`** gate. |

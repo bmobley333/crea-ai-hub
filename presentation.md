@@ -52,24 +52,24 @@ Vercel Edge + Supabase PostgreSQL + Google OAuth 2.0 + HTML5 Canvas 2D Physics &
 <div>
 <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem;">
 <span style="font-size: 1.75rem;">🧠</span>
-<span style="background: rgba(52, 211, 153, 0.15); color: #34d399; border: 1px solid rgba(52, 211, 153, 0.4); font-size: 0.72rem; font-weight: 800; padding: 0.2rem 0.55rem; border-radius: 6px; text-transform: uppercase;">Instant RAG</span>
+<span style="background: rgba(52, 211, 153, 0.15); color: #34d399; border: 1px solid rgba(52, 211, 153, 0.4); font-size: 0.72rem; font-weight: 800; padding: 0.2rem 0.55rem; border-radius: 6px; text-transform: uppercase;">Grounded RAG</span>
 </div>
-<h3 style="margin: 0 0 0.4rem 0; color: #f8fafc; font-size: 1.15rem; font-weight: 800;">[2] Gemini Notebook</h3>
+<h3 style="margin: 0 0 0.4rem 0; color: #f8fafc; font-size: 1.15rem; font-weight: 800;">[2] Keynote & App Notebook</h3>
 <p style="margin: 0 0 0.85rem 0; color: #94a3b8; font-size: 0.85rem; line-height: 1.45;">
-Source-grounded enterprise RAG across 4 synthetic utility SOPs, SEL-751 relay specs, and storm runbooks.
+Ground-truth AI assistant ingesting the entire live web app & 19-slide keynote deck for instant interactive Q&A and spoken audio overviews.
 </p>
 <ul style="margin: 0 0 1rem 0; padding-left: 1.1rem; color: #cbd5e1; font-size: 0.82rem; line-height: 1.4;">
-<li>100% free enterprise knowledge base</li>
+<li>Ingests full web app + 19 slides</li>
+<li>Grounded citations & audio briefings</li>
 <li>Zero vector DB pipelines to maintain</li>
-<li>Multi-modal deep search & audio overview</li>
 </ul>
 </div>
 <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
-<a href="https://notebook.google.com/notebook/49bfc1b6-eefc-4efe-a6d2-e67dff3d8c05" target="_blank" rel="noopener noreferrer" style="background: #10b981; color: #ffffff; font-weight: 700; font-size: 0.8rem; padding: 0.45rem 0.85rem; border-radius: 6px; text-decoration: none; display: inline-flex; align-items: center; gap: 4px;">
-Open Notebook ↗
+<a href="https://notebook.google.com/notebook/8670f8c2-5863-4f91-ba9b-6f201a744f44" target="_blank" rel="noopener noreferrer" style="background: #10b981; color: #ffffff; font-weight: 700; font-size: 0.8rem; padding: 0.45rem 0.85rem; border-radius: 6px; text-decoration: none; display: inline-flex; align-items: center; gap: 4px;">
+🧠 Open Master Notebook ↗
 </a>
-<a href="https://drive.google.com/drive/folders/1YkPhFz-ydfPEj3GL9awLQa-uz55Z7Fm3" target="_blank" rel="noopener noreferrer" style="background: #334155; color: #f8fafc; font-weight: 700; font-size: 0.8rem; padding: 0.45rem 0.85rem; border-radius: 6px; text-decoration: none;">
-Synthetic SOPs ↗
+<a href="https://notebook.google.com/notebook/49bfc1b6-eefc-4efe-a6d2-e67dff3d8c05" target="_blank" rel="noopener noreferrer" style="background: #334155; color: #f8fafc; font-weight: 700; font-size: 0.8rem; padding: 0.45rem 0.85rem; border-radius: 6px; text-decoration: none;">
+🧪 Synthetic SOPs ↗
 </a>
 </div>
 </div>
@@ -269,6 +269,8 @@ Frame practical high-ROI use cases for electric cooperative IT: internal policy 
 Invite attendees to bookmark the hub and inspect the 19-slide appendix, 30-day playbook, or live codebase.
 </p>
 <div style="margin-top: 0.5rem; display: flex; gap: 0.5rem; flex-wrap: wrap;">
+<a href="https://notebook.google.com/notebook/8670f8c2-5863-4f91-ba9b-6f201a744f44" target="_blank" rel="noopener noreferrer" style="color: #34d399; font-size: 0.85rem; font-weight: 700; text-decoration: underline;">🧠 Keynote Companion AI Notebook ↗</a>
+<span style="color: #475569;">•</span>
 <a href="/30_Day_Coop_AI_Playbook.pdf" target="_blank" rel="noopener noreferrer" style="color: #f43f5e; font-size: 0.85rem; font-weight: 700; text-decoration: underline;">📥 Download 30-Day Playbook PDF ↗</a>
 <span style="color: #475569;">•</span>
 <a href="https://docs.google.com/presentation/d/1BmBU_wbQ_YdHzZuPM2_lFvGxcCrKzYFl8jXgYZOk6rw/edit" target="_blank" rel="noopener noreferrer" style="color: #f43f5e; font-size: 0.85rem; font-weight: 700; text-decoration: underline;">📊 19-Slide Google Slides Deck ↗</a>

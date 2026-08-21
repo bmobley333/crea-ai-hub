@@ -28,6 +28,7 @@ export default defineConfig({
         text: '📥 Resources & Toolkit',
         items: [
           { text: '📥 Downloads & Demos', link: '/resources' },
+          { text: '🧠 Keynote Companion Notebook ↗', link: 'https://notebook.google.com/notebook/8670f8c2-5863-4f91-ba9b-6f201a744f44' },
           { text: '💡 High-Impact AI Projects', link: '/resources#💡-high-impact-next-level-ai-projects' },
           { text: '📖 Utility IT & AI Glossary', link: '/glossary' },
           { text: '⚖️ Legal Risk & Disclaimer', link: '/disclaimer' }
