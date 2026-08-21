@@ -16,13 +16,24 @@ export default defineConfig({
     nav: [
       { text: '🏠 Home', link: '/' },
       { text: '🎤 Presentation', link: '/presentation' },
-      { text: '🪜 Maturity Ladder', link: '/ladder' },
-      { text: '🛡️ Architecture & Security', link: '/architecture' },
-      { text: '💻 Hardware BoM', link: '/hardware' },
-      { text: '📖 Glossary', link: '/glossary' },
-      { text: '📥 Resources & Demos', link: '/resources' },
-      { text: '⚖️ Legal Disclaimer', link: '/disclaimer' },
-      { text: '📂 Google Drive Vault', link: 'https://drive.google.com/drive/folders/1ltRx1n6Db9Vxi7rDJcUt1qsVtEuv3opB?usp=sharing' }
+      {
+        text: '🧭 Frameworks',
+        items: [
+          { text: '🪜 The 4-Level Maturity Ladder', link: '/ladder' },
+          { text: '🛡️ Security & Bounded Loop', link: '/architecture' },
+          { text: '💻 On-Premises Hardware BoM', link: '/hardware' }
+        ]
+      },
+      {
+        text: '📥 Resources & Toolkit',
+        items: [
+          { text: '📥 Downloads & Demos', link: '/resources' },
+          { text: '💡 High-Impact AI Projects', link: '/resources#💡-high-impact-next-level-ai-projects' },
+          { text: '📖 Utility IT & AI Glossary', link: '/glossary' },
+          { text: '⚖️ Legal Risk & Disclaimer', link: '/disclaimer' }
+        ]
+      },
+      { text: '📂 Drive Vault ↗', link: 'https://drive.google.com/drive/folders/1ltRx1n6Db9Vxi7rDJcUt1qsVtEuv3opB?usp=sharing' }
     ],
     socialLinks: [
       { icon: 'github', link: 'https://github.com/bmobley333/crea-ai-hub' }
