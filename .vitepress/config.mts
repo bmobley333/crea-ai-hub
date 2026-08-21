@@ -15,6 +15,7 @@ export default defineConfig({
     siteTitle: "⚡ Taking AI to the Next Level",
     nav: [
       { text: '🏠 Home', link: '/' },
+      { text: '🎤 Presentation', link: '/presentation' },
       { text: '🪜 Maturity Ladder', link: '/ladder' },
       { text: '🛡️ Architecture & Security', link: '/architecture' },
       { text: '💻 Hardware BoM', link: '/hardware' },
@@ -31,6 +32,7 @@ export default defineConfig({
         text: 'Keynote & Frameworks',
         items: [
           { text: 'Executive Overview', link: '/' },
+          { text: '🎤 Presentation Hub & Flight Plan', link: '/presentation' },
           { text: 'The 4-Level Maturity Ladder', link: '/ladder' },
           { text: 'Security & Bounded Loop', link: '/architecture' },
           { text: 'On-Premises Hardware BoM', link: '/hardware' }

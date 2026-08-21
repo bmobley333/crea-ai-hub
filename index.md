@@ -7,6 +7,9 @@ hero:
   tagline: "The Reference Architecture for Rural Electric Cooperative IT Leadership"
   actions:
     - theme: brand
+      text: 🎤 Presentation Hub
+      link: /presentation
+    - theme: alt
       text: 📂 Google Drive Resource Vault
       link: https://drive.google.com/drive/folders/1ltRx1n6Db9Vxi7rDJcUt1qsVtEuv3opB?usp=sharing
     - theme: alt
@@ -79,6 +82,7 @@ features:
 
 ## 🚀 Quick Navigation
 
+* 🎤 **[CREA Presentation Hub & Flight Plan](/presentation):** The 6-hour engineering partner challenge, 4-card live operations center, and presenter flow.
 * 🪜 **[The 4-Level AI Maturity Ladder](/ladder):** Assist $\to$ Ground $\to$ Bounded Execute $\to$ Operate.
 * 🛡️ **[Security & Architecture](/architecture):** The 6-point AI Security Contract & Guardrail Bounded Loop.
 * 💻 **[Hardware Bill of Materials (BoM)](/hardware):** Local workstation pricing, power costs, and model benchmarks.
