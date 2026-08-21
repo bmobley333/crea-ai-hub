@@ -148,6 +148,9 @@ Open Google Slides ↗
 Open directly on this live Web App.
 Drop the core metric: <strong>6 total hours</strong> (2 hours architecture & planning, 4 hours execution) to build a production full-stack system with auth, database, canvas graphics, and zero manual boilerplate lines.
 </p>
+<div style="display: flex; gap: 0.6rem; align-items: center; flex-wrap: wrap; margin-top: 0.65rem;">
+<a href="/disclaimer" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 0.35rem; padding: 0.35rem 0.8rem; border-radius: 8px; font-size: 0.84rem; font-weight: 800; text-decoration: none; background: linear-gradient(135deg, rgba(2, 132, 199, 0.2), rgba(56, 189, 248, 0.15)); border: 1.5px solid rgba(56, 189, 248, 0.6); color: #38bdf8; box-shadow: 0 2px 10px rgba(2, 132, 199, 0.2);">⚖️ Legal Risk & Disclaimer Notice ↗</a>
+</div>
 </div>
 
 <!-- Step 2: OT/IT and PII AI Security Policies -->
