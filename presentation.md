@@ -150,10 +150,32 @@ Drop the core metric: <strong>6 total hours</strong> (2 hours architecture & pla
 </p>
 </div>
 
-<!-- Step 2: Mental Model Shift -->
+<!-- Step 2: OT/IT and PII AI Security Policies -->
+<div style="background: #0f172a; border-left: 4px solid #f59e0b; padding: 1.25rem; border-radius: 0 10px 10px 0; border-top: 1px solid #1e293b; border-right: 1px solid #1e293b; border-bottom: 1px solid #1e293b;">
+<div style="display: flex; align-items: center; gap: 8px; margin-bottom: 0.35rem;">
+<span style="color: #f59e0b; font-weight: 800; font-size: 0.85rem; text-transform: uppercase;">2. OT/IT and PII AI Security Policies</span>
+</div>
+<p style="margin: 0 0 0.6rem 0; color: #f8fafc; font-size: 1.05rem; font-weight: 700;">
+<em>"The sacred boundary is non-negotiable: zero cloud leakage for member PII, and zero write access to the OT control loop."</em>
+</p>
+<p style="margin: 0 0 0.5rem 0; color: #cbd5e1; font-size: 0.9rem; line-height: 1.5;">
+Establish the baseline governance rules before showing tool leverage: physical air-gaps between SCADA and Enterprise IT, hardware-enforced data diodes, on-premise open-weight models for sensitive member/payroll data, and NERC CIP Electronic Security Perimeter (ESP) compliance.
+</p>
+<div style="margin-top: 0.5rem; display: flex; gap: 0.5rem; flex-wrap: wrap;">
+<a href="/architecture" target="_blank" rel="noopener noreferrer" style="color: #f59e0b; font-size: 0.85rem; font-weight: 700; text-decoration: underline;">🛡️ Sovereign OT/IT Architecture & Security Contract ↗</a>
+<span style="color: #475569;">•</span>
+<a href="https://docs.google.com/presentation/d/1BmBU_wbQ_YdHzZuPM2_lFvGxcCrKzYFl8jXgYZOk6rw/edit#slide=id.s02_ot_it_boundary" target="_blank" rel="noopener noreferrer" style="color: #f59e0b; font-size: 0.85rem; font-weight: 700; text-decoration: underline;">📊 Slide 3: The OT vs. IT Boundary ↗</a>
+<span style="color: #475569;">•</span>
+<a href="https://docs.google.com/presentation/d/1BmBU_wbQ_YdHzZuPM2_lFvGxcCrKzYFl8jXgYZOk6rw/edit#slide=id.s04_bounded_loop" target="_blank" rel="noopener noreferrer" style="color: #f59e0b; font-size: 0.85rem; font-weight: 700; text-decoration: underline;">📊 Slide 5: The Bounded Operating Loop ↗</a>
+<span style="color: #475569;">•</span>
+<a href="https://docs.google.com/presentation/d/1BmBU_wbQ_YdHzZuPM2_lFvGxcCrKzYFl8jXgYZOk6rw/edit#slide=id.s11_security_contract" target="_blank" rel="noopener noreferrer" style="color: #f59e0b; font-size: 0.85rem; font-weight: 700; text-decoration: underline;">📊 Slide 12: The AI Security Contract ↗</a>
+</div>
+</div>
+
+<!-- Step 3: Mental Model Shift -->
 <div style="background: #0f172a; border-left: 4px solid #818cf8; padding: 1.25rem; border-radius: 0 10px 10px 0; border-top: 1px solid #1e293b; border-right: 1px solid #1e293b; border-bottom: 1px solid #1e293b;">
 <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 0.35rem;">
-<span style="color: #818cf8; font-weight: 800; font-size: 0.85rem; text-transform: uppercase;">2. The Mental Model Shift</span>
+<span style="color: #818cf8; font-weight: 800; font-size: 0.85rem; text-transform: uppercase;">3. The Mental Model Shift</span>
 </div>
 <p style="margin: 0 0 0.6rem 0; color: #f8fafc; font-size: 1.05rem; font-weight: 700;">
 <em>"We aren't asking for answers; we are directing an engineering workflow."</em>
@@ -169,10 +191,10 @@ Show how human intent maps to sandboxed plan approval, automated syntax validati
 </div>
 </div>
 
-<!-- Step 3: Artifact 1 - Gemini Notebook -->
+<!-- Step 4: Artifact 1 - Gemini Notebook -->
 <div style="background: #0f172a; border-left: 4px solid #34d399; padding: 1.25rem; border-radius: 0 10px 10px 0; border-top: 1px solid #1e293b; border-right: 1px solid #1e293b; border-bottom: 1px solid #1e293b;">
 <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 0.35rem;">
-<span style="color: #34d399; font-weight: 800; font-size: 0.85rem; text-transform: uppercase;">3. Artifact 1: Gemini Notebook (RAG & Knowledge Base)</span>
+<span style="color: #34d399; font-weight: 800; font-size: 0.85rem; text-transform: uppercase;">4. Artifact 1: Gemini Notebook (RAG & Knowledge Base)</span>
 </div>
 <p style="margin: 0 0 0.6rem 0; color: #f8fafc; font-size: 1.05rem; font-weight: 700;">
 <em>"Instant enterprise RAG over legacy manuals without spinning up a single vector database."</em>
@@ -186,10 +208,10 @@ Execute a live query against synthetic co-op documentation (e.g. SEL-751 feeder 
 </div>
 </div>
 
-<!-- Step 4: Artifact 2 - Full-Stack App -->
+<!-- Step 5: Artifact 2 - Full-Stack App -->
 <div style="background: #0f172a; border-left: 4px solid #38bdf8; padding: 1.25rem; border-radius: 0 10px 10px 0; border-top: 1px solid #1e293b; border-right: 1px solid #1e293b; border-bottom: 1px solid #1e293b;">
 <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 0.35rem;">
-<span style="color: #38bdf8; font-weight: 800; font-size: 0.85rem; text-transform: uppercase;">4. Artifact 2: Full-Stack Web App (Vercel + Supabase + OAuth)</span>
+<span style="color: #38bdf8; font-weight: 800; font-size: 0.85rem; text-transform: uppercase;">5. Artifact 2: Full-Stack Web App (Vercel + Supabase + OAuth)</span>
 </div>
 <p style="margin: 0 0 0.6rem 0; color: #f8fafc; font-size: 1.05rem; font-weight: 700;">
 <em>"Normally, how long does setting up auth, schema, and responsive UI take your teams?"</em>
@@ -203,10 +225,10 @@ Demonstrate live capabilities built into this site right now: Google OAuth 2.0 a
 </div>
 </div>
 
-<!-- Step 5: Artifact 3 - The Prompting & Debugging Loop -->
+<!-- Step 6: Artifact 3 - The Prompting & Debugging Loop -->
 <div style="background: #0f172a; border-left: 4px solid #fbbf24; padding: 1.25rem; border-radius: 0 10px 10px 0; border-top: 1px solid #1e293b; border-right: 1px solid #1e293b; border-bottom: 1px solid #1e293b;">
 <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 0.35rem;">
-<span style="color: #fbbf24; font-weight: 800; font-size: 0.85rem; text-transform: uppercase;">5. Artifact 3: The Prompting & Debugging Loop (Forensics)</span>
+<span style="color: #fbbf24; font-weight: 800; font-size: 0.85rem; text-transform: uppercase;">6. Artifact 3: The Prompting & Debugging Loop (Forensics)</span>
 </div>
 <p style="margin: 0 0 0.6rem 0; color: #f8fafc; font-size: 1.05rem; font-weight: 700;">
 <em>"Human Intent → AI Output → Human Debug → Correction → Validation."</em>
@@ -237,10 +259,10 @@ Walk the exact 4-step engineering loop using raw artifact records:
 </div>
 </div>
 
-<!-- Step 6: REA Practical Applications -->
+<!-- Step 7: REA Practical Applications -->
 <div style="background: #0f172a; border-left: 4px solid #c084fc; padding: 1.25rem; border-radius: 0 10px 10px 0; border-top: 1px solid #1e293b; border-right: 1px solid #1e293b; border-bottom: 1px solid #1e293b;">
 <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 0.35rem;">
-<span style="color: #c084fc; font-weight: 800; font-size: 0.85rem; text-transform: uppercase;">6. REA Practical Applications</span>
+<span style="color: #c084fc; font-weight: 800; font-size: 0.85rem; text-transform: uppercase;">7. REA Practical Applications</span>
 </div>
 <p style="margin: 0 0 0.6rem 0; color: #f8fafc; font-size: 1.05rem; font-weight: 700;">
 <em>"The bottleneck is no longer coding speed; it’s our ability to clearly define the problem."</em>
@@ -257,10 +279,10 @@ Frame practical high-ROI use cases for electric cooperative IT: internal policy 
 </div>
 </div>
 
-<!-- Step 7: The Takeaway & Q&A -->
+<!-- Step 8: The Takeaway & Q&A -->
 <div style="background: #0f172a; border-left: 4px solid #f43f5e; padding: 1.25rem; border-radius: 0 10px 10px 0; border-top: 1px solid #1e293b; border-right: 1px solid #1e293b; border-bottom: 1px solid #1e293b;">
 <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 0.35rem;">
-<span style="color: #f43f5e; font-weight: 800; font-size: 0.85rem; text-transform: uppercase;">7. The Takeaway & Interactive Q&A</span>
+<span style="color: #f43f5e; font-weight: 800; font-size: 0.85rem; text-transform: uppercase;">8. The Takeaway & Interactive Q&A</span>
 </div>
 <p style="margin: 0 0 0.6rem 0; color: #f8fafc; font-size: 1.05rem; font-weight: 700;">
 <em>"Which piece of this architecture do you want me to break open and inspect?"</em>
