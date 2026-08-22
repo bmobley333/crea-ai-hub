@@ -213,10 +213,10 @@ Guide utility leadership through the 3 deployment tiers: Frontier Cloud APIs (Ge
 </div>
 </div>
 
-<!-- Step 5: Artifact 1 - The Prompting & Debugging Loop -->
+<!-- Step 5: Advanced Features & Loop Forensics -->
 <div style="background: #0f172a; border-left: 4px solid #fbbf24; padding: 1.25rem; border-radius: 0 10px 10px 0; border-top: 1px solid #1e293b; border-right: 1px solid #1e293b; border-bottom: 1px solid #1e293b;">
 <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 0.35rem;">
-<span style="color: #fbbf24; font-weight: 800; font-size: 0.85rem; text-transform: uppercase;">5. Artifact 1: The Prompting & Debugging Loop (Forensics)</span>
+<span style="color: #fbbf24; font-weight: 800; font-size: 0.85rem; text-transform: uppercase;">5. Advanced Features & Loop Forensics</span>
 </div>
 <p style="margin: 0 0 0.6rem 0; color: #f8fafc; font-size: 1.05rem; font-weight: 700;">
 <em>"Human Intent → AI Output → Human Debug → Correction → Validation."</em>
@@ -243,6 +243,8 @@ Walk the exact 4-step engineering loop using raw artifact records:
 </div>
 <div style="display: flex; gap: 0.6rem; align-items: center; flex-wrap: wrap;">
 <a href="/resources#⚡-graphics-embedded-ai-oauth-database-examples" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.35rem 0.8rem; border-radius: 8px; font-size: 0.84rem; font-weight: 800; text-decoration: none; background: linear-gradient(135deg, rgba(245, 158, 11, 0.22), rgba(244, 63, 94, 0.22)); border: 1.5px solid rgba(251, 191, 36, 0.6); color: #fef08a; box-shadow: 0 2px 10px rgba(245, 158, 11, 0.2);">🎆 Launch Fireworks ↗</a>
+<a href="/resources#⚡-graphics-embedded-ai-oauth-database-examples" target="_blank" rel="noopener noreferrer" style="color: #38bdf8; font-size: 0.85rem; font-weight: 700; text-decoration: underline;">🔐 Google OAuth & DBs ↗</a>
+<span style="color: #475569;">•</span>
 <a href="https://docs.google.com/document/d/1FleHQ5fE764-_TXq9NENNjM2lKMrzBDPlqqEn1bJIUw/edit?usp=drivesdk" target="_blank" rel="noopener noreferrer" style="color: #fbbf24; font-size: 0.85rem; font-weight: 700; text-decoration: underline;">📄 View Raw Prompt & Response Doc in Drive ↗</a>
 </div>
 </div>
