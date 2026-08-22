@@ -176,7 +176,7 @@ Establish the baseline governance rules before showing tool leverage: physical a
 <!-- Step 3: Mental Model Shift -->
 <div style="background: #0f172a; border-left: 4px solid #818cf8; padding: 1.25rem; border-radius: 0 10px 10px 0; border-top: 1px solid #1e293b; border-right: 1px solid #1e293b; border-bottom: 1px solid #1e293b;">
 <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 0.35rem;">
-<span style="color: #818cf8; font-weight: 800; font-size: 0.85rem; text-transform: uppercase;">3. The Mental Model Shift</span>
+<span style="color: #818cf8; font-weight: 800; font-size: 0.85rem; text-transform: uppercase;">3. The Mental Model Shift - SEE JODAR LIVE</span>
 </div>
 <p style="margin: 0 0 0.6rem 0; color: #f8fafc; font-size: 1.05rem; font-weight: 700;">
 <em>"We aren't asking for answers; we are directing an engineering workflow."</em>
@@ -187,6 +187,7 @@ Show how human intent maps to sandboxed plan approval, automated syntax validati
 </p>
 <div style="display: flex; gap: 0.6rem; align-items: center; flex-wrap: wrap;">
 <a href="/resources?modal=full-stack-architecture" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 0.35rem; padding: 0.35rem 0.8rem; border-radius: 8px; font-size: 0.84rem; font-weight: 800; text-decoration: none; background: linear-gradient(135deg, rgba(2, 132, 199, 0.2), rgba(245, 158, 11, 0.2)); border: 1.5px solid rgba(56, 189, 248, 0.6); color: #38bdf8; box-shadow: 0 2px 10px rgba(2, 132, 199, 0.2);">⚡ Full-Stack Blueprint ↗</a>
+<span title="Note: Live remote control connects exclusively from Blake's authorized devices." style="display: inline-flex; align-items: center; gap: 0.35rem; padding: 0.35rem 0.8rem; border-radius: 8px; font-size: 0.84rem; font-weight: 800; background: linear-gradient(135deg, rgba(168, 85, 247, 0.25), rgba(56, 189, 248, 0.2)); border: 1.5px solid rgba(192, 132, 252, 0.7); color: #f3e8ff; box-shadow: 0 2px 10px rgba(168, 85, 247, 0.25); cursor: help;">🌌 Jodar Live ↗</span>
 <a href="/ladder" target="_blank" rel="noopener noreferrer" style="color: #818cf8; font-size: 0.85rem; font-weight: 700; text-decoration: underline;">🪜 4-Level Maturity Ladder ↗</a>
 <span style="color: #475569;">•</span>
 <a href="https://docs.google.com/presentation/d/1BmBU_wbQ_YdHzZuPM2_lFvGxcCrKzYFl8jXgYZOk6rw/edit#slide=id.s03_maturity_ladder" target="_blank" rel="noopener noreferrer" style="color: #818cf8; font-size: 0.85rem; font-weight: 700; text-decoration: underline;">📊 Slide 4: 4-Level Maturity Ladder ↗</a>
