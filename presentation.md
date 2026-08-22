@@ -209,8 +209,6 @@ Guide utility leadership through the 3 deployment tiers: Frontier Cloud APIs (Ge
 <span style="color: #475569;">•</span>
 <a href="https://docs.google.com/presentation/d/1BmBU_wbQ_YdHzZuPM2_lFvGxcCrKzYFl8jXgYZOk6rw/edit#slide=id.s09_cloud_local_hybrid" target="_blank" rel="noopener noreferrer" style="color: #34d399; font-size: 0.85rem; font-weight: 700; text-decoration: underline;">📊 Slide 10: Cloud vs. Local vs. Hybrid ↗</a>
 <span style="color: #475569;">•</span>
-<a href="https://notebook.google.com/notebook/49bfc1b6-eefc-4efe-a6d2-e67dff3d8c05" target="_blank" rel="noopener noreferrer" style="color: #34d399; font-size: 0.85rem; font-weight: 700; text-decoration: underline;">🧠 Gemini Demo Notebook ↗</a>
-<span style="color: #475569;">•</span>
 <a href="/hardware" target="_blank" rel="noopener noreferrer" style="color: #34d399; font-size: 0.85rem; font-weight: 700; text-decoration: underline;">💻 Hardware BoM ↗</a>
 </div>
 </div>
