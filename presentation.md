@@ -247,10 +247,10 @@ Walk the exact 4-step engineering loop using raw artifact records:
 </div>
 </div>
 
-<!-- Step 6: Google Notebook / RAG (Retrieval-Augmented Generation) -->
+<!-- Step 6: Google Notebook / Wiki / RAG & Second Brain -->
 <div style="background: #0f172a; border-left: 4px solid #10b981; padding: 1.25rem; border-radius: 0 10px 10px 0; border-top: 1px solid #1e293b; border-right: 1px solid #1e293b; border-bottom: 1px solid #1e293b;">
 <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 0.35rem;">
-<span style="color: #10b981; font-weight: 800; font-size: 0.85rem; text-transform: uppercase;">6. Google Notebook / RAG (Retrieval-Augmented Generation)</span>
+<span style="color: #10b981; font-weight: 800; font-size: 0.85rem; text-transform: uppercase;">6. Google Notebook / Wiki / RAG & Second Brain</span>
 </div>
 <p style="margin: 0 0 0.6rem 0; color: #f8fafc; font-size: 1.05rem; font-weight: 700;">
 <em>"Zero hallucinations, instant document citations, and spoken audio overviews—grounding AI in your co-op's true source of truth."</em>
