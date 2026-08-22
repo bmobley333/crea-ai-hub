@@ -1,0 +1,264 @@
+/* ==========================================================================
+   CREA AI Hub: S-Tier Light Glassmorphic Theme & Dynamic Styling Engine
+   ========================================================================== */
+
+/* Root & Theme Variables */
+:root {
+  --vp-c-brand-1: #0284c7;
+  --vp-c-brand-2: #0369a1;
+  --vp-c-brand-3: #0ea5e9;
+  --crea-glass-bg: rgba(255, 255, 255, 0.85);
+  --crea-glass-border: rgba(203, 213, 225, 0.85);
+  --crea-card-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.07), 0 4px 6px -2px rgba(15, 23, 42, 0.04);
+}
+
+.dark {
+  --vp-c-brand-1: #38bdf8;
+  --vp-c-brand-2: #0284c7;
+  --vp-c-brand-3: #7dd3fc;
+  --crea-glass-bg: #1e293b;
+  --crea-glass-border: #334155;
+  --crea-card-shadow: 0 10px 30px rgba(0, 0, 0, 0.4), 0 0 25px rgba(2, 132, 199, 0.15);
+}
+
+/* ==========================================================================
+   LIGHT MODE OVERRIDES (Applied when html does NOT have .dark class)
+   ========================================================================== */
+
+html:not(.dark) {
+  background-color: #f8fafc;
+  color: #1e293b;
+}
+
+html:not(.dark) body {
+  background: radial-gradient(circle at 10% 10%, rgba(56, 189, 248, 0.06), transparent 30%),
+              radial-gradient(circle at 90% 80%, rgba(99, 102, 241, 0.05), transparent 35%),
+              #f8fafc;
+}
+
+/* 1. Header Banners & Spotlight Gradient Cards */
+html:not(.dark) div[style*="background: linear-gradient(135deg, rgba(2, 132, 199"] {
+  background: linear-gradient(135deg, rgba(2, 132, 199, 0.10), rgba(255, 255, 255, 0.95)) !important;
+  border: 1.5px solid #0284c7 !important;
+  box-shadow: 0 10px 25px -5px rgba(2, 132, 199, 0.12), 0 4px 10px rgba(0, 0, 0, 0.03) !important;
+}
+
+html:not(.dark) div[style*="background: linear-gradient(135deg, rgba(16, 185, 129"] {
+  background: linear-gradient(135deg, rgba(16, 185, 129, 0.10), rgba(255, 255, 255, 0.95)) !important;
+  border: 1.5px solid #059669 !important;
+  box-shadow: 0 10px 25px -5px rgba(16, 185, 129, 0.12) !important;
+}
+
+html:not(.dark) div[style*="background: linear-gradient(135deg, rgba(245, 158, 11"] {
+  background: linear-gradient(135deg, rgba(245, 158, 11, 0.12), rgba(255, 255, 255, 0.95)) !important;
+  border: 1.5px solid #d97706 !important;
+  box-shadow: 0 10px 25px -5px rgba(245, 158, 11, 0.12) !important;
+}
+
+html:not(.dark) div[style*="background: linear-gradient(135deg, rgba(244, 63, 94"] {
+  background: linear-gradient(135deg, rgba(244, 63, 94, 0.09), rgba(255, 255, 255, 0.95)) !important;
+  border: 1.5px solid #e11d48 !important;
+  box-shadow: 0 10px 25px -5px rgba(244, 63, 94, 0.12) !important;
+}
+
+html:not(.dark) div[style*="background: linear-gradient(135deg, rgba(168, 85, 247"] {
+  background: linear-gradient(135deg, rgba(168, 85, 247, 0.10), rgba(255, 255, 255, 0.95)) !important;
+  border: 1.5px solid #9333ea !important;
+  box-shadow: 0 10px 25px -5px rgba(168, 85, 247, 0.12) !important;
+}
+
+/* 2. Main 4 Cockpit Cards & Grid Containers */
+html:not(.dark) div[style*="background: #1e293b"] {
+  background: rgba(255, 255, 255, 0.92) !important;
+  backdrop-filter: blur(12px) !important;
+  border: 1.5px solid #cbd5e1 !important;
+  box-shadow: 0 8px 20px -4px rgba(15, 23, 42, 0.06), 0 3px 6px -2px rgba(15, 23, 42, 0.04) !important;
+}
+
+html:not(.dark) div[style*="background: #1e293b"]:hover {
+  border-color: #94a3b8 !important;
+  box-shadow: 0 12px 28px -4px rgba(15, 23, 42, 0.10) !important;
+}
+
+/* 3. The Journey Step Cards (01 through 08) */
+html:not(.dark) div[style*="background: #0f172a"] {
+  background: rgba(255, 255, 255, 0.96) !important;
+  border-top: 1.5px solid #e2e8f0 !important;
+  border-right: 1.5px solid #e2e8f0 !important;
+  border-bottom: 1.5px solid #e2e8f0 !important;
+  box-shadow: 0 6px 16px -3px rgba(15, 23, 42, 0.05) !important;
+}
+
+/* 4. Nested Code Blocks & Detail Boxes */
+html:not(.dark) div[style*="background: #0f172a"] div[style*="background: #1e293b"],
+html:not(.dark) div[style*="background: rgba(15, 23, 42"] {
+  background: #f1f5f9 !important;
+  border: 1px solid #cbd5e1 !important;
+}
+
+/* 5. Typography Contrast Adjustments */
+html:not(.dark) h1,
+html:not(.dark) h2,
+html:not(.dark) h3,
+html:not(.dark) h4,
+html:not(.dark) h5,
+html:not(.dark) h6 {
+  color: #0f172a !important;
+}
+
+html:not(.dark) h2[style*="color: #f8fafc"],
+html:not(.dark) h3[style*="color: #f8fafc"] {
+  color: #0f172a !important;
+}
+
+html:not(.dark) p[style*="color: #f8fafc"] {
+  color: #0f172a !important;
+}
+
+html:not(.dark) p[style*="color: #cbd5e1"],
+html:not(.dark) p[style*="color: #94a3b8"],
+html:not(.dark) p[style*="color: #e2e8f0"],
+html:not(.dark) p {
+  color: #334155 !important;
+}
+
+html:not(.dark) ul li,
+html:not(.dark) ol li {
+  color: #334155 !important;
+}
+
+html:not(.dark) span[style*="color: #cbd5e1"],
+html:not(.dark) span[style*="color: #94a3b8"] {
+  color: #475569 !important;
+}
+
+/* 6. Accent Badges & Pills in Light Mode */
+html:not(.dark) span[style*="background: rgba(56, 189, 248, 0.15)"] {
+  background: rgba(2, 132, 199, 0.12) !important;
+  color: #0284c7 !important;
+  border-color: rgba(2, 132, 199, 0.4) !important;
+}
+
+html:not(.dark) span[style*="background: rgba(52, 211, 153, 0.15)"] {
+  background: rgba(5, 150, 105, 0.12) !important;
+  color: #059669 !important;
+  border-color: rgba(5, 150, 105, 0.4) !important;
+}
+
+html:not(.dark) span[style*="background: rgba(251, 191, 36, 0.15)"] {
+  background: rgba(217, 119, 6, 0.12) !important;
+  color: #d97706 !important;
+  border-color: rgba(217, 119, 6, 0.4) !important;
+}
+
+html:not(.dark) span[style*="background: rgba(168, 85, 247, 0.15)"] {
+  background: rgba(147, 51, 234, 0.12) !important;
+  color: #7e22ce !important;
+  border-color: rgba(147, 51, 234, 0.4) !important;
+}
+
+/* 7. Action Buttons & Interactive Links in Light Mode */
+html:not(.dark) a[style*="background: #334155"] {
+  background: #e2e8f0 !important;
+  color: #0f172a !important;
+  border: 1px solid #cbd5e1 !important;
+}
+
+html:not(.dark) a[style*="background: #334155"]:hover {
+  background: #cbd5e1 !important;
+}
+
+html:not(.dark) a[style*="background: #0284c7"] {
+  background: #0284c7 !important;
+  color: #ffffff !important;
+  box-shadow: 0 2px 8px rgba(2, 132, 199, 0.3) !important;
+}
+
+html:not(.dark) a[style*="background: #10b981"] {
+  background: #059669 !important;
+  color: #ffffff !important;
+  box-shadow: 0 2px 8px rgba(5, 150, 105, 0.3) !important;
+}
+
+html:not(.dark) a[style*="background: #d97706"] {
+  background: #d97706 !important;
+  color: #ffffff !important;
+  box-shadow: 0 2px 8px rgba(217, 119, 6, 0.3) !important;
+}
+
+html:not(.dark) a[style*="background: #9333ea"] {
+  background: #7e22ce !important;
+  color: #ffffff !important;
+  box-shadow: 0 2px 8px rgba(126, 34, 206, 0.3) !important;
+}
+
+/* Jodar Live Pill in Light Mode */
+html:not(.dark) span[style*="rgba(168, 85, 247, 0.25)"] {
+  background: linear-gradient(135deg, rgba(147, 51, 234, 0.12), rgba(2, 132, 199, 0.10)) !important;
+  border: 1.5px solid #9333ea !important;
+  color: #581c87 !important;
+  box-shadow: 0 2px 8px rgba(147, 51, 234, 0.15) !important;
+}
+
+/* 8. Table Styling in Light Mode */
+html:not(.dark) table {
+  background: #ffffff !important;
+  border-collapse: collapse !important;
+}
+
+html:not(.dark) th {
+  background-color: #f1f5f9 !important;
+  color: #0f172a !important;
+  font-weight: 800 !important;
+  border: 1px solid #cbd5e1 !important;
+}
+
+html:not(.dark) td {
+  color: #334155 !important;
+  border: 1px solid #cbd5e1 !important;
+}
+
+html:not(.dark) tr:nth-child(2n) {
+  background-color: #f8fafc !important;
+}
+
+/* 9. Markdown Links in Light Mode */
+html:not(.dark) a[style*="color: #38bdf8"] {
+  color: #0284c7 !important;
+}
+
+html:not(.dark) a[style*="color: #34d399"] {
+  color: #059669 !important;
+}
+
+html:not(.dark) a[style*="color: #f59e0b"] {
+  color: #b45309 !important;
+}
+
+html:not(.dark) a[style*="color: #818cf8"] {
+  color: #4f46e5 !important;
+}
+
+html:not(.dark) a[style*="color: #c084fc"] {
+  color: #7e22ce !important;
+}
+
+html:not(.dark) a[style*="color: #f43f5e"] {
+  color: #e11d48 !important;
+}
+
+/* 10. Code Blocks in Light Mode */
+html:not(.dark) .vp-doc div[class*="language-"],
+html:not(.dark) .vp-doc pre {
+  background-color: #f1f5f9 !important;
+  border: 1px solid #cbd5e1 !important;
+}
+
+html:not(.dark) .vp-doc pre code {
+  color: #0f172a !important;
+}
+
+/* Smooth Universal Appearance Transition */
+*, *::before, *::after {
+  transition: background-color 0.25s ease, border-color 0.25s ease, color 0.15s ease, box-shadow 0.25s ease;
+}
