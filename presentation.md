@@ -188,6 +188,8 @@ Show how human intent maps to sandboxed plan approval, automated syntax validati
 <div style="display: flex; gap: 0.6rem; align-items: center; flex-wrap: wrap;">
 <a href="/resources?modal=full-stack-architecture" target="_blank" rel="noopener noreferrer" style="display: inline-flex; align-items: center; gap: 0.35rem; padding: 0.35rem 0.8rem; border-radius: 8px; font-size: 0.84rem; font-weight: 800; text-decoration: none; background: linear-gradient(135deg, rgba(2, 132, 199, 0.2), rgba(245, 158, 11, 0.2)); border: 1.5px solid rgba(56, 189, 248, 0.6); color: #38bdf8; box-shadow: 0 2px 10px rgba(2, 132, 199, 0.2);">⚡ Full-Stack Blueprint ↗</a>
 <a href="/ladder" target="_blank" rel="noopener noreferrer" style="color: #818cf8; font-size: 0.85rem; font-weight: 700; text-decoration: underline;">🪜 4-Level Maturity Ladder ↗</a>
+<span style="color: #475569;">•</span>
+<a href="https://docs.google.com/presentation/d/1BmBU_wbQ_YdHzZuPM2_lFvGxcCrKzYFl8jXgYZOk6rw/edit#slide=id.s03_maturity_ladder" target="_blank" rel="noopener noreferrer" style="color: #818cf8; font-size: 0.85rem; font-weight: 700; text-decoration: underline;">📊 Slide 4: 4-Level Maturity Ladder ↗</a>
 </div>
 </div>
 
