@@ -309,7 +309,7 @@ Invite attendees to bookmark the hub and inspect the 19-slide appendix, 30-day p
 <span style="color: #475569;">•</span>
 <a href="/resources#keeping-up-with-ai" target="_blank" rel="noopener noreferrer" style="color: #38bdf8; font-size: 0.85rem; font-weight: 700; text-decoration: underline;">📺 Keeping Up with AI (Matt Wolfe) ↗</a>
 <span style="color: #475569;">•</span>
-<a href="https://drive.google.com/drive/folders/1ltRx1n6Db9Vxi7rDJcUt1qsVtEuv3opB?usp=sharing" target="_blank" rel="noopener noreferrer" style="color: #fbbf24; font-size: 0.85rem; font-weight: 700; text-decoration: underline;">📂 Google Drive Resource Vault ↗</a>
+<a href="https://drive.google.com/file/d/1XLUvi4Xx-UdR760TPsqQ-uz5JrmZgh4V/view?usp=drive_link" target="_blank" rel="noopener noreferrer" style="color: #fbbf24; font-size: 0.85rem; font-weight: 700; text-decoration: underline;">📄 AI Agent Harness Reference Architecture ↗</a>
 </div>
 </div>
 
