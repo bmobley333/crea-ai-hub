@@ -1,4 +1,4 @@
-# 📖 Utility IT & AI Reference Encyclopedia
+# 📖 Glossary
 
 A comprehensive, categorized guide to modern artificial intelligence, agentic developer harnesses, software architecture standards, and utility cybersecurity governance tailored specifically for rural electric cooperative IT Directors, Systems Administrators, and Network Engineers.
 

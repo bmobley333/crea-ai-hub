@@ -31,7 +31,7 @@ export default defineConfig({
           { text: '📺 Keeping Up with AI', link: '/resources#keeping-up-with-ai' },
           { text: '🧠 Keynote Companion Notebook ↗', link: 'https://notebook.google.com/notebook/8670f8c2-5863-4f91-ba9b-6f201a744f44' },
           { text: '💡 High-Impact AI Projects', link: '/resources#💡-high-impact-next-level-ai-projects' },
-          { text: '📖 Utility IT & AI Glossary', link: '/glossary' },
+          { text: '📖 Glossary', link: '/glossary' },
           { text: '⚖️ Legal Risk & Disclaimer', link: '/disclaimer' }
         ]
       },
@@ -61,7 +61,7 @@ export default defineConfig({
       {
         text: 'Reference & Toolkits',
         items: [
-          { text: 'Utility IT & AI Glossary', link: '/glossary' },
+          { text: '📖 Glossary', link: '/glossary' },
           { text: 'Resources & Downloads', link: '/resources' },
           { text: '📺 Keeping Up with AI', link: '/resources#keeping-up-with-ai' },
           { text: '⚖️ Legal Risk & Disclaimer', link: '/disclaimer' }
