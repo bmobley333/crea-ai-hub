@@ -102,4 +102,49 @@ function handleClick() {
   transform: translateY(-1px);
   box-shadow: 0 0 10px rgba(56, 189, 248, 0.3);
 }
+
+/* Light Mode Overrides */
+:global(html:not(.dark)) .demo-btn-cyan {
+  background: rgba(2, 132, 199, 0.12) !important;
+  border-color: rgba(2, 132, 199, 0.5) !important;
+  color: #0284c7 !important;
+}
+
+:global(html:not(.dark)) .demo-btn-cyan:hover {
+  background: #0284c7 !important;
+  color: #ffffff !important;
+}
+
+:global(html:not(.dark)) .demo-btn-emerald {
+  background: rgba(5, 150, 105, 0.12) !important;
+  border-color: rgba(5, 150, 105, 0.5) !important;
+  color: #059669 !important;
+}
+
+:global(html:not(.dark)) .demo-btn-emerald:hover {
+  background: #059669 !important;
+  color: #ffffff !important;
+}
+
+:global(html:not(.dark)) .demo-btn-amber {
+  background: rgba(217, 119, 6, 0.12) !important;
+  border-color: rgba(217, 119, 6, 0.5) !important;
+  color: #b45309 !important;
+}
+
+:global(html:not(.dark)) .demo-btn-amber:hover {
+  background: #d97706 !important;
+  color: #ffffff !important;
+}
+
+:global(html:not(.dark)) .demo-btn-fireworks {
+  background: linear-gradient(135deg, rgba(2, 132, 199, 0.12), rgba(217, 119, 6, 0.12)) !important;
+  border-color: rgba(2, 132, 199, 0.6) !important;
+  color: #0369a1 !important;
+}
+
+:global(html:not(.dark)) .demo-btn-fireworks:hover {
+  background: #0284c7 !important;
+  color: #ffffff !important;
+}
 </style>

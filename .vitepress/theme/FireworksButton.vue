@@ -48,4 +48,18 @@ function handleClick() {
   transform: translateY(-1.5px) scale(1.02);
   box-shadow: 0 4px 18px rgba(245, 158, 11, 0.4);
 }
+
+:global(html:not(.dark)) .fireworks-launch-btn {
+  background: linear-gradient(135deg, rgba(245, 158, 11, 0.18), rgba(244, 63, 94, 0.15)) !important;
+  border: 1.5px solid #ea580c !important;
+  color: #9a3412 !important;
+  box-shadow: 0 2px 8px rgba(234, 88, 12, 0.2) !important;
+}
+
+:global(html:not(.dark)) .fireworks-launch-btn:hover {
+  background: linear-gradient(135deg, rgba(245, 158, 11, 0.28), rgba(244, 63, 94, 0.22)) !important;
+  border-color: #c2410c !important;
+  color: #7c2d12 !important;
+  box-shadow: 0 4px 14px rgba(234, 88, 12, 0.3) !important;
+}
 </style>

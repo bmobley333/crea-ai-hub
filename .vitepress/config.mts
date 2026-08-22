@@ -54,8 +54,8 @@ export default defineConfig({
       {
         text: 'Keynote Demos',
         items: [
-          { text: 'Documentation Engine (Demo 1)', link: '/demos/documentation-engine' },
-          { text: 'IT Ticket Triage (Demo 2)', link: '/demos/ticket-triage' }
+          { text: 'Documentation Engine (Demo 1) ↗', link: '/demos/documentation-engine', target: '_blank' },
+          { text: 'IT Ticket Triage (Demo 2) ↗', link: '/demos/ticket-triage', target: '_blank' }
         ]
       },
       {

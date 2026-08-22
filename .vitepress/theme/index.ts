@@ -1,4 +1,10 @@
 import DefaultTheme from 'vitepress/theme'
+import { h } from 'vue'
+import Banner from './Banner.vue'
+import DemoModal from './DemoModal.vue'
+import DemoButton from './DemoButton.vue'
+import FireworksModal from './FireworksModal.vue'
+import FireworksButton from './FireworksButton.vue'
 import './custom.css'
 import type { Theme } from 'vitepress'
 
@@ -24,7 +30,18 @@ function syncSlideDeckLinks() {
 
 const theme: Theme = {
   extends: DefaultTheme,
-  enhanceApp({ router }) {
+  Layout() {
+    return h(DefaultTheme.Layout, null, {
+      'layout-top': () => h(Banner),
+      'layout-bottom': () => [h(DemoModal), h(FireworksModal)]
+    })
+  },
+  enhanceApp({ app, router }) {
+    app.component('DemoButton', DemoButton)
+    app.component('DemoModal', DemoModal)
+    app.component('FireworksButton', FireworksButton)
+    app.component('FireworksModal', FireworksModal)
+
     if (typeof window !== 'undefined') {
       // 1. Initial sync on DOM ready
       if (document.readyState === 'loading') {
