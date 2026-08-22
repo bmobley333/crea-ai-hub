@@ -290,7 +290,7 @@ Frame practical high-ROI use cases for electric cooperative IT: internal policy 
 <span style="color: #f43f5e; font-weight: 800; font-size: 0.85rem; text-transform: uppercase;">8. The Takeaway & Interactive Q&A</span>
 </div>
 <p style="margin: 0 0 0.6rem 0; color: #f8fafc; font-size: 1.05rem; font-weight: 700;">
-<em>"Which piece of this architecture do you want me to break open and inspect?"</em>
+<em>"How would you start your journey from Level 1 (Assist) toward Level 4 (Operate)? What would you do next?"</em>
 </p>
 <p style="margin: 0 0 0.5rem 0; color: #cbd5e1; font-size: 0.9rem; line-height: 1.5;">
 Invite attendees to bookmark the hub and inspect the 19-slide appendix, 30-day playbook, or live codebase.
@@ -299,6 +299,8 @@ Invite attendees to bookmark the hub and inspect the 19-slide appendix, 30-day p
 <a href="https://notebook.google.com/notebook/8670f8c2-5863-4f91-ba9b-6f201a744f44" target="_blank" rel="noopener noreferrer" style="color: #34d399; font-size: 0.85rem; font-weight: 700; text-decoration: underline;">🧠 Keynote Companion AI Notebook ↗</a>
 <span style="color: #475569;">•</span>
 <a href="/30_Day_Coop_AI_Playbook.pdf" target="_blank" rel="noopener noreferrer" style="color: #f43f5e; font-size: 0.85rem; font-weight: 700; text-decoration: underline;">📥 Download 30-Day Playbook PDF ↗</a>
+<span style="color: #475569;">•</span>
+<a href="https://docs.google.com/presentation/d/1BmBU_wbQ_YdHzZuPM2_lFvGxcCrKzYFl8jXgYZOk6rw/edit#slide=id.s12_action_plan" target="_blank" rel="noopener noreferrer" style="color: #f43f5e; font-size: 0.85rem; font-weight: 700; text-decoration: underline;">📊 Slide 13: 30-Day Co-op Action Plan ↗</a>
 <span style="color: #475569;">•</span>
 <a href="https://docs.google.com/presentation/d/1BmBU_wbQ_YdHzZuPM2_lFvGxcCrKzYFl8jXgYZOk6rw/edit" target="_blank" rel="noopener noreferrer" style="color: #f43f5e; font-size: 0.85rem; font-weight: 700; text-decoration: underline;">📊 19-Slide Google Slides Deck ↗</a>
 <span style="color: #475569;">•</span>
