@@ -4,10 +4,10 @@ A comprehensive, categorized guide to modern artificial intelligence, agentic de
 
 ---
 
-<div style="margin: 1.5rem 0; padding: 1.25rem; background: linear-gradient(135deg, rgba(2, 132, 199, 0.18), rgba(15, 23, 42, 0.95)); border: 1.5px solid #0284c7; border-radius: 12px; display: flex; justify-content: space-between; align-items: center; gap: 1rem; flex-wrap: wrap;">
+<div style="margin: 1.5rem 0; padding: 1.25rem; background: var(--crea-banner-blue); border: 1.5px solid #0284c7; border-radius: 12px; display: flex; justify-content: space-between; align-items: center; gap: 1rem; flex-wrap: wrap;">
   <div>
     <h3 style="margin: 0; color: #38bdf8; font-size: 1.15rem; font-weight: 800;">⚡ Quick-Jump Encyclopedia Categories</h3>
-    <p style="margin: 0.25rem 0 0 0; color: #cbd5e1; font-size: 0.88rem;">Navigate directly to key sections below:</p>
+    <p style="margin: 0.25rem 0 0 0; color: var(--crea-text-body); font-size: 0.88rem;">Navigate directly to key sections below:</p>
   </div>
   <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
     <a href="#frontier-matrix" style="background: #0284c7; color: #ffffff; font-weight: 700; font-size: 0.82rem; padding: 0.4rem 0.8rem; border-radius: 6px; text-decoration: none;">🏛️ Frontier Matrix</a>

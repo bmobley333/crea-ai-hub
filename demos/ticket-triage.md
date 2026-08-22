@@ -1,10 +1,10 @@
 # 🧪 Use Case 2: IT Ticket Triage & Change Drafting
 ### From Vague Helpdesk Email to Staged PowerShell Remediation Package
 
-<div style="margin: 1.5rem 0; padding: 1.25rem; background: linear-gradient(135deg, rgba(245, 158, 11, 0.18), rgba(15, 23, 42, 0.95)); border: 1.5px solid #f59e0b; border-radius: 12px; display: flex; justify-content: space-between; align-items: center; gap: 1rem; flex-wrap: wrap;">
+<div style="margin: 1.5rem 0; padding: 1.25rem; background: var(--crea-banner-amber); border: 1.5px solid #f59e0b; border-radius: 12px; display: flex; justify-content: space-between; align-items: center; gap: 1rem; flex-wrap: wrap;">
   <div>
     <h3 style="margin: 0; color: #f59e0b; font-size: 1.15rem; font-weight: 800;">🖼️ Standalone Visual Card</h3>
-    <p style="margin: 0.25rem 0 0 0; color: #cbd5e1; font-size: 0.88rem;">Open the full-screen visual card presentation format in a new browser tab.</p>
+    <p style="margin: 0.25rem 0 0 0; color: var(--crea-text-body); font-size: 0.88rem;">Open the full-screen visual card presentation format in a new browser tab.</p>
   </div>
   <a href="/assets/demo_cards/card_use_case_2_triage.html" target="_blank" rel="noopener noreferrer" style="background: #f59e0b; color: #0f172a; font-weight: 800; font-size: 0.88rem; padding: 0.55rem 1.1rem; border-radius: 8px; text-decoration: none; display: inline-flex; align-items: center; gap: 0.4rem;">
     Open Visual Card ↗

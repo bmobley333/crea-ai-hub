@@ -4,10 +4,10 @@ Download presentation slide decks, the printable 2-page executive summary playbo
 
 ---
 
-<div style="margin: 1.5rem 0; padding: 1.25rem; background: linear-gradient(135deg, rgba(2, 132, 199, 0.18), rgba(15, 23, 42, 0.95)); border: 1.5px solid #0284c7; border-radius: 12px; display: flex; justify-content: space-between; align-items: center; gap: 1rem; flex-wrap: wrap;">
+<div style="margin: 1.5rem 0; padding: 1.25rem; background: var(--crea-banner-blue); border: 1.5px solid #0284c7; border-radius: 12px; display: flex; justify-content: space-between; align-items: center; gap: 1rem; flex-wrap: wrap;">
   <div>
     <h3 style="margin: 0; color: #38bdf8; font-size: 1.15rem; font-weight: 800;">📂 Master Google Drive Resource Folder</h3>
-    <p style="margin: 0.25rem 0 0 0; color: #cbd5e1; font-size: 0.88rem;">Contains all official presentation slides, 2-page executive summary PDF, synthetic utility docs, and conference logistics.</p>
+    <p style="margin: 0.25rem 0 0 0; color: var(--crea-text-body); font-size: 0.88rem;">Contains all official presentation slides, 2-page executive summary PDF, synthetic utility docs, and conference logistics.</p>
   </div>
   <a href="https://drive.google.com/drive/folders/1ltRx1n6Db9Vxi7rDJcUt1qsVtEuv3opB?usp=sharing" target="_blank" rel="noopener noreferrer" style="background: #0284c7; color: #ffffff; font-weight: 700; font-size: 0.88rem; padding: 0.55rem 1.1rem; border-radius: 8px; text-decoration: none; display: inline-flex; align-items: center; gap: 0.4rem;">
     Open Google Drive Folder ↗
@@ -30,7 +30,7 @@ Download presentation slide decks, the printable 2-page executive summary playbo
 
 ## 📺 Keeping Up with AI {#keeping-up-with-ai}
 
-<div style="margin: 1.5rem 0; padding: 1.5rem; background: linear-gradient(135deg, rgba(244, 63, 94, 0.12), rgba(15, 23, 42, 0.95)); border: 1.5px solid rgba(244, 63, 94, 0.4); border-radius: 14px; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4), 0 0 25px rgba(244, 63, 94, 0.1); display: flex; justify-content: space-between; align-items: center; gap: 1.5rem; flex-wrap: wrap;">
+<div style="margin: 1.5rem 0; padding: 1.5rem; background: var(--crea-banner-rose); border: 1.5px solid rgba(244, 63, 94, 0.4); border-radius: 14px; box-shadow: var(--crea-card-shadow); display: flex; justify-content: space-between; align-items: center; gap: 1.5rem; flex-wrap: wrap;">
   <div style="flex: 1 1 500px;">
     <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 0.45rem; font-size: 0.76rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em; cursor: default; user-select: none;">
       <span style="color: #f43f5e; display: inline-flex; align-items: center; gap: 4px;">📺 Weekly Intelligence</span>
@@ -39,13 +39,13 @@ Download presentation slide decks, the printable 2-page executive summary playbo
       <span style="color: #475569;">•</span>
       <span style="color: #38bdf8;">Every Friday</span>
     </div>
-    <h3 style="margin: 0 0 0.4rem 0; color: #f8fafc; font-size: 1.25rem; font-weight: 800;">
+    <h3 style="margin: 0 0 0.4rem 0; color: var(--crea-text-title); font-size: 1.25rem; font-weight: 800;">
       How to Keep Up in the Rapidly Changing World of AI
     </h3>
-    <p style="margin: 0 0 0.75rem 0; color: #e2e8f0; font-size: 0.95rem; font-weight: 600; line-height: 1.5;">
+    <p style="margin: 0 0 0.75rem 0; color: var(--crea-text-body); font-size: 0.95rem; font-weight: 600; line-height: 1.5;">
       Matt Wolfe releases a new comprehensive YouTube breakdown on this topic every Friday.
     </p>
-    <p style="margin: 0; color: #94a3b8; font-size: 0.88rem; line-height: 1.5;">
+    <p style="margin: 0; color: var(--crea-text-muted); font-size: 0.88rem; line-height: 1.5;">
       Curated by AI educator and FutureTools founder <strong>Matt Wolfe (<a href="https://www.youtube.com/@mreflow" target="_blank" rel="noopener noreferrer" style="color: #f43f5e; text-decoration: underline;">@mreflow</a>)</strong>, this weekly video series filters through the noise to deliver concise, high-signal recaps of frontier model breakthroughs, open-weight tools, coding assistants, practical workflows, and emerging industry shifts.
     </p>
   </div>
@@ -78,7 +78,7 @@ Download presentation slide decks, the printable 2-page executive summary playbo
 | **Google OAuth & Live Feedback DB** | Google OAuth + Supabase DB | <DemoButton type="oauth-db-demo" label="🔐 Live Feedback DB" /> | Real-time PostgreSQL database persistence with Google OAuth 2.0 authentication, 1–5 star rating engine, and public peer review cards. |
 | **Local-First & Autonomous SQLite DB** | Embedded SQLite & AI Harness | <DemoButton type="local-db-sqlite" label="💾 Autonomous SQLite & Local DBs" accent="emerald" /> | Zero-manual-CRUD database architecture: how AI harnesses autonomously manage local SQLite databases for air-gapped substation operations and instant edge performance. |
 
-<div style="margin: 1.75rem 0; padding: 1.5rem; background: linear-gradient(135deg, rgba(2, 132, 199, 0.22), rgba(15, 23, 42, 0.95)); border: 1.5px solid #0284c7; border-radius: 14px; box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4), 0 0 25px rgba(2, 132, 199, 0.15); display: flex; justify-content: space-between; align-items: center; gap: 1.5rem; flex-wrap: wrap;">
+<div style="margin: 1.75rem 0; padding: 1.5rem; background: var(--crea-banner-blue); border: 1.5px solid #0284c7; border-radius: 14px; box-shadow: var(--crea-card-shadow); display: flex; justify-content: space-between; align-items: center; gap: 1.5rem; flex-wrap: wrap;">
   <div style="flex: 1 1 500px;">
     <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 0.45rem; font-size: 0.76rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em; cursor: default; user-select: none; pointer-events: none; flex-wrap: wrap;">
       <span style="color: #38bdf8; display: inline-flex; align-items: center; gap: 4px;">⚡ Meta-Demonstration</span>
@@ -87,8 +87,8 @@ Download presentation slide decks, the printable 2-page executive summary playbo
       <span style="color: #475569;">•</span>
       <span style="color: #34d399;">8 Architectural Layers</span>
     </div>
-    <h3 style="margin: 0 0 0.4rem 0; color: #f8fafc; font-size: 1.2rem; font-weight: 800;">The 8-Layer Full-Stack Autobiography</h3>
-    <p style="margin: 0; color: #cbd5e1; font-size: 0.9rem; line-height: 1.5;">
+    <h3 style="margin: 0 0 0.4rem 0; color: var(--crea-text-title); font-size: 1.2rem; font-weight: 800;">The 8-Layer Full-Stack Autobiography</h3>
+    <p style="margin: 0; color: var(--crea-text-body); font-size: 0.9rem; line-height: 1.5;">
       Explore the complete technical anatomy of this Web App & Keynote ecosystem—from <a href="/glossary#vibe-coding" target="_blank" style="color: #38bdf8; font-weight: 700; text-decoration: underline dotted #0284c7;">Jodar's</a> cognitive prompt contracts and Antigravity 2.0 developer harness to Vue 3, HTML5 Canvas 2D physics, Web Audio synthesis, Google OAuth 2.0, Supabase PostgreSQL, and Vercel edge CI/CD.
     </p>
   </div>
@@ -104,99 +104,99 @@ Download presentation slide decks, the printable 2-page executive summary playbo
 Explore high-leverage domains where AI engineering harnesses generate immediate, bounded operational ROI for rural electric cooperatives:
 
 <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 1rem; margin: 1.5rem 0 2rem 0;">
-  <div style="background: #1e293b; border: 1px solid #334155; border-radius: 10px; padding: 1rem; display: flex; align-items: flex-start; gap: 0.75rem;">
+  <div style="background: var(--crea-card-bg); border: 1.5px solid var(--crea-card-border); border-radius: 10px; padding: 1rem; display: flex; align-items: flex-start; gap: 0.75rem; box-shadow: var(--crea-card-shadow);">
     <span style="font-size: 1.25rem;">📄</span>
     <div>
-      <h4 style="margin: 0 0 0.2rem 0; color: #f8fafc; font-size: 0.95rem; font-weight: 700;">Documentation</h4>
-      <p style="margin: 0; color: #94a3b8; font-size: 0.8rem; line-height: 1.4;">Legacy binder digitizing, markdown conversion, and living SOP catalogs.</p>
+      <h4 style="margin: 0 0 0.2rem 0; color: var(--crea-text-title); font-size: 0.95rem; font-weight: 700;">Documentation</h4>
+      <p style="margin: 0; color: var(--crea-text-muted); font-size: 0.8rem; line-height: 1.4;">Legacy binder digitizing, markdown conversion, and living SOP catalogs.</p>
     </div>
   </div>
 
-  <div style="background: #1e293b; border: 1px solid #334155; border-radius: 10px; padding: 1rem; display: flex; align-items: flex-start; gap: 0.75rem;">
+  <div style="background: var(--crea-card-bg); border: 1.5px solid var(--crea-card-border); border-radius: 10px; padding: 1rem; display: flex; align-items: flex-start; gap: 0.75rem; box-shadow: var(--crea-card-shadow);">
     <span style="font-size: 1.25rem;">⚖️</span>
     <div>
-      <h4 style="margin: 0 0 0.2rem 0; color: #f8fafc; font-size: 0.95rem; font-weight: 700;">Policy Analysis</h4>
-      <p style="margin: 0; color: #94a3b8; font-size: 0.8rem; line-height: 1.4;">Bylaw indexing, member policy audits, and NERC CIP compliance checks.</p>
+      <h4 style="margin: 0 0 0.2rem 0; color: var(--crea-text-title); font-size: 0.95rem; font-weight: 700;">Policy Analysis</h4>
+      <p style="margin: 0; color: var(--crea-text-muted); font-size: 0.8rem; line-height: 1.4;">Bylaw indexing, member policy audits, and NERC CIP compliance checks.</p>
     </div>
   </div>
 
-  <div style="background: #1e293b; border: 1px solid #334155; border-radius: 10px; padding: 1rem; display: flex; align-items: flex-start; gap: 0.75rem;">
+  <div style="background: var(--crea-card-bg); border: 1.5px solid var(--crea-card-border); border-radius: 10px; padding: 1rem; display: flex; align-items: flex-start; gap: 0.75rem; box-shadow: var(--crea-card-shadow);">
     <span style="font-size: 1.25rem;">🌐</span>
     <div>
-      <h4 style="margin: 0 0 0.2rem 0; color: #f8fafc; font-size: 0.95rem; font-weight: 700;">Network Documentation</h4>
-      <p style="margin: 0; color: #94a3b8; font-size: 0.8rem; line-height: 1.4;">Subnet topologies, switch config scrapers, and fiber route manifests.</p>
+      <h4 style="margin: 0 0 0.2rem 0; color: var(--crea-text-title); font-size: 0.95rem; font-weight: 700;">Network Documentation</h4>
+      <p style="margin: 0; color: var(--crea-text-muted); font-size: 0.8rem; line-height: 1.4;">Subnet topologies, switch config scrapers, and fiber route manifests.</p>
     </div>
   </div>
 
-  <div style="background: #1e293b; border: 1px solid #334155; border-radius: 10px; padding: 1rem; display: flex; align-items: flex-start; gap: 0.75rem;">
+  <div style="background: var(--crea-card-bg); border: 1.5px solid var(--crea-card-border); border-radius: 10px; padding: 1rem; display: flex; align-items: flex-start; gap: 0.75rem; box-shadow: var(--crea-card-shadow);">
     <span style="font-size: 1.25rem;">🧠</span>
     <div>
-      <h4 style="margin: 0 0 0.2rem 0; color: #f8fafc; font-size: 0.95rem; font-weight: 700;">Help-Desk Knowledge Bases</h4>
-      <p style="margin: 0; color: #94a3b8; font-size: 0.8rem; line-height: 1.4;">Source-grounded RAG engines resolving tier-1 IT and CIS inquiries.</p>
+      <h4 style="margin: 0 0 0.2rem 0; color: var(--crea-text-title); font-size: 0.95rem; font-weight: 700;">Help-Desk Knowledge Bases</h4>
+      <p style="margin: 0; color: var(--crea-text-muted); font-size: 0.8rem; line-height: 1.4;">Source-grounded RAG engines resolving tier-1 IT and CIS inquiries.</p>
     </div>
   </div>
 
-  <div style="background: #1e293b; border: 1px solid #334155; border-radius: 10px; padding: 1rem; display: flex; align-items: flex-start; gap: 0.75rem;">
+  <div style="background: var(--crea-card-bg); border: 1.5px solid var(--crea-card-border); border-radius: 10px; padding: 1rem; display: flex; align-items: flex-start; gap: 0.75rem; box-shadow: var(--crea-card-shadow);">
     <span style="font-size: 1.25rem;">🛠️</span>
     <div>
-      <h4 style="margin: 0 0 0.2rem 0; color: #f8fafc; font-size: 0.95rem; font-weight: 700;">Internal Tools</h4>
-      <p style="margin: 0; color: #94a3b8; font-size: 0.8rem; line-height: 1.4;">Custom utilities tailored to specific co-op workflows and edge tasks.</p>
+      <h4 style="margin: 0 0 0.2rem 0; color: var(--crea-text-title); font-size: 0.95rem; font-weight: 700;">Internal Tools</h4>
+      <p style="margin: 0; color: var(--crea-text-muted); font-size: 0.8rem; line-height: 1.4;">Custom utilities tailored to specific co-op workflows and edge tasks.</p>
     </div>
   </div>
 
-  <div style="background: #1e293b; border: 1px solid #334155; border-radius: 10px; padding: 1rem; display: flex; align-items: flex-start; gap: 0.75rem;">
+  <div style="background: var(--crea-card-bg); border: 1.5px solid var(--crea-card-border); border-radius: 10px; padding: 1rem; display: flex; align-items: flex-start; gap: 0.75rem; box-shadow: var(--crea-card-shadow);">
     <span style="font-size: 1.25rem;">🔄</span>
     <div>
-      <h4 style="margin: 0 0 0.2rem 0; color: #f8fafc; font-size: 0.95rem; font-weight: 700;">Data Transformation</h4>
-      <p style="margin: 0; color: #94a3b8; font-size: 0.8rem; line-height: 1.4;">CSV/JSON reconcilers, schema migrations, and database ETL pipelines.</p>
+      <h4 style="margin: 0 0 0.2rem 0; color: var(--crea-text-title); font-size: 0.95rem; font-weight: 700;">Data Transformation</h4>
+      <p style="margin: 0; color: var(--crea-text-muted); font-size: 0.8rem; line-height: 1.4;">CSV/JSON reconcilers, schema migrations, and database ETL pipelines.</p>
     </div>
   </div>
 
-  <div style="background: #1e293b; border: 1px solid #334155; border-radius: 10px; padding: 1rem; display: flex; align-items: flex-start; gap: 0.75rem;">
+  <div style="background: var(--crea-card-bg); border: 1.5px solid var(--crea-card-border); border-radius: 10px; padding: 1rem; display: flex; align-items: flex-start; gap: 0.75rem; box-shadow: var(--crea-card-shadow);">
     <span style="font-size: 1.25rem;">⚡</span>
     <div>
-      <h4 style="margin: 0 0 0.2rem 0; color: #f8fafc; font-size: 0.95rem; font-weight: 700;">Scripts & CLI Automation</h4>
-      <p style="margin: 0; color: #94a3b8; font-size: 0.8rem; line-height: 1.4;">PowerShell & Bash one-shot harnesses for sysadmin task execution.</p>
+      <h4 style="margin: 0 0 0.2rem 0; color: var(--crea-text-title); font-size: 0.95rem; font-weight: 700;">Scripts & CLI Automation</h4>
+      <p style="margin: 0; color: var(--crea-text-muted); font-size: 0.8rem; line-height: 1.4;">PowerShell & Bash one-shot harnesses for sysadmin task execution.</p>
     </div>
   </div>
 
-  <div style="background: #1e293b; border: 1px solid #334155; border-radius: 10px; padding: 1rem; display: flex; align-items: flex-start; gap: 0.75rem;">
+  <div style="background: var(--crea-card-bg); border: 1.5px solid var(--crea-card-border); border-radius: 10px; padding: 1rem; display: flex; align-items: flex-start; gap: 0.75rem; box-shadow: var(--crea-card-shadow);">
     <span style="font-size: 1.25rem;">📊</span>
     <div>
-      <h4 style="margin: 0 0 0.2rem 0; color: #f8fafc; font-size: 0.95rem; font-weight: 700;">Dashboards & Telemetry</h4>
-      <p style="margin: 0; color: #94a3b8; font-size: 0.8rem; line-height: 1.4;">Live operations views, IT health vitals, and system uptime metrics.</p>
+      <h4 style="margin: 0 0 0.2rem 0; color: var(--crea-text-title); font-size: 0.95rem; font-weight: 700;">Dashboards & Telemetry</h4>
+      <p style="margin: 0; color: var(--crea-text-muted); font-size: 0.8rem; line-height: 1.4;">Live operations views, IT health vitals, and system uptime metrics.</p>
     </div>
   </div>
 
-  <div style="background: #1e293b; border: 1px solid #334155; border-radius: 10px; padding: 1rem; display: flex; align-items: flex-start; gap: 0.75rem;">
+  <div style="background: var(--crea-card-bg); border: 1.5px solid var(--crea-card-border); border-radius: 10px; padding: 1rem; display: flex; align-items: flex-start; gap: 0.75rem; box-shadow: var(--crea-card-shadow);">
     <span style="font-size: 1.25rem;">🎓</span>
     <div>
-      <h4 style="margin: 0 0 0.2rem 0; color: #f8fafc; font-size: 0.95rem; font-weight: 700;">Professional Development</h4>
-      <p style="margin: 0; color: #94a3b8; font-size: 0.8rem; line-height: 1.4;">Curated AI skill playbooks, tech stack upskilling, and coding guides.</p>
+      <h4 style="margin: 0 0 0.2rem 0; color: var(--crea-text-title); font-size: 0.95rem; font-weight: 700;">Professional Development</h4>
+      <p style="margin: 0; color: var(--crea-text-muted); font-size: 0.8rem; line-height: 1.4;">Curated AI skill playbooks, tech stack upskilling, and coding guides.</p>
     </div>
   </div>
 
-  <div style="background: #1e293b; border: 1px solid #334155; border-radius: 10px; padding: 1rem; display: flex; align-items: flex-start; gap: 0.75rem;">
+  <div style="background: var(--crea-card-bg); border: 1.5px solid var(--crea-card-border); border-radius: 10px; padding: 1rem; display: flex; align-items: flex-start; gap: 0.75rem; box-shadow: var(--crea-card-shadow);">
     <span style="font-size: 1.25rem;">📚</span>
     <div>
-      <h4 style="margin: 0 0 0.2rem 0; color: #f8fafc; font-size: 0.95rem; font-weight: 700;">Training Materials</h4>
-      <p style="margin: 0; color: #94a3b8; font-size: 0.8rem; line-height: 1.4;">Employee onboarding decks, cyber hygiene quizzes, and interactive runbooks.</p>
+      <h4 style="margin: 0 0 0.2rem 0; color: var(--crea-text-title); font-size: 0.95rem; font-weight: 700;">Training Materials</h4>
+      <p style="margin: 0; color: var(--crea-text-muted); font-size: 0.8rem; line-height: 1.4;">Employee onboarding decks, cyber hygiene quizzes, and interactive runbooks.</p>
     </div>
   </div>
 
-  <div style="background: #1e293b; border: 1px solid #334155; border-radius: 10px; padding: 1rem; display: flex; align-items: flex-start; gap: 0.75rem;">
+  <div style="background: var(--crea-card-bg); border: 1.5px solid var(--crea-card-border); border-radius: 10px; padding: 1rem; display: flex; align-items: flex-start; gap: 0.75rem; box-shadow: var(--crea-card-shadow);">
     <span style="font-size: 1.25rem;">🔍</span>
     <div>
-      <h4 style="margin: 0 0 0.2rem 0; color: #f8fafc; font-size: 0.95rem; font-weight: 700;">Procurement Research</h4>
-      <p style="margin: 0; color: #94a3b8; font-size: 0.8rem; line-height: 1.4;">Vendor hardware spec comparison, RFP synthesis, and BoM cost models.</p>
+      <h4 style="margin: 0 0 0.2rem 0; color: var(--crea-text-title); font-size: 0.95rem; font-weight: 700;">Procurement Research</h4>
+      <p style="margin: 0; color: var(--crea-text-muted); font-size: 0.8rem; line-height: 1.4;">Vendor hardware spec comparison, RFP synthesis, and BoM cost models.</p>
     </div>
   </div>
 
-  <div style="background: #1e293b; border: 1px solid #334155; border-radius: 10px; padding: 1rem; display: flex; align-items: flex-start; gap: 0.75rem;">
+  <div style="background: var(--crea-card-bg); border: 1.5px solid var(--crea-card-border); border-radius: 10px; padding: 1rem; display: flex; align-items: flex-start; gap: 0.75rem; box-shadow: var(--crea-card-shadow);">
     <span style="font-size: 1.25rem;">🤖</span>
     <div>
-      <h4 style="margin: 0 0 0.2rem 0; color: #f8fafc; font-size: 0.95rem; font-weight: 700;">Troubleshooting Assistants</h4>
-      <p style="margin: 0; color: #94a3b8; font-size: 0.8rem; line-height: 1.4;">Step-by-step diagnostic advisors for server errors and network faults.</p>
+      <h4 style="margin: 0 0 0.2rem 0; color: var(--crea-text-title); font-size: 0.95rem; font-weight: 700;">Troubleshooting Assistants</h4>
+      <p style="margin: 0; color: var(--crea-text-muted); font-size: 0.8rem; line-height: 1.4;">Step-by-step diagnostic advisors for server errors and network faults.</p>
     </div>
   </div>
 

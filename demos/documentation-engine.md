@@ -1,10 +1,10 @@
 # 🧪 Use Case 1: The Documentation Engine
 ### Recovering Decades of Legacy SOPs, Wiring Diagrams & Vendor Binders
 
-<div style="margin: 1.5rem 0; padding: 1.25rem; background: linear-gradient(135deg, rgba(2, 132, 199, 0.18), rgba(15, 23, 42, 0.95)); border: 1.5px solid #0284c7; border-radius: 12px; display: flex; justify-content: space-between; align-items: center; gap: 1rem; flex-wrap: wrap;">
+<div style="margin: 1.5rem 0; padding: 1.25rem; background: var(--crea-banner-blue); border: 1.5px solid #0284c7; border-radius: 12px; display: flex; justify-content: space-between; align-items: center; gap: 1rem; flex-wrap: wrap;">
   <div>
     <h3 style="margin: 0; color: #38bdf8; font-size: 1.15rem; font-weight: 800;">🖼️ Standalone Visual Card</h3>
-    <p style="margin: 0.25rem 0 0 0; color: #cbd5e1; font-size: 0.88rem;">Open the full-screen visual card presentation format in a new browser tab.</p>
+    <p style="margin: 0.25rem 0 0 0; color: var(--crea-text-body); font-size: 0.88rem;">Open the full-screen visual card presentation format in a new browser tab.</p>
   </div>
   <a href="/assets/demo_cards/card_use_case_1_documentation.html" target="_blank" rel="noopener noreferrer" style="background: #0284c7; color: #ffffff; font-weight: 700; font-size: 0.88rem; padding: 0.55rem 1.1rem; border-radius: 8px; text-decoration: none; display: inline-flex; align-items: center; gap: 0.4rem;">
     Open Visual Card ↗
