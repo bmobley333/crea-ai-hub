@@ -176,7 +176,7 @@ Establish the baseline governance rules before showing tool leverage: physical a
 <!-- Step 3: Mental Model Shift -->
 <div style="background: #0f172a; border-left: 4px solid #818cf8; padding: 1.25rem; border-radius: 0 10px 10px 0; border-top: 1px solid #1e293b; border-right: 1px solid #1e293b; border-bottom: 1px solid #1e293b;">
 <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 0.35rem;">
-<span style="color: #818cf8; font-weight: 800; font-size: 0.85rem; text-transform: uppercase;">3. The Mental Model Shift - SEE JODAR LIVE</span>
+<span style="color: #818cf8; font-weight: 800; font-size: 0.85rem; text-transform: uppercase;">3. The Mental Model Shift - <span style="color: #ef4444; font-weight: 900;">SEE JODAR LIVE</span></span>
 </div>
 <p style="margin: 0 0 0.6rem 0; color: #f8fafc; font-size: 1.05rem; font-weight: 700;">
 <em>"We aren't asking for answers; we are directing an engineering workflow."</em>
